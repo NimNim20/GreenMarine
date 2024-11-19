@@ -11,7 +11,7 @@ $loop = new WP_Query(array(
 </div>
 
 
-<div class="container icon_wrapper">
+<div class="container home_ydelser_icon_wrapper">
 
 
     <?php if($loop->have_posts()): ?>
@@ -25,7 +25,7 @@ $loop = new WP_Query(array(
            
             <div>
 
-                <img src="<?php echo $image["url"] ?>">
+                <img src="<?php echo $image["url"] ?>" class="home_ydelser_icon_img">
                 <?php echo $title; ?>
         
             </div>
