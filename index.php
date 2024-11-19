@@ -12,7 +12,9 @@
     </div>
   </section>
 
-  <h1>Services</h1>
+  <section id="home_ydelser_icons">
+    <?php get_template_part("template-parts/home_ydelser_icons"); ?>
+  </section>
 
   <?php endwhile; ?>
 <?php endif; ?>
