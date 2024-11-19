@@ -23,7 +23,7 @@ $loop = new WP_Query(array(
             ?>
 
            
-            <div class="container">
+            <div class="container icon_wrapper">
                 <div class="row">
 
                     <img src="<?php echo $image["url"] ?>">
