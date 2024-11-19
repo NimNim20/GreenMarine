@@ -218,7 +218,7 @@ body {
 
 /* Footer styling start */ 
 .footer {
-  padding: 15%;
+  padding: 15% 0;
   background-color: #1A5B99;
   color: white;
   display: flex;
@@ -235,5 +235,6 @@ body {
 
 .footer-gap {
   margin-bottom: 20%;
+  margin-left: 20%
 }
 /* Footer styling end */ 
