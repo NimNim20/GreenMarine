@@ -177,7 +177,7 @@ body {
 
 #fornavn, #efternavn,
 #email, #firma, #cvr,
-#by, #vejnum, #besked, #zip {
+#by, #vejnum, #besked, #zip, #emne {
   border: 2.5px solid #0f3947;
   border-radius: 5px;
 }
