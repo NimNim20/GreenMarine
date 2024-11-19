@@ -2,8 +2,8 @@
 <?php wp_footer(); ?>
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="section  footer">
+    <div class="row footer">
+        <div class="section  footer-styling">
             <div class="col-12">
                 <h3>Information</h3>
                 <p>CVR: 593826</p>
