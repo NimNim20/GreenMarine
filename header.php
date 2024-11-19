@@ -10,8 +10,8 @@
 <body <?php body_class(); ?>>
     <section id="mobileHero">
         <div class="hero-header">
-            <img src="images/logo1.png" alt="Logo 1" class="logo">
-            <img src="images/logo2.png" alt="Logo 2" class="logo">
+            <img alt="Logo 1" class="logo">
+            <img alt="Logo 2" class="logo">
         </div>
         <div class="hero-footer">
             <button a class="kontaktButton" href="<?php echo site_url('/contact')?>">KONTAKT</button>
