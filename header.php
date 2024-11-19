@@ -7,14 +7,16 @@
     <title>Green Marine Divers</title>
     <?php wp_head(); ?>
     <section id="mobileHero">
-    <div class="hero-container">
+<div class="hero-container">
         <div class="hero-header">
             <img src="images/logo1.png" alt="Logo 1" class="logo">
             <img src="images/logo2.png" alt="Logo 2" class="logo">
         </div>
+    <div class="hero-container2">
         <div class="hero-footer">
             <button class="kontakt-button">KONTAKT</button>
         </div>
+</div>
     </div>
 </section>
 </head>

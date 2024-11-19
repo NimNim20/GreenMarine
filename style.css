@@ -38,7 +38,6 @@ body {
   height: 20vh; /* Full viewport height */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   text-align: center;
   padding: 20px;
