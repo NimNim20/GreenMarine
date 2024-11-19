@@ -287,9 +287,6 @@ body {
 .icon-item {
   text-align: center;
   background: #ffffff;
-  padding: 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -299,14 +296,14 @@ body {
 }
 
 .icon-image {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 8px;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 5px;
 }
 
 .icon-title {
   font-size: 16px;
-  color: #333333;
+  color: #000000;
   margin: 0;
 }
 
