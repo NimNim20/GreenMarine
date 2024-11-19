@@ -187,6 +187,7 @@ body {
   gap: 15px;
   flex-wrap: wrap; /* Adjusts for smaller screens */
   width: 100%;
+  justify-content: center;
 }
 
 .city-info .wpcf7-form-control.wpcf7-text {
