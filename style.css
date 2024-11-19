@@ -31,17 +31,19 @@ body {
   top: 10px;
   left: 10px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
 }
 
 .logo {
-  height: 40px;
-  width: auto; 
+  height: 40px; /* Adjust logo size */
+  width: auto; /* Maintain aspect ratio */
 }
 
+/* Footer Section: Button */
 .hero-footer {
-  padding-top: 25%;
+  padding-top: 40%;
 }
 
 .kontakt-button {
@@ -211,11 +213,11 @@ body {
 }
 
 .footer p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .footer h3 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .footer-gap {
