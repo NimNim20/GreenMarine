@@ -2,7 +2,7 @@
 $loop = new WP_Query(array(
     "post_type" => "service",
     'meta_key' => 'priority_order',
-    'orderby' => 'meta_value',
+    'orderby' => 'meta_value_num',
     'order'   => 'DESC',
     'posts_per_page'    => -1,
 ));?>
