@@ -6,6 +6,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <?php wp_head(); ?>
-
+<section id="headerBox">
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>My WordPress Theme</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </head>
 <body <?php body_class() ?>>
