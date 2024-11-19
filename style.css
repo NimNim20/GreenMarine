@@ -203,7 +203,7 @@ body {
 
 /* Footer styling start */ 
 .footer {
-  padding-left: 5%;
+  padding: 8% 5%;
   background-color: #1A5B99;
   color: white;
   display: flex;
