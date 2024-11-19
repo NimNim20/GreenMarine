@@ -290,6 +290,7 @@ body {
 }
 
 .icon-item {
+  padding-top: 5px;
   text-align: center;
   background: #ffffff;
   transition: transform 0.2s, box-shadow 0.2s;
