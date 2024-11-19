@@ -7,10 +7,6 @@
     <title>Green Marine Divers</title>
     <?php wp_head(); ?>
     <section id="mobileHero">
-<div class="hero-container">
-        <div class="hero-container2">
-        </div>
-    </div>
-</section>
+    </section>
 </head>
 <body <?php body_class() ?>>
