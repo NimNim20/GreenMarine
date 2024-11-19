@@ -1,7 +1,7 @@
 <?php
 $loop = new WP_Query(array(
     "post_type" => "service",
-    "posts_per_page" => 20
+    "posts_per_page" => 0
 ));?>
 
 <div class="container">
