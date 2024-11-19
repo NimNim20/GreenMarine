@@ -4,11 +4,7 @@
   <?php while(have_posts()) : the_post(); ?>
 
   <section class="contactForm">
-    <div class="container">
-      <div class="col-6">
-        <?php echo do_shortcode ('[cf7form cf7key="greenmarinecontact"]'); ?>
-      </div>
-    </div>
+    <?php echo do_shortcode ('[cf7form cf7key="greenmarinecontact"]'); ?>
   </section>
 
   <?php endwhile; ?>
