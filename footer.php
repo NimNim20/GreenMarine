@@ -9,14 +9,15 @@
                     <h3>Information</h3>
                     <p>CVR: 593826</p>
                 </div>
-            </div>
+          
                 <div class="footer-gap">
                     <h3>Adresse</h3>
                     <p>Rossagerdi 3</p>
                     <p>530 Fuglafjørdur</p>
                     <p>Færøerne</p>
                 </div>
-         
+            </div>
+            
             <div class="col-6">
                 <div class="footer-gap">
                     <h3>Kontakt</h3>
