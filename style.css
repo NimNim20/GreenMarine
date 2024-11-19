@@ -41,6 +41,14 @@ body {
   width: auto; /* Maintain aspect ratio */
 }
 
+<<<<<<< Updated upstream
+/* Footer Section: Button */
+.hero-footer {
+  padding-top: 40%;
+}
+=======
+
+>>>>>>> Stashed changes
 
 .kontakt-button {
   background-color: white;
@@ -210,7 +218,7 @@ body {
 
 /* Footer styling start */ 
 .footer {
-  padding: 15% 0;
+  padding: 15%;
   background-color: #1A5B99;
   color: white;
   display: flex;
@@ -227,6 +235,5 @@ body {
 
 .footer-gap {
   margin-bottom: 20%;
-  margin-left: 20%
 }
 /* Footer styling end */ 
