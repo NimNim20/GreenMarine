@@ -1,9 +1,8 @@
-<!-- <?php
+<?php
 $loop = new WP_Query(array(
-    "post_type" => "instagram-post",
-    "posts_per_page" => 4
-));?> -->
-
+    "post_type" => "service",
+    "posts_per_page" => 20
+));?>
 
 <div class="container">
 
@@ -16,8 +15,8 @@ $loop = new WP_Query(array(
         <?php while($loop->have_posts()): $loop->the_post() ?>
 
             <?php
-            $titel = get_the_title();
-            $image = get_field("image");
+            $title = get_the_title();
+            $image = get_field("icon");
             ?>
 
             <div class="titel_på_green_marine">
@@ -28,7 +27,7 @@ $loop = new WP_Query(array(
                 <div class="row">
 
                     <?php echo $image["url"] ?>
-                    <?php echo $titel; ?>
+                    <?php echo $title; ?>
         
                 </div>
             </div>
