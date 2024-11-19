@@ -18,11 +18,7 @@ body {
   height: 25vh; 
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-  justify-content: space-between;
-=======
   justify-content: space-between; 
->>>>>>> 658ef032c2708733a5605c92e0e90f6aa26cf59f
   align-items: center;
   text-align: center;
   position: relative;
@@ -35,10 +31,7 @@ body {
   top: 10px;
   left: 10px;
   display: flex;
-<<<<<<< HEAD
   justify-content: flex-start;
-=======
->>>>>>> 658ef032c2708733a5605c92e0e90f6aa26cf59f
   align-items: center;
   gap: 10px;
 }
@@ -48,10 +41,6 @@ body {
   width: auto; /* Maintain aspect ratio */
 }
 
-/* Footer Section: Button */
-.hero-footer {
-  padding-top: 40%;
-}
 
 .kontakt-button {
   background-color: white;
@@ -70,10 +59,15 @@ body {
   background-color: #e0e0e0;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 658ef032c2708733a5605c92e0e90f6aa26cf59f
+@media screen and (max-width: 430px) {
+  #mobileHero {
+    height: 30vh;
+  }
+  .hero-footer {
+    padding-top: 40%;
+  }
+}
 /* End of header styling */
 
 /* Forms styling start */
@@ -213,13 +207,10 @@ body {
 /* Forms styling end */
 
 
+
 /* Footer styling start */ 
 .footer {
-<<<<<<< HEAD
-  padding: 30px 20px 20px 20px;
-=======
-  padding: 8% 5%;
->>>>>>> 658ef032c2708733a5605c92e0e90f6aa26cf59f
+  padding: 15%;
   background-color: #1A5B99;
   color: white;
   display: flex;
@@ -227,14 +218,14 @@ body {
 }
 
 .footer p {
-  font-size: 15px;
-}
-
-.footer h3 {
   font-size: 20px;
 }
 
+.footer h3 {
+  font-size: 25px;
+}
+
 .footer-gap {
-  margin-bottom: 15%;
+  margin-bottom: 20%;
 }
 /* Footer styling end */ 
