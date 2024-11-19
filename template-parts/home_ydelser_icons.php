@@ -26,7 +26,7 @@ $loop = new WP_Query(array(
             <div class="container">
                 <div class="row">
 
-                    <?php echo $image["url"] ?>
+                    <img src="<?php echo $image["url"] ?>">
                     <?php echo $title; ?>
         
                 </div>
