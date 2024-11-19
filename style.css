@@ -48,8 +48,7 @@ body {
 .hero-header {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding: 10px;
 }
@@ -62,6 +61,7 @@ body {
 /* Footer Section: Button */
 .hero-footer {
   margin-bottom: 20px;
+  padding-top: 50px;
 }
 
 .kontakt-button {
@@ -177,7 +177,7 @@ body {
 
 #fornavn, #efternavn,
 #email, #firma, #cvr,
-#by, #vejnum, #besked, #zip {
+#by, #vejnum, #besked, #zip, #emne {
   border: 2.5px solid #0f3947;
   border-radius: 5px;
 }
