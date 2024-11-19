@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="style.css">
     <title>Green Marine Divers</title>
     <?php wp_head(); ?>
-<section id="blueHeaderBox">
-        <div class="container">
-                <div class="headerText">
-                    <h1 class="kontaktText">Kontakt</h1>
-            </div>
+    <section id="mobileHero">
+    <div class="hero-container">
+        <div class="hero-header">
+            <img src="images/logo1.png" alt="Logo 1" class="logo">
+            <img src="images/logo2.png" alt="Logo 2" class="logo">
+        </div>
+        <div class="hero-footer">
+            <button class="kontakt-button">KONTAKT</button>
+        </div>
     </div>
 </section>
 </head>
