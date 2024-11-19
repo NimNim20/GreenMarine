@@ -6,7 +6,10 @@ $loop = new WP_Query(array(
 
 <div class="container">
 
+<div class="titel_på_green_marine">
     <h1>Green Marine</h1>
+</div>
+
 
 <div class="row">
 
@@ -19,10 +22,7 @@ $loop = new WP_Query(array(
             $image = get_field("icon");
             ?>
 
-            <div class="titel_på_green_marine">
-                <h1>Green Marine</h1>
-            </div>
-
+           
             <div class="container">
                 <div class="row">
 
