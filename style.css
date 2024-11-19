@@ -177,7 +177,7 @@ body {
 
 #fornavn, #efternavn,
 #email, #firma, #cvr,
-#by, #vejnum, #besked, #zip {
+#by, #vejnum, #besked, #zip, #emne {
   border: 2.5px solid #0f3947;
   border-radius: 5px;
 }
@@ -224,6 +224,8 @@ body {
 /* Footer styling start */ 
 .footer {
   padding: 30px 20px 20px 20px;
+  background-color: #1A5B99;
+  color: white;
 }
 
 .footer p {
@@ -235,7 +237,6 @@ body {
 }
 
 .footer-styling {
-  background-color: #1A5B99;
-  color: white;
+
 }
 /* Footer styling end */ 
