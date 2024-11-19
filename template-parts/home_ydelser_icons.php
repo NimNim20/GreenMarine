@@ -22,13 +22,13 @@ $loop = new WP_Query(array(
             $image = get_field("icon");
             ?>
 
-           
-            <div>
 
-                <img src="<?php echo $image["url"] ?>" class="home_ydelser_icon_img">
-                <?php echo $title; ?>
-        
-            </div>
+            <div class="icon-item">
+                <img src="<?php echo $image["url"] ?>" alt="" class="icon-image">
+                <p class="icon-title"><?php echo $title; ?></p>
+             </div>
+           
+          
 
         <?php endwhile; ?>
     <?php endif; ?>

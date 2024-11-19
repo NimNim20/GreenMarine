@@ -275,15 +275,55 @@ body {
 
 /* home_ydelser_icons start */ 
 
-.home_ydelser_icon_wrapper {
+/* .home_ydelser_icon_wrapper {
   display: grid;
-  grid-template-columns: 80px 80px 80px;
+  grid-template-columns: 100px 100px 100px;
   
 }
 
 .home_ydelser_icon_img{
   width: 80px;
   height: 80px;
+  
+} */
+
+/* Grid Container */
+.home_ydelser_icon_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Individual Grid Items */
+.icon-item {
+  text-align: center;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.icon-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Images */
+.icon-image {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+}
+
+/* Titles */
+.icon-title {
+  font-size: 16px;
+  color: #333333;
+  margin: 0;
 }
 
 /* home_ydelser_icons end */ 
