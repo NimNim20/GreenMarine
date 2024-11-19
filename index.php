@@ -12,6 +12,8 @@
     </div>
   </section>
 
+  <h1>Services</h1>
+
   <?php endwhile; ?>
 <?php endif; ?>
 
