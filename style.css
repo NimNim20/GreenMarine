@@ -275,19 +275,6 @@ body {
 
 /* home_ydelser_icons start */ 
 
-/* .home_ydelser_icon_wrapper {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  
-}
-
-.home_ydelser_icon_img{
-  width: 80px;
-  height: 80px;
-  
-} */
-
-/* Grid Container */
 .home_ydelser_icon_wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -297,7 +284,6 @@ body {
   margin: auto;
 }
 
-/* Individual Grid Items */
 .icon-item {
   text-align: center;
   background: #ffffff;
@@ -312,14 +298,12 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Icon Images */
 .icon-image {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   margin-bottom: 8px;
 }
 
-/* Titles */
 .icon-title {
   font-size: 16px;
   color: #333333;
