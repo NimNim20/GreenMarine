@@ -10,10 +10,8 @@
     <div class="blueHeader">
         <!-- Big blue box that contains 2 images on the top left and the bottom in the middle of the box it says Kontakt -->
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
+                <div class="kontaktText">
                     <h1>Kontakt</h1>
-                </div>
             </div>
     </div>
 </section>
