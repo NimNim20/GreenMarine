@@ -18,36 +18,35 @@ body {
   height: 20vh; 
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Space between top and bottom elements */
+  justify-content: space-between; 
   align-items: center;
   text-align: center;
   position: relative;
   padding: 20px;
 }
 
-/* Header: Top-left logos */
+
 .hero-header {
   position: absolute;
-  top: 10px; /* Adjust distance from the top */
-  left: 10px; /* Adjust distance from the left */
+  top: 10px;
+  left: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 .logo {
-  height: 40px; /* Adjust logo size */
-  width: auto; /* Maintain aspect ratio */
+  height: 40px;
+  width: auto; 
 }
 
-/* Footer: Kontakt button */
 .hero-footer {
-  margin-bottom: 20px;
+  padding-top: 25%;
 }
 
 .kontakt-button {
   background-color: white;
-  color: #004a7c; /* Blue text color */
+  color: #004a7c;
   font-size: 1rem;
   font-weight: bold;
   padding: 10px 20px;
