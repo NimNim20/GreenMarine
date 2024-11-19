@@ -17,6 +17,12 @@ $loop = new WP_Query(array(
             $image = get_field("image");
             ?>
 
+            <div>
+                <?php echo $image["url"] ?>
+                <?php echo $titel; ?>
+    
+            </div>
+
         <?php endwhile; ?>
     <?php endif; ?>
   
