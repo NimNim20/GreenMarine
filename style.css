@@ -223,7 +223,7 @@ body {
 
 /* Footer styling start */ 
 .footer {
-  padding: 30px 20px 20px 20px;
+  padding: 5%;
   background-color: #1A5B99;
   color: white;
 }
@@ -236,7 +236,7 @@ body {
   font-size: 20px;
 }
 
-.footer-styling {
-
+.footer-gap {
+  margin: 1%;
 }
 /* Footer styling end */ 
