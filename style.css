@@ -9,7 +9,10 @@ body {
 }
 
 /* Header styling */
-.blueHeader {
+
+#blueHeaderBox {
+  width: 500px;
+  height: 250px;
   background-color: #1E90FF;
   color: white;
   padding: 10px;
@@ -19,8 +22,6 @@ body {
   margin: 0;
   border-bottom: 1px solid #000;
 }
-
-
 
 
 
