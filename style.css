@@ -13,9 +13,9 @@ body {
 
 
 #mobileHero {
-  background-color: #004a7c; /* Blue background */
+  background-color: #004a7c;
   color: white;
-  height: 20vh; 
+  height: 25vh; 
   display: flex;
   flex-direction: column;
   justify-content: space-between; 
