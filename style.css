@@ -148,9 +148,9 @@ body {
 
 /* Footer styling start */ 
 .footer {
-  display: flex;
   background-color: #1A5B99;
-  color: white; 
+  color: white;
+  padding: 5%, 2%, 2%, 2%;
 }
 
 .footer p {
