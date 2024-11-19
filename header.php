@@ -8,8 +8,8 @@
     <?php wp_head(); ?>
 <section id="blueHeaderBox">
         <div class="container">
-                <div class="kontaktText">
-                    <h1>Kontakt</h1>
+                <div class="headerText">
+                    <h1 class="kontaktText">Kontakt</h1>
             </div>
     </div>
 </section>
