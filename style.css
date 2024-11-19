@@ -35,7 +35,7 @@ body {
 #mobileHero {
   background-color: #004a7c; /* Blue background */
   color: white;
-  height: 100vh; /* Full viewport height */
+  height: 20vh; /* Full viewport height */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -223,9 +223,9 @@ body {
 
 /* Footer styling start */ 
 .footer {
+  padding: 30px 20px 20px 20px;
   background-color: #1A5B99;
   color: white;
-  padding: 30px, 20px, 20px, 20px;
 }
 
 .footer p {
@@ -234,5 +234,9 @@ body {
 
 .footer h3 {
   font-size: 20px;
+}
+
+.footer-styling {
+
 }
 /* Footer styling end */ 
