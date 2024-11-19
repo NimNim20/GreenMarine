@@ -10,38 +10,57 @@ body {
 
 /* Header styling */
 
-#blueHeaderBox {
-  display: flex;
-  justify-content: center;
-  width: 500px;
-  height: 250px;
-  background-color: #1E90FF;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0;
-  border-bottom: 1px solid #000;
-}
 
-.kontaktText {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0;
-  padding: 10px;
-}
 
 #mobileHero {
   background-color: #004a7c; /* Blue background */
   color: white;
-  height: 20vh; /* Full viewport height */
+  height: 100vh; /* Full viewport height */
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Space between top and bottom elements */
   align-items: center;
   text-align: center;
+  position: relative;
+  padding: 20px;
 }
 
+/* Header: Top-left logos */
+.hero-header {
+  position: absolute;
+  top: 10px; /* Adjust distance from the top */
+  left: 10px; /* Adjust distance from the left */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 40px; /* Adjust logo size */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Footer: Kontakt button */
+.hero-footer {
+  margin-bottom: 20px;
+}
+
+.kontakt-button {
+  background-color: white;
+  color: #004a7c; /* Blue text color */
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kontakt-button:hover {
+  background-color: #e0e0e0;
+}
 
 /* End of header styling */
 
