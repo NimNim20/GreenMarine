@@ -53,13 +53,12 @@ body {
 }
 
 .logo {
-  height: 40px; /* Adjust logo size */
-  width: auto; /* Maintain aspect ratio */
+  height: 40px;
+  width: auto; 
 }
 
-/* Footer Section: Button */
 .hero-footer {
-  padding-top: 50px;
+  padding-top: 25%;
 }
 
 .kontakt-button {
