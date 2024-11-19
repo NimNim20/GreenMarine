@@ -8,11 +8,8 @@
     <?php wp_head(); ?>
     <section id="mobileHero">
 <div class="hero-container">
-    <div class="hero-container2">
-        <div class="hero-footer">
-            <button class="kontakt-button">KONTAKT</button>
+        <div class="hero-container2">
         </div>
-</div>
     </div>
 </section>
 </head>
