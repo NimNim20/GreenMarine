@@ -2,8 +2,8 @@
 <?php wp_footer(); ?>
 
 <div class="container-fluid">
-    <div class="row footer">
-        <div class="section">
+    <div class="row">
+        <div class="section footer">
             <div class="col-6">
                 <div class="footer-gap">
                     <h3>Information</h3>
