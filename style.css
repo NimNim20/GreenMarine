@@ -277,7 +277,7 @@ body {
 
 .icon_wrapper {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 40px 40px 40px;
 }
 
 /* home_ydelser_icons end */ 
