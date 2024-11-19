@@ -28,3 +28,112 @@ body {
 
 
 /* End of header styling */
+
+/* Forms styling start */
+.wpcf7-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reqTxt{
+  color: #0f3947;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.wpcf7-form{
+  align-items: start;
+}
+
+.wpcf7-form-control-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.wpcf7-form-control.wpcf7-text,
+.wpcf7-form-control.wpcf7-email,
+.wpcf7-form-control.wpcf7-tel,
+.wpcf7-form-control.wpcf7-number,
+.wpcf7-form-control.wpcf7-select{
+  padding: 10px;
+  min-width: 0;
+  height: 50px;
+}
+
+.wpcf7-form-control.wpcf7-select option{
+  background-colour: #0f3947;
+}
+
+.wpcf7-form-control.wpcf7-textarea{
+  width: 230%;
+}
+
+.wpcf7-form-control.wpcf7-submit{
+  background-color: #0f3947;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  width: 125px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover{
+  background-color: #0b7d3e;
+}
+
+#dropdwn{
+  border: 2.5px solid #0f3947;
+  border-radius: 5px;
+  width: 300%;
+}
+
+.name-container{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.name-container .wpcf7-form-control.wpcf7-text{
+  flex: 1;
+  padding: 10px;
+  min-width: 0;
+}
+
+#fornavn, #efternavn {
+  border: 2.5px solid #0f3947;
+  border-radius: 5px;
+}
+
+#email, #ordnummer, #tele{
+  border: 2.5px solid #0f3947;
+  border-radius: 5px;
+}
+
+.city-info{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.city-info .wpcf7-form-control.wpcf7-text{
+  flex: 1;
+  padding: 10px;
+  min-width: 0;
+}
+
+#by, #vejnum, #besked, #zip{
+  border: 2.5px solid #0f3947;
+  border-radius: 5px;
+}
+
+.wpcf7-spinner{
+  display: none;
+}
+
+/* Forms styling end */
