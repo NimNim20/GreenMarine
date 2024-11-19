@@ -15,7 +15,7 @@ body {
 #mobileHero {
   background-color: #004a7c; /* Blue background */
   color: white;
-  height: 100vh; /* Full viewport height */
+  height: 20vh; 
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Space between top and bottom elements */
