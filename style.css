@@ -25,6 +25,9 @@ body {
   padding: 20px;
 }
 
+.hero-footer {
+  padding-top: 35%;
+}
 
 .hero-header {
   position: absolute;
