@@ -59,28 +59,20 @@ body {
   background-color: #e0e0e0;
 }
 
-
-@media screen and (max-width: 430px) {
-  #mobileHero {
-    height: 30vh;
-  }
-  .hero-footer {
-    padding-top: 40%;
-  }
-}
 /* End of header styling */
 
 /* 4 boxes after header styling */
 .button-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two buttons per row */
+  gap: 20px; /* Spacing between buttons */
+  justify-items: center; /* Center buttons horizontally */
   margin-top: 20px;
 }
 
 .button-grid .btn {
   display: inline-block;
+  padding: 15px 30px; /* Add padding for consistent sizing */
   text-align: center;
   font-size: 16px;
   font-weight: bold;
@@ -92,13 +84,13 @@ body {
 }
 
 .button-grid .btn.green-marine {
-  background-color: #4caf50;
+  background-color: #4caf50; /* Green color */
 }
 
 .button-grid .btn.pontech,
 .button-grid .btn.mb-david,
 .button-grid .btn.trelleborg {
-  background-color: #1e88e5; 
+  background-color: #1e88e5; /* Blue color */
 }
 
 .button-grid .btn:hover {
