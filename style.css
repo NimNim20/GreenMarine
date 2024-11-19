@@ -18,11 +18,7 @@ body {
   height: 25vh; 
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-  justify-content: space-between;
-=======
   justify-content: space-between; 
->>>>>>> 658ef032c2708733a5605c92e0e90f6aa26cf59f
   align-items: center;
   text-align: center;
   position: relative;
@@ -35,10 +31,7 @@ body {
   top: 10px;
   left: 10px;
   display: flex;
-<<<<<<< HEAD
   justify-content: flex-start;
-=======
->>>>>>> 658ef032c2708733a5605c92e0e90f6aa26cf59f
   align-items: center;
   gap: 10px;
 }
@@ -70,10 +63,6 @@ body {
   background-color: #e0e0e0;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 658ef032c2708733a5605c92e0e90f6aa26cf59f
 /* End of header styling */
 
 /* Forms styling start */
@@ -215,11 +204,7 @@ body {
 
 /* Footer styling start */ 
 .footer {
-<<<<<<< HEAD
-  padding: 30px 20px 20px 20px;
-=======
   padding: 8% 5%;
->>>>>>> 658ef032c2708733a5605c92e0e90f6aa26cf59f
   background-color: #1A5B99;
   color: white;
   display: flex;
