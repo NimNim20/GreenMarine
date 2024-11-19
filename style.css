@@ -200,9 +200,10 @@ body {
 /* Forms styling end */
 
 
+
 /* Footer styling start */ 
 .footer {
-  padding: 8% 5%;
+  padding: 10%;
   background-color: #1A5B99;
   color: white;
   display: flex;
