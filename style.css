@@ -280,7 +280,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   padding: 20px;
-  max-width: 100%;
+  max-width: 800px;
   margin: auto;
 }
 
