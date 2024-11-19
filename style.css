@@ -275,6 +275,10 @@ body {
 
 /* home_ydelser_icons start */ 
 
+.titel_på_green_marine{
+  text-align: center;
+}
+
 .home_ydelser_icon_wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

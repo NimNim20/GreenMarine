@@ -1,7 +1,9 @@
 <?php
 $loop = new WP_Query(array(
     "post_type" => "service",
-    // "posts_per_page" => 4
+    'orderby' => 'priority_order',
+    'order'   => 'DESC',
+
 ));?>
 
 <div class="container">
