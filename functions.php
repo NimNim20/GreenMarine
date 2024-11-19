@@ -1,6 +1,6 @@
 <?php
 
-function retro_load_resources() {
+function gmd_load_resources() {
     // Enqueue Bootstrap CSS and JS
     wp_enqueue_style("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
     wp_enqueue_script("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js", array(), null, true);
@@ -16,4 +16,10 @@ function retro_load_resources() {
     // Enqueue anime.js
     wp_enqueue_script("anime-js", "https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js", array(), null, true);
 }
-add_action("wp_enqueue_scripts", "retro_load_resources");
+add_action("wp_enqueue_scripts", "gmd_load_resources");
+
+function gmd_disable_gutenberg() {
+  remove_post_type_support("page", "editor");
+  remove_post_type_support("post", "editor");
+}
+add_action("init", "gmd_disable_gutenberg");
