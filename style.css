@@ -290,7 +290,7 @@ body {
 }
 
 .icon-item {
-  padding-top: 5px;
+  padding-top: 25px;
   text-align: center;
   background: #ffffff;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -302,8 +302,8 @@ body {
 }
 
 .icon-image {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   margin-bottom: 5px;
 }
 
