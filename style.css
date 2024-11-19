@@ -81,7 +81,6 @@ body {
 
 .button-grid .btn {
   display: inline-block;
-  padding: 15px 30px;
   text-align: center;
   font-size: 16px;
   font-weight: bold;
@@ -93,13 +92,13 @@ body {
 }
 
 .button-grid .btn.green-marine {
-  background-color: #4caf50; /* Green color */
+  background-color: #4caf50;
 }
 
 .button-grid .btn.pontech,
 .button-grid .btn.mb-david,
 .button-grid .btn.trelleborg {
-  background-color: #1e88e5; /* Blue color */
+  background-color: #1e88e5; 
 }
 
 .button-grid .btn:hover {
