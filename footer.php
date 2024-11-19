@@ -3,8 +3,8 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="section">
-            <div class="col-12 footer">
+        <div class="section  footer">
+            <div class="col-12">
                 <h3>Information</h3>
                 <p>CVR: 593826</p>
         
