@@ -4,12 +4,11 @@
   <?php while (have_posts()) : the_post(); ?>
 
   <section class="content">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1>Hello world!</h1>
-        </div>
-      </div>
+    <div class="button-grid">
+      <a href="#" class="btn green-marine">Green Marine</a>
+        <a href="#" class="btn pontech">Pontech</a>
+        <a href="#" class="btn mb-david">MB David</a>
+      <a href="#" class="btn trelleborg">Trelleborg</a>
     </div>
   </section>
 
