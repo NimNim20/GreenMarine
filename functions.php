@@ -10,8 +10,6 @@ function gmd_load_resources() {
     wp_enqueue_script("script", get_template_directory_uri() . "/script.js", array(), filemtime(get_template_directory() . "/script.js"), true);
 
     // Enqueue fonts
-    wp_enqueue_style("Playfair-font", "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
-    wp_enqueue_style("Montserrat-font", "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
     // Enqueue anime.js
     wp_enqueue_script("anime-js", "https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js", array(), null, true);
