@@ -17,10 +17,17 @@ $loop = new WP_Query(array(
             $image = get_field("image");
             ?>
 
-            <div>
-                <?php echo $image["url"] ?>
-                <?php echo $titel; ?>
-    
+            <div class="titel_på_green_marine">
+                <h1>Green Marine</h1>
+            </div>
+
+            <div class="container">
+                <div class="row">
+
+                    <?php echo $image["url"] ?>
+                    <?php echo $titel; ?>
+        
+                </div>
             </div>
 
         <?php endwhile; ?>
