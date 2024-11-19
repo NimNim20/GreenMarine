@@ -40,33 +40,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px;
 }
 
-/* Header Section: Top Left Logos */
-.hero-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 10px;
-}
-
-.logo {
-  height: 40px;
-  width: auto; 
-}
-
-.hero-footer {
-  padding-top: 25%;
-}
-
-
-
-.kontakt-button:hover {
-  background-color: #f1f1f1;
-  color: #00334d;
-}
 
 /* End of header styling */
 
