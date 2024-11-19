@@ -9,7 +9,16 @@ body {
 }
 
 /* Header styling */
-
+.blueHeader {
+  background-color: #1E90FF;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  border-bottom: 1px solid #000;
+}
 
 
 
