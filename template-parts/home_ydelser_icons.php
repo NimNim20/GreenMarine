@@ -3,7 +3,7 @@ $loop = new WP_Query(array(
     "post_type" => "service",
     'orderby' => 'priority_order',
     'order'   => 'DESC',
-
+    'posts_per_page'    => -1,
 ));?>
 
 <div class="container">
