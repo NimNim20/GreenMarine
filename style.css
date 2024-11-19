@@ -9,7 +9,7 @@ body {
 }
 
 /* Header styling */
-.blueHeader {
+.container {
   background-color: #1E90FF;
   color: white;
   padding: 10px;
