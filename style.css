@@ -195,7 +195,6 @@ body {
   flex-wrap: wrap;
   gap: 15px;
   width: 100%;
-  justify-content: center;
   margin: 10px 0 0 0;
 }
 
@@ -211,7 +210,6 @@ body {
   gap: 15px;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
 }
 
 #fornavn, #efternavn,
@@ -225,7 +223,6 @@ body {
   display: flex;
   gap: 15px;
   width: 100%;
-  justify-content: center;
 }
 
 .city-info {
@@ -233,7 +230,6 @@ body {
   gap: 15px;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
 }
 
 .city-info .wpcf7-form-control.wpcf7-text {
