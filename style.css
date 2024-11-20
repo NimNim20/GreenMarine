@@ -106,6 +106,15 @@ body {
   justify-content: center;
 }
 
+
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+  .button-grid .btn {
+    flex: 1 1 calc(25% - 20px); /* Four buttons per row */
+    max-width: calc(25% - 20px);
+  }
+}
+
 /* 4 boxes after header styling end */
 
 
