@@ -88,10 +88,14 @@ body {
 }
 
 .button-grid .btn {
-  width: 100%; /* Automatically adjust to match */
+  width: 80%; /* Automatically adjust to match */
   box-sizing: border-box; /* Include padding in size calculation */
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
 
 /* 4 boxes after header styling end */
 
