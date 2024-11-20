@@ -1,16 +1,16 @@
-// Handling on click event for each button, so they change color based on their cliked status
+// Handling on click event for each button, so they change color based on their clicked status
 // Get all buttons
 document.querySelectorAll('.button-grid .btn').forEach(button => {
-    // Add click event listener
-    button.addEventListener('click', () => {
-      // Remove 'clicked' class from all buttons
-      document.querySelectorAll('.button-grid .btn').forEach(btn => btn.classList.remove('clicked'));
-      
-      // Add 'clicked' class to the current button
-      button.classList.add('clicked');
-    });
+  // Add click event listener
+  button.addEventListener('click', () => {
+    // Remove 'clicked' class from all buttons
+    document.querySelectorAll('.button-grid .btn').forEach(btn => btn.classList.remove('clicked'));
+    
+    // Add 'clicked' class to the current button
+    button.classList.add('clicked');
   });
-  
+});
+
 window.addEventListener('DOMContentLoaded', () => {
   const currentPath = window.location.pathname; // Get the current page path
   document.querySelectorAll('.button-grid .btn').forEach(button => {

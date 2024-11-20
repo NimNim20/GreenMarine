@@ -34,15 +34,28 @@ body {
 }
 
 .hero-header {
-  position: inherit;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.navLogos {
+  display: flex;
+  gap: 15px; 
 }
 
 .logo {
-  height: 40px; /* Adjust logo size */
-  width: auto; /* Maintain aspect ratio */
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px; 
+}
+
+.kontaktHeader, .aboutUs {
+  font-size: 16px;
 }
 
 
@@ -378,6 +391,14 @@ body {
 
 /* home_ydelser stard*/
 
+.home_ydelser:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+.home_ydelser:nth-child(even) {
+  background-color: white;
+}
+
 .home_ydelser_boby{
   background-color: #F5F5F5;
   /* width: 100vw;
@@ -385,14 +406,14 @@ body {
 }
 
 .home_ydelser-image{
-  width: 400px;
-  height: 400px;
-  margin-bottom: 40px;
-  margin-top: 60px;
+  width: 350px;
+  height: 350px;
 }
 
 .img_box_home_ydelser{
  
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
