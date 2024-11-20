@@ -16,6 +16,12 @@
     <?php get_template_part("index_template-parts/home_ydelser_icons"); ?>
   </section>
 
+  <section id="home_ydelser_icons">
+    <?php get_template_part("index_template-parts/home_ydelser"); ?>
+  </section>
+
+
+
   <section id="companiespart">
 <?php get_template_part("index_template-parts/index_templates-parts_test/pontech"); ?>
 <?php get_template_part("index_template-parts/index_templates-parts_test/green_marine"); ?>
