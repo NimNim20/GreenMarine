@@ -1,6 +1,6 @@
 <?php
 $loop = new WP_Query(array(
-    "post_type" => "Services_in_depth_in",
+    "post_type" => "services_in_depth_in",
     'posts_per_page'    => -1
 ));?>
 
