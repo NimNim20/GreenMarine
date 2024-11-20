@@ -381,3 +381,12 @@ body {
   /* width: 100vw;
   height: ; */
 }
+
+.home_ydelser-image{
+  object-fit: cover;
+}
+
+.img_box_home_ydelser{
+  width: 100px;
+  height: 100px;
+}
