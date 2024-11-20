@@ -13,7 +13,7 @@ body {
 }
 
 a:hover {
-color: #ffffff;
+color: #ffffff !important;
 }
 
 /* Header styling */
