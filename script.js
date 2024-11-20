@@ -24,15 +24,22 @@ window.addEventListener('DOMContentLoaded', () => {
   //End of click handling
 //Start of scroll handling
 
-  document.querySelectorAll('.scroll-to').forEach(anchor => {
+document.querySelectorAll('.scroll-to').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
 
-        if (targetElement) {
+        // Get the title of the clicked icon
+        const titleToMatch = this.getAttribute('data-title');
+
+        // Find the corresponding section by matching the title
+        const targetSection = [...document.querySelectorAll('.home_ydelser')].find(section => 
+            section.getAttribute('data-title') === titleToMatch
+        );
+
+        if (targetSection) {
+            // Scroll to the matching section
             window.scrollTo({
-                top: targetElement.offsetTop,
+                top: targetSection.offsetTop,
                 behavior: 'smooth'
             });
         }
