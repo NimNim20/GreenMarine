@@ -16,7 +16,7 @@
     <?php get_template_part("template-parts/home_ydelser_icons"); ?>
   </section>
 
-  <section id="home_ydelser_icons">
+  <section id="home_ydelser">
     <?php get_template_part("template-parts/home_ydelser"); ?>
   </section>
 
