@@ -190,9 +190,11 @@ body {
 
 .name-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
-  flex-wrap: wrap; /* Adjusts for small screens */
   width: 100%;
+  justify-content: center;
+  margin: 10px 0 0 0;
 }
 
 .name-container .wpcf7-form-control.wpcf7-text {
@@ -202,6 +204,14 @@ body {
   box-sizing: border-box;
 }
 
+.firma-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
 #fornavn, #efternavn,
 #email, #firma, #cvr,
 #by, #vejnum, #besked, #zip, #emne {
@@ -209,10 +219,17 @@ body {
   border-radius: 5px;
 }
 
+.city-zip{
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
 .city-info {
   display: flex;
   gap: 15px;
-  flex-wrap: wrap; /* Adjusts for smaller screens */
+  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
 }
