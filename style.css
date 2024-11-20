@@ -31,17 +31,24 @@ body {
 }
 
 .hero-header {
-  position: absolute;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  align-items: center; 
+  padding: 10px; 
 }
 
 .logo {
-  height: 40px; /* Adjust logo size */
-  width: auto; /* Maintain aspect ratio */
+  height: 40px;
 }
 
+.nav {
+  display: flex;
+  gap: 20px; 
+}
+
+.kontaktHeader, .aboutUs {
+  font-size: 16px; 
+}
 
 .kontaktButton {
   background-color: white;
@@ -305,7 +312,7 @@ body {
 /* Footer Media Query for iPhone 14 Pro Max */
 @media (min-width: 768px) {
   .footer {
-    padding: 12%;
+    padding: 7% 7% 3% 7%;
     background-color: #1A5B99;
     color: white;
     display: flex;
@@ -313,12 +320,12 @@ body {
   }
   
   .footer p {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 4%;
   }
   
   .footer h3 {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 4%;
   }
   
