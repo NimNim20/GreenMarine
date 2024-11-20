@@ -32,11 +32,8 @@ body {
 
 .hero-header {
   position: absolute;
-  top: 10px;
-  left: 10px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
 
