@@ -226,7 +226,7 @@ body {
   justify-content: center;
 }
 
-#by {
+/* #by {
   width: 60%;
   box-sizing: border-box;
 }
@@ -234,7 +234,7 @@ body {
 #zip {
   width: 40%;
   box-sizing: border-box;
-}
+} */
 
 .city-info {
   display: flex;
