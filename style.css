@@ -119,9 +119,7 @@ body {
 
 /* Media Query for Desktop */
 @media (min-width: 768px) {
-  .nav {
-    display: none;
-  }
+
 
   .hero-footer {
     display: none;
