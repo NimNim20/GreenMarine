@@ -23,8 +23,10 @@
         </div>
 
         <div class="col-12 col-md-6">
-          <h1><?php echo esc_html($Heading); ?></h1>
-          <p><?php echo esc_html($Description); ?></p>
+          <div class="MB_David">
+            <h1><?php echo esc_html($Heading); ?></h1>
+            <p><?php echo esc_html($Description); ?></p>
+          </div>
         </div>
 
       </div>
