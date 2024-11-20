@@ -3,7 +3,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="section footer">
+        <!-- <div class="section footer"> -->
             <div class="col-md-3 col-sm-6">
                 <div class="footer-gap">
                     <h3>Information</h3>
@@ -37,7 +37,7 @@
                     <p>Instagram</p>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
 </div>
 
