@@ -219,6 +219,10 @@ body {
   border-radius: 5px;
 }
 
+#by{
+  width: 75%;
+}
+
 .city-info {
   display: flex;
   gap: 15px;
