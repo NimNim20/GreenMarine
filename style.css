@@ -450,7 +450,7 @@ color: #ffffff !important;
 
 }
 
-/* MB Dávis styling */
+/* MB Dávis styling start */
 .MB_David {
   display: flex;
   
@@ -461,5 +461,6 @@ color: #ffffff !important;
 }
 
 .MB_David_img {
-  margin: 0 10%;
+  margin-bottom: 10%;
 }
+/* MB Dávid styling end */
