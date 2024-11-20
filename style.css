@@ -451,11 +451,6 @@ color: #ffffff !important;
 }
 
 /* MB Dávis styling start */
-.MB_David {
-  display: flex;
-  
-}
-
 .MB_David_text {
   margin: 10%;
 }
@@ -472,7 +467,21 @@ color: #ffffff !important;
   margin-bottom: 10%;
 }
 
-@media (min-width: 768px) {
- 
+@media (min-width: 768px) {  
+  .MB_David_text {
+    margin: 10%;
+  }
+  
+  .MB_David_text h1 {
+    font-family: Oswald;
+  }
+  
+  .MB_David_text p {
+    font-family: Lora;
+  }
+  
+  .MB_David_img {
+    margin: 10%;
+  }
 }
 /* MB Dávid styling end */
