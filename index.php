@@ -13,7 +13,7 @@
 </section>
 
   <section id="home_ydelser_icons">
-    <?php get_template_part("template-parts/home_ydelser_icons"); ?>
+    <?php get_template_part("index_template-parts/home_ydelser_icons"); ?>
   </section>
 
   <section id="companiespart">
