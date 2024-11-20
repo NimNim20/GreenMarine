@@ -4,7 +4,7 @@ $loop = new WP_Query(array(
     'posts_per_page'    => -1,
 ));?>
 
-<div class="">
+<div class="home_ydelser_boby">
 
 
     <?php if($loop->have_posts()): ?>
@@ -17,11 +17,11 @@ $loop = new WP_Query(array(
             ?>
 
 
-            <div class="icon-item">
+            <div class="home_ydelser">
                 <img src="<?php echo $image["url"] ?>" alt="" class="home_ydelser-image">
-                <h2 class="icon-title"><?php echo $title; ?></h2>
-                <p class="icon-title"><?php echo $title; ?></p>
-             </div>
+                <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
+                <p class="home_ydelser_text"><?php echo $text; ?></p>
+            </div>
            
           
 
