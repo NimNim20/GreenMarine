@@ -109,6 +109,10 @@ body {
 
 /* Media Query for Desktop */
 @media (min-width: 768px) {
+  .hero-footer {
+    display: none;
+  }
+
   .button-grid .btn {
     flex: 1 1 calc(25% - 20px);
     max-width: calc(25% - 20px);
