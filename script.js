@@ -1,3 +1,8 @@
+const normalizePath = path => path.replace(/\/$/, ''); // Remove trailing slash
+const currentPath = normalizePath(window.location.pathname);
+const buttonPath = normalizePath(new URL(button.href).pathname);
+
+
 
 // Handling on click event for each button, so they change color based on their cliked status
 // Get all buttons
@@ -12,15 +17,15 @@ document.querySelectorAll('.button-grid .btn').forEach(button => {
     });
   });
   
-  window.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname; 
-    document.querySelectorAll('.button-grid .btn').forEach(button => {
-      const buttonPath = new URL(button.href).pathname; 
-      if (currentPath === buttonPath) {
-        button.classList.add('clicked');
-      }
-    });
+window.addEventListener('DOMContentLoaded', () => {
+  const currentPath = window.location.pathname; // Get the current page path
+  document.querySelectorAll('.button-grid .btn').forEach(button => {
+    const buttonPath = new URL(button.href).pathname; // Get the path from each button's href
+    if (currentPath === buttonPath) {
+      button.classList.add('clicked'); // Add 'clicked' class if paths match
+    }
   });
+});
   
   //End of click handling
 
