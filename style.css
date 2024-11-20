@@ -226,7 +226,7 @@ body {
   justify-content: center;
 }
 
-#by {
+#by input{
   width: 75%;
   box-sizing: border-box;
 }
