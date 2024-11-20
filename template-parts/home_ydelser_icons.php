@@ -14,8 +14,7 @@ $loop = new WP_Query(array(
 </div>
 
 
-<div class="container home_ydelser_icon_wrapper">
-
+    <div class="container home_ydelser_icon_wrapper">
 
     <?php if($loop->have_posts()): ?>
         <?php while($loop->have_posts()): $loop->the_post() ?>
@@ -23,15 +22,15 @@ $loop = new WP_Query(array(
             <?php
             $title = get_the_title();
             $image = get_field("icon");
+            $post_id = get_the_ID(); // Get unique ID for each post
             ?>
 
-
             <div class="icon-item">
-                <img src="<?php echo $image["url"] ?>" alt="" class="icon-image">
+                <a href="#section-<?php echo $post_id; ?>" class="scroll-to">
+                    <img src="<?php echo $image["url"] ?>" alt="" class="icon-image">
+                </a>
                 <p class="icon-title"><?php echo $title; ?></p>
-             </div>
-           
-          
+            </div>
 
         <?php endwhile; ?>
     <?php endif; ?>

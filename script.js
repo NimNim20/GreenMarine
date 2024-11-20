@@ -22,27 +22,20 @@ window.addEventListener('DOMContentLoaded', () => {
 });
   
   //End of click handling
+//Start of scroll handling
 
+  document.querySelectorAll('.scroll-to').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
 
-//   document.querySelectorAll('.button-grid .btn').forEach(button => {
-//     button.addEventListener('click', event => {
-//       event.preventDefault(); // Prevent the default anchor behavior
-  
-//       // Get the target section's ID from the data attribute
-//       const targetId = button.getAttribute('data-target');
-//       const targetElement = document.querySelector(targetId);
-  
-//       if (targetElement) {
-//         // Scroll the section into view
-//         targetElement.scrollIntoView({
-//           behavior: 'smooth', // Smooth scrolling effect
-//           block: 'start', // Align to the top of the section
-//         });
-  
-//         // Optional: Highlight the clicked button
-//         document.querySelectorAll('.button-grid .btn').forEach(btn => btn.classList.remove('clicked'));
-//         button.classList.add('clicked');
-//       }
-//     });
-//   });
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
     //End of scroll handling  
