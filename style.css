@@ -460,7 +460,19 @@ color: #ffffff !important;
   margin: 10%;
 }
 
+.MB_David_text h1 {
+  font-family: Oswald;
+}
+
+.MB_David_text p {
+  font-family: Lora;
+}
+
 .MB_David_img {
   margin-bottom: 10%;
+}
+
+@media (min-width: 768px) {
+ 
 }
 /* MB Dávid styling end */
