@@ -110,7 +110,7 @@ body {
 /* Media Query for Desktop */
 @media (min-width: 768px) {
   .button-grid .btn {
-    flex: 1 1 calc(25% - 20px); /* Four buttons per row */
+    flex: 1 1 calc(25% - 20px);
     max-width: calc(25% - 20px);
   }
 }
@@ -346,6 +346,6 @@ body {
 
 .home_ydelser_boby{
   background-color: #F5F5F5;
-  width: 100vw;
-  height: 800px;
+  /* width: 100vw;
+  height: ; */
 }
