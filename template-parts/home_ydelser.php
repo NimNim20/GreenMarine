@@ -1,7 +1,7 @@
 <?php
 $loop = new WP_Query(array(
     "post_type" => "Services_in_depth_index",
-    'posts_per_page'    => -1,
+    'posts_per_page'    => -1
 ));?>
 
 <div class="home_ydelser_boby">
