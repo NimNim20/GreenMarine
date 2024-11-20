@@ -34,8 +34,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  padding: 10px; 
-  width: 100%;
+  padding: 10px;
+}
+
+.navLogos {
+  display: flex;
+  gap: 15px; 
 }
 
 .logo {
@@ -48,8 +52,9 @@ body {
 }
 
 .kontaktHeader, .aboutUs {
-  font-size: 16px; 
+  font-size: 16px;
 }
+
 
 .kontaktButton {
   background-color: white;
