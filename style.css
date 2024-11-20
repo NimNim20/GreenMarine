@@ -297,6 +297,10 @@ body {
   .city-info {
     gap: 10px;
   }
+
+  #emne{
+    width: 100%;
+  }
 }
 /* Forms styling end */
 
