@@ -31,17 +31,24 @@ body {
 }
 
 .hero-header {
-  position: inherit;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  align-items: center; 
+  padding: 10px; 
 }
 
 .logo {
-  height: 40px; /* Adjust logo size */
-  width: auto; /* Maintain aspect ratio */
+  height: 40px;
 }
 
+.nav {
+  display: flex;
+  gap: 20px; 
+}
+
+.kontaktHeader, .aboutUs {
+  font-size: 16px; 
+}
 
 .kontaktButton {
   background-color: white;
