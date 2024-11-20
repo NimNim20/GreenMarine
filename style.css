@@ -456,6 +456,11 @@ html {
 }
 
 /* MB Dávis styling start */
+.MB_David {
+  display: flex;
+  justify-content: space-between;
+}
+
 .MB_David_text {
   margin: 10%;
 }
