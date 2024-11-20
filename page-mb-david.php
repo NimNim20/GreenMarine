@@ -15,7 +15,7 @@
     $davidImg = get_field("david-img");
     ?>
 
-    <div class="container-fluid pl-0">
+    <div class="container-fluid p-0">
       <div class="row">
 
         <div class="col-12 col-md-6">
