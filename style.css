@@ -428,13 +428,7 @@ body {
 
 .home_ydelser_title_text{
   width: 350px;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
+  padding-left: 38px;
+
 }
 
-/* .home_ydelser_text{
-  width: 350px;
-  display: flex;
-  justify-content: center;
-} */
