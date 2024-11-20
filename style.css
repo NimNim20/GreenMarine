@@ -226,15 +226,10 @@ body {
   justify-content: center;
 }
 
-/* #by {
-  width: 60%;
+#by {
+  width: 75%;
   box-sizing: border-box;
 }
-
-#zip {
-  width: 40%;
-  box-sizing: border-box;
-} */
 
 .city-info {
   display: flex;
