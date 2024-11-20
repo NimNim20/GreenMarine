@@ -219,6 +219,13 @@ body {
   border-radius: 5px;
 }
 
+.city-zip{
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
 #by {
   width: 60%;
   box-sizing: border-box;
