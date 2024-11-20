@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+a:hover {
+color: #ffffff !important;
+}
+
 /* Header styling */
 
 
