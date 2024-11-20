@@ -26,11 +26,12 @@ $loop = new WP_Query(array(
             ?>
 
             <div class="icon-item">
-                <a href="#section-<?php echo $post_id; ?>" class="scroll-to">
-                    <img src="<?php echo $image["url"] ?>" alt="" class="icon-image">
+                <a href="#" class="scroll-to" data-title="<?php echo $title; ?>">
+                    <img src="<?php echo $image["url"]; ?>" alt="" class="icon-image">
                 </a>
                 <p class="icon-title"><?php echo $title; ?></p>
             </div>
+
 
         <?php endwhile; ?>
     <?php endif; ?>
