@@ -18,7 +18,7 @@ $loop = new WP_Query(array(
 
 
             <div class="home_ydelser">
-                <img src="<?php echo $image["url"] ?>" alt="" class="home_ydelser-image">
+                <div class="img_box_home_ydelser"><img src="<?php echo $image["url"] ?>" alt="" class="home_ydelser-image"></div>
                 <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
                 <p class="home_ydelser_text"><?php echo $text; ?></p>
             </div>
