@@ -13,7 +13,9 @@
             <img alt="Logo 2" class="logo">
         </div>
         <div class="hero-footer">
-            <button <a class="kontaktButton" href="<?php echo site_url('/contact')?>">KONTAKT</a></button>
+            <a href="<?php echo site_url('/contact')?>">
+                <button class="kontaktButton">KONTAKT</button>
+            </a>
         </div>
     </section>
 </body>
