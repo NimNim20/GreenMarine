@@ -37,24 +37,6 @@
     </div>
 </div>
 
-<section id="green-marine-section">
-  <h2>Green Marine Section</h2>
-  <p>Details about Green Marine...</p>
-</section>
 
-<section id="pontech-section">
-  <h2>Pontech Section</h2>
-  <p>Details about Pontech...</p>
-</section>
-
-<section id="mb-david-section">
-  <h2>MB David Section</h2>
-  <p>Details about MB David...</p>
-</section>
-
-<section id="trelleborg-section">
-  <h2>Trelleborg Section</h2>
-  <p>Details about Trelleborg...</p>
-</section>
 </body>
 </html>
