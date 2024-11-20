@@ -15,7 +15,7 @@
         </div>
     <div class="nav">
         <a href="<?php echo site_url('/contact')?>">
-            <button class="kontaktHeader">Kontakt</button>
+            Kontakt
         </a>
         <div class="aboutUs">
             Om os
