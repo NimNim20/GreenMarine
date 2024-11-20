@@ -139,6 +139,12 @@ body {
   }
 }
 
+
+@media (max-width : 768px) {
+  .nav {
+    display: none;
+  }
+}
 /* 4 boxes after header styling end */
 
 
