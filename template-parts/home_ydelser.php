@@ -1,6 +1,6 @@
 <?php
 $loop = new WP_Query(array(
-    "post_type" => "services_in_depth_in",
+    "post_type" => "services-in-depth-in",
     'posts_per_page' => -1
 ));?>
 
@@ -26,8 +26,6 @@ $loop = new WP_Query(array(
           
 
         <?php endwhile; ?>
-        <?php else: ?>
-            Nothing here :(
     <?php endif; ?>
   
 </div>
