@@ -13,14 +13,14 @@
 </section>
 
   <section id="home_ydelser_icons">
-    <?php get_template_part("template-parts/home_ydelser_icons"); ?>
+    <?php get_template_part("index_template-parts/home_ydelser_icons"); ?>
   </section>
 
   <section id="companiespart">
-<?php get_template_part("template-parts/pontech"); ?>
-<?php get_template_part("template-parts/green_marine"); ?>
-<?php get_template_part("template-parts/mb_david"); ?>
-<?php get_template_part("template-parts/trelleborg"); ?>
+<?php get_template_part("index_template-parts/index_templates-parts_test/pontech"); ?>
+<?php get_template_part("index_template-parts/index_templates-parts_test/green_marine"); ?>
+<?php get_template_part("index_template-parts/index_templates-parts_test/mb_david"); ?>
+<?php get_template_part("index_template-parts/index_templates-parts_test/trelleborg"); ?>
   </section>
 
   <?php endwhile; ?>
