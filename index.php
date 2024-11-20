@@ -5,10 +5,10 @@
 
   <section class="content">
   <div class="button-grid">
-    <a href="#" class="btn green-marine" data-target="#green-marine-section">Green Marine</a>
-    <a href="#" class="btn pontech" data-target="#pontech-section">Pontech</a>
-    <a href="#" class="btn mb-david" data-target="#mb-david-section">MB David</a>
-    <a href="#" class="btn trelleborg" data-target="#trelleborg-section">Trelleborg</a>
+    <a href="<?php echo site_url('/')?>" class="btn green-marine">Green Marine</a>
+    <a href="<?php echo site_url('/pontech')?>" class="btn pontech">Pontech</a>
+    <a href="<?php echo site_url('/mb-david')?>" class="btn mb-david">MB David</a>
+    <a href="<?php echo site_url('/trelleborg')?>" class="btn trelleborg">Trelleborg</a>
   </div>
 </section>
 

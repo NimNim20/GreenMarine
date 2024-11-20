@@ -117,7 +117,7 @@ body {
   }
   .button-grid {
     width: 50%;
-    margin-top: -10%;
+    margin-top: -5%;
     z-index: 2;
     height: 30%;
   }
@@ -276,8 +276,6 @@ body {
     gap: 10px;
   }
 }
-
-
 /* Forms styling end */
 
 
@@ -303,6 +301,31 @@ body {
 
 .footer-gap {
   margin-bottom: 25%;
+}
+
+/* Footer Media Query for iPhone 14 Pro Max */
+@media screen and (max-width: 430px) {
+  .footer {
+    padding: 12%;
+    background-color: #1A5B99;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer p {
+    font-size: 12px;
+    margin-bottom: 4%;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    margin-bottom: 4%;
+  }
+  
+  .footer-gap {
+    margin-bottom: 25%;
+  }
 }
 /* Footer styling end */ 
 
