@@ -382,8 +382,8 @@ label {
 
 .titel_på_green_marine{
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .home_ydelser_icon_wrapper {
@@ -456,6 +456,8 @@ label {
   padding-left: 38px;
 
 }
+
+/* home_ydelser end*/
 
 /* MB Dávis styling start */
 .MB_David_text {
