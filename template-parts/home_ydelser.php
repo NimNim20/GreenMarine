@@ -26,6 +26,8 @@ $loop = new WP_Query(array(
           
 
         <?php endwhile; ?>
+        <?php else: ?>
+            Nothing here :(
     <?php endif; ?>
   
 </div>
