@@ -479,7 +479,7 @@ html {
 @media (min-width: 768px) {  
   .MB_David {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
   }
 
   .MB_David_text {
