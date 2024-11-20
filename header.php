@@ -8,18 +8,20 @@
 </head>
 <body <?php body_class(); ?>>
     <section id="mobileHero">
-        <div class="hero-header">
+<div class="hero-header">
+        <div class="navLogos">
             <img alt="Logo 1" class="logo">
-            <img alt="Logo 2" class="logo">
-
-            <div class="nav">
-                <a href="<?php echo site_url('/contact')?>">
-                    <button class="kontaktHeader">Kontakt</button>
-                </a>
-                <div class="aboutUs">
-                    Om os
-                </div>
+                <img alt="Logo 2" class="logo">
         </div>
+    <div class="nav">
+        <a href="<?php echo site_url('/contact')?>">
+            <button class="kontaktHeader">Kontakt</button>
+        </a>
+        <div class="aboutUs">
+            Om os
+        </div>
+    </div>
+</div>
         <div class="hero-footer">
             <a href="<?php echo site_url('/contact')?>">
                 <button class="kontaktButton">KONTAKT</button>
