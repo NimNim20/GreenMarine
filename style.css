@@ -426,8 +426,14 @@ body {
   margin-top: 60px;
 }
 
-.home_ydelser_text{
+.home_ydelser_title_text{
   width: 350px;
   display: flex;
   justify-content: center;
 }
+
+/* .home_ydelser_text{
+  width: 350px;
+  display: flex;
+  justify-content: center;
+} */
