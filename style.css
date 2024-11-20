@@ -27,7 +27,6 @@ body {
 
 .hero-footer {
   padding-top: 35%;
-  /* Adjusted padding for better alignment */
 }
 
 .hero-header {
@@ -87,10 +86,8 @@ body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.button-grid .btn.green-marine {
-  background-color: #4caf50; /* Green color */
-}
 
+.button-grid .btn.green-marine
 .button-grid .btn.pontech,
 .button-grid .btn.mb-david,
 .button-grid .btn.trelleborg {
