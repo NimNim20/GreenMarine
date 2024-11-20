@@ -12,13 +12,12 @@ document.querySelectorAll('.button-grid .btn').forEach(button => {
     });
   });
   
-  // Check current URL and apply 'clicked' class to the matching button
   window.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname; // Get the current path
+    const currentPath = window.location.pathname; 
     document.querySelectorAll('.button-grid .btn').forEach(button => {
-      const buttonPath = new URL(button.href).pathname; // Get the path from the button's href
+      const buttonPath = new URL(button.href).pathname; 
       if (currentPath === buttonPath) {
-        button.classList.add('clicked'); // Add 'clicked' class if paths match
+        button.classList.add('clicked');
       }
     });
   });
