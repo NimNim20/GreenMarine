@@ -112,11 +112,14 @@ body {
   .button-grid .btn {
     flex: 1 1 calc(25% - 20px);
     max-width: calc(25% - 20px);
+    font-size: 12px;
+    font-weight: normal;
   }
   .button-grid {
-    width: 75%;
+    width: 50%;
     margin-top: -10%;
     z-index: 2;
+    height: 30%;
   }
 }
 
@@ -290,16 +293,16 @@ body {
 
 .footer p {
   font-size: 12px;
-  margin-bottom: 0;
+  margin-bottom: 4%;
 }
 
 .footer h3 {
   font-size: 18px;
-  margin-bottom: 10%;
+  margin-bottom: 4%;
 }
 
 .footer-gap {
-  margin-bottom: 20%;
+  margin-bottom: 25%;
 }
 /* Footer styling end */ 
 
