@@ -66,13 +66,19 @@ body {
 
 /* 4 boxes after header styling */
 .button-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two buttons per row */
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next row */
+  gap: 20px; /* Spacing between buttons */
+  justify-content: center; /* Center buttons horizontally */
   margin-top: 20px;
 }
 
 .button-grid .btn {
+  flex: 1 1 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
   font-size: 16px;
   font-weight: bold;
@@ -80,17 +86,16 @@ body {
   color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
   background-color: #1e88e5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
 }
 
-.button-grid .btn {
-  width: 80%; /* Automatically adjust to match */
-  box-sizing: border-box; /* Include padding in size calculation */
+.button-grid .btn:active {
+  transform: translateY(5px); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 
 .content {
   display: flex;
