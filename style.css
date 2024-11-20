@@ -382,14 +382,14 @@ body {
 }
 
 .home_ydelser-image{
-  width: 400px;
-  height: 400px;
-  margin-bottom: 40px;
-  margin-top: 60px;
+  width: 350px;
+  height: 350px;
 }
 
 .img_box_home_ydelser{
  
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
