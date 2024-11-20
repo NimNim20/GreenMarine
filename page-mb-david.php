@@ -19,7 +19,9 @@
       <div class="row">
 
         <div class="col-12 col-md-6">
-          <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>"> 
+          <div class="MB_David">
+            <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>"> 
+          </div>
         </div>
 
         <div class="col-12 col-md-6">
