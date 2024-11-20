@@ -478,6 +478,11 @@ html {
 }
 
 @media (min-width: 768px) {  
+  .MB_David {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .MB_David_text {
     margin: 10%;
   }
