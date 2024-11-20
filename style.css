@@ -114,9 +114,10 @@ body {
     max-width: calc(25% - 20px);
   }
   .button-grid {
-    width: 85%;
+    width: 75%;
     margin-top: 0%;
     margin-bottom: 15%;
+    gap: 5%;
   }
 }
 
