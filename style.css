@@ -106,7 +106,10 @@ body {
   justify-content: center;
 }
 
-.btn {
+.btn-trelleborg,
+.btn-mb-david,
+.btn-green-marine,
+.btn-pontech {
   width: 100%;
 }
 
