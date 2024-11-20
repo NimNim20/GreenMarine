@@ -190,10 +190,11 @@ body {
 
 .name-container {
   display: flex;
-  gap: 15px;
   flex-wrap: wrap;
+  gap: 15px;
   width: 100%;
   justify-content: center;
+  margin: 10px 0 0 0;
 }
 
 .name-container .wpcf7-form-control.wpcf7-text {
