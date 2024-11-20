@@ -28,7 +28,7 @@ html {
 #mobileHero {
   background-color: #004a7c;
   color: white;
-  height: 35vh; 
+  height: 50vh; 
   display: flex;
   flex-direction: column;
   justify-content: space-between; 
