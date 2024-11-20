@@ -4,7 +4,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="section footer">
-            <div class="col-xs-6 col-md-3">
+            <div class="col-md-6 col-xs-3">
                 <div class="footer-gap">
                     <h3>Information</h3>
                     <p>CVR: 593826</p>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             
-            <div class="col-xs-6 col-md-3">
+            <div class="col-md-6 col-xs-3">
                 <div class="footer-gap">
                     <h3>Kontakt</h3>
                     <p>Kontaktformular</p>
