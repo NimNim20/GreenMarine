@@ -296,6 +296,10 @@ html {
   box-sizing: border-box;
 }
 
+.adresse {
+  font-size: 1.25rem;
+}
+
 .wpcf7-spinner {
   display: none;
 }
