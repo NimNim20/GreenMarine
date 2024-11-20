@@ -383,10 +383,14 @@ body {
 }
 
 .home_ydelser-image{
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
 }
 
 .img_box_home_ydelser{
   height: 800px;
+  display: flex;
+  justify-content: center;
 }

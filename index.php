@@ -2,15 +2,9 @@
 
 <?php if (have_posts()) : ?>
   <?php while (have_posts()) : the_post(); ?>
-
-  <section class="content">
-  <div class="button-grid">
-    <a href="<?php echo site_url('/')?>" class="btn green-marine">Green Marine</a>
-    <a href="<?php echo site_url('/pontech')?>" class="btn pontech">Pontech</a>
-    <a href="<?php echo site_url('/mb-david')?>" class="btn mb-david">MB David</a>
-    <a href="<?php echo site_url('/trelleborg')?>" class="btn trelleborg">Trelleborg</a>
-  </div>
-</section>
+  <section id="navButtons">
+    <?php get_template_part("template-parts/navbuttons"); ?>
+  </section>
 
   <section id="home_ydelser_icons">
     <?php get_template_part("template-parts/home_ydelser_icons"); ?>
@@ -19,6 +13,8 @@
   <section id="home_ydelser">
     <?php get_template_part("template-parts/home_ydelser"); ?>
   </section>
+
+
 
 
 
