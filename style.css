@@ -304,7 +304,7 @@ body {
 }
 
 /* Footer Media Query for iPhone 14 Pro Max */
-@media screen and (max-width: 430px) {
+@media (min-width: 768px) {
   .footer {
     padding: 12%;
     background-color: #1A5B99;
