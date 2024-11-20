@@ -27,7 +27,7 @@ body {
 }
 
 .hero-footer {
-  padding-top: 5%;
+  padding-top: 40%;
 }
 
 .hero-header {
@@ -64,26 +64,6 @@ body {
 }
 
 
-
-@media screen and (max-width: 430px) {
-  .hero-header {
-    top: 5px;
-    left: 5px;
-  }
-
-  .logo {
-    height: 30px;
-  }
-
-  .kontaktButton {
-    font-size: 0.8rem;
-    padding: 8px 16px;
-  }
-
-  .hero-footer {
-    padding-top: 45%;
-  }
-}
 
 
 /* End of header styling */
