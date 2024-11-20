@@ -14,8 +14,8 @@
                 <img alt="Logo 2" class="logo">
         </div>
     <div class="nav">
-        <a href="<?php echo site_url('/contact')?>">
-            <button class="kontaktHeader">Kontakt</button>
+        <a href="<?php echo site_url('/contact')?>" class="kontaktLink">
+            Kontakt
         </a>
         <div class="aboutUs">
             Om os
