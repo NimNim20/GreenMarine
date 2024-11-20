@@ -146,7 +146,7 @@ html {
   .button-grid .btn {
     flex: 1 1 calc(25% - 20px);
     max-width: calc(25% - 20px);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: normal;
   }
   .button-grid {
