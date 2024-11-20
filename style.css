@@ -106,6 +106,9 @@ body {
   justify-content: center;
 }
 
+.btn {
+  width: 100%;
+}
 
 /* Media Query for Desktop */
 @media (min-width: 768px) {
