@@ -16,15 +16,6 @@
 
 
 
-
-
-  <section id="companiespart">
-<?php get_template_part("template-parts/green_marine"); ?>
-<?php get_template_part("template-parts/pontech"); ?>
-<?php get_template_part("template-parts/mb_david"); ?>
-<?php get_template_part("template-parts/trelleborg"); ?>
-  </section>
-
   <?php endwhile; ?>
 <?php endif; ?>
 

@@ -29,9 +29,6 @@ body {
   padding: 20px;
 }
 
-.hero-footer {
-  padding-top: 40%;
-}
 
 .hero-header {
   display: flex;
@@ -122,6 +119,8 @@ body {
 
 /* Media Query for Desktop */
 @media (min-width: 768px) {
+
+
   .hero-footer {
     display: none;
   }
@@ -140,6 +139,12 @@ body {
   }
 }
 
+
+@media (max-width : 767px) {
+  .nav {
+    display: none;
+  }
+}
 /* 4 boxes after header styling end */
 
 
@@ -403,9 +408,11 @@ body {
   background-color: white;
 }
 
-.home_ydelser_boby{
+.home_ydelser{
   padding-top: 40px;
+  padding-bottom: 40px;
 }
+
 
 .home_ydelser-image{
   width: 350px;
@@ -419,3 +426,10 @@ body {
   margin-bottom: 40px;
   margin-top: 60px;
 }
+
+.home_ydelser_title_text{
+  width: 350px;
+  padding-left: 38px;
+
+}
+
