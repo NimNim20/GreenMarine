@@ -226,11 +226,6 @@ body {
   justify-content: center;
 }
 
-#by input{
-  width: 75%;
-  box-sizing: border-box;
-}
-
 .city-info {
   display: flex;
   gap: 15px;
