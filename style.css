@@ -32,11 +32,8 @@ body {
 
 .hero-header {
   position: absolute;
-  top: 10px;
-  left: 10px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
 
@@ -289,8 +286,6 @@ body {
   padding: 12%;
   background-color: #1A5B99;
   color: white;
-  display: flex;
-  flex-direction: row;
 }
 
 .footer p {
