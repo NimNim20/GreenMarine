@@ -220,7 +220,11 @@ body {
 }
 
 #by{
-  width: 75%;
+  width: 55%;
+}
+
+#zip{
+  width: 45%;
 }
 
 .city-info {
