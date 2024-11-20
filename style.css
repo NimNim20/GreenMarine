@@ -375,6 +375,14 @@ body {
 
 /* home_ydelser stard*/
 
+.home_ydelser:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+.home_ydelser:nth-child(even) {
+  background-color: white;
+}
+
 .home_ydelser_boby{
   background-color: #F5F5F5;
   /* width: 100vw;
