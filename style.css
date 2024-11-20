@@ -219,12 +219,14 @@ body {
   border-radius: 5px;
 }
 
-#by{
+#by {
   width: 60%;
+  box-sizing: border-box;
 }
 
-#zip span{
+#zip {
   width: 40%;
+  box-sizing: border-box;
 }
 
 .city-info {
