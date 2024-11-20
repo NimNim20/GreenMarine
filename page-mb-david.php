@@ -29,7 +29,7 @@
 
             <div class="col-12 col-md-6">
               <div class="MB_David_img">
-                <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>"> 
+                <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>" loading="lazy"> 
               </div>
             </div>
           </div>
