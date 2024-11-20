@@ -17,7 +17,7 @@ $loop = new WP_Query(array(
             ?>
 
 
-            <div class="icon-item">
+            <div class="">
                 <img src="<?php echo $image["url"] ?>" alt="" class="home_ydelser-image">
                 <h2 class="icon-title"><?php echo $title; ?></h2>
                 <p class="icon-title"><?php echo $title; ?></p>
