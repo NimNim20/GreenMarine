@@ -11,6 +11,14 @@
         <div class="hero-header">
             <img alt="Logo 1" class="logo">
             <img alt="Logo 2" class="logo">
+
+            <div class="nav">
+                <a href="<?php echo site_url('/contact')?>">
+                    <button class="kontaktHeader">Kontakt</button>
+                </a>
+                <div class="aboutUs">
+                    Om os
+                </div>
         </div>
         <div class="hero-footer">
             <a href="<?php echo site_url('/contact')?>">
