@@ -452,9 +452,14 @@ color: #ffffff;
 
 /* MB Dávis styling */
 .MB_David {
-  margin: 10% 0;
+  display: flex;
+  
+}
+
+.MB_David_text {
+  margin: 10%;
 }
 
 .MB_David_img {
-  margin: 10% 0;
+  margin: 0 10%;
 }
