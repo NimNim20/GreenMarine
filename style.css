@@ -27,7 +27,7 @@ body {
 }
 
 .hero-footer {
-  padding-top: 35%;
+  padding-top: 10%;
 }
 
 .hero-header {
@@ -63,6 +63,29 @@ body {
   background-color: #e0e0e0;
 }
 
+
+
+@media screen and (max-width: 430px) {
+  .hero-header {
+    top: 5px;
+    left: 5px;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .kontaktButton {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+
+  .hero-footer {
+    padding-top: 45%;
+  }
+}
+
+
 /* End of header styling */
 
 /* 4 boxes after header styling */
@@ -94,7 +117,6 @@ body {
 
 .button-grid .btn.clicked {
   background-color: #328847;
-  transform: translateY(5px); 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
