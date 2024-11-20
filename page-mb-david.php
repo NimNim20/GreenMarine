@@ -6,13 +6,35 @@
 <?php if(have_posts()) : ?>
     <?php while(have_posts()) : the_post(); ?>
     <section id="navButtons">
-    <?php get_template_part("template-parts/navbuttons"); ?>
-  </section>
+      <?php get_template_part("template-parts/navbuttons"); ?>
+    </section>
 
+    <?php
+    $Heading = get_field("heading");
+    $Description = get_field("description");
+    $davidImg = get_field("david-img");
+    ?>
 
+    <div class="container">
+      <div class="row">
 
-<h1>Hello World</h1>
-<p>Testing our clicking functionality</p>
+        <div class="col-12 col-md-6">
+          <h1><?php echo esc_html($Heading); ?></h1>
+          <p><?php echo esc_html($Description); ?></p>
+          <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>"> 
+        </div>
+
+        <div class="col-12 col-md-6">
+          <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>"> 
+        </div>
+
+        <div class="col-12 col-md-6">
+          <h1><?php echo esc_html($Heading); ?></h1>
+          <p><?php echo esc_html($Description); ?></p>
+        </div>
+
+      </div>
+    </div>
 
 
 
