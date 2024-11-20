@@ -1,6 +1,8 @@
 
 // Handling on click event for each button, so they change color based on their cliked status
+// Get all buttons
 document.querySelectorAll('.button-grid .btn').forEach(button => {
+    // Add click event listener
     button.addEventListener('click', () => {
       // Remove 'clicked' class from all buttons
       document.querySelectorAll('.button-grid .btn').forEach(btn => btn.classList.remove('clicked'));
@@ -9,6 +11,18 @@ document.querySelectorAll('.button-grid .btn').forEach(button => {
       button.classList.add('clicked');
     });
   });
+  
+  // Check current URL and apply 'clicked' class to the matching button
+  window.addEventListener('DOMContentLoaded', () => {
+    const currentPath = window.location.pathname; // Get the current path
+    document.querySelectorAll('.button-grid .btn').forEach(button => {
+      const buttonPath = new URL(button.href).pathname; // Get the path from the button's href
+      if (currentPath === buttonPath) {
+        button.classList.add('clicked'); // Add 'clicked' class if paths match
+      }
+    });
+  });
+  
   //End of click handling
 
 
