@@ -73,7 +73,10 @@ body {
   background-color: #e0e0e0;
 }
 
-
+.kontaktLink {
+  text-decoration: none;
+  color: #004a7c;
+}
 
 
 /* End of header styling */
