@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row">
             <!--  -->
-                <div class="col-xs-6 col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="footer-gap">
                         <h3>Information</h3>
                         <p>CVR: 593826</p>
@@ -13,7 +13,7 @@
             
                     
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="footer-gap">
                         <h3>Adresse</h3>
                         <p>Rossagerdi 3</p>
@@ -21,7 +21,7 @@
                         <p>Færøerne</p>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="footer-gap">
                         <h3>Kontakt</h3>
                         <p>Kontaktformular</p>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             
-                <div class="col-xs-6 col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="footer-gap">
                         <h3>Find os på</h3>
                         <p>LinkedIn</p>
