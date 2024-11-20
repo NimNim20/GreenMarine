@@ -29,9 +29,6 @@ body {
   padding: 20px;
 }
 
-.hero-footer {
-  padding-top: 40%;
-}
 
 .hero-header {
   display: flex;
@@ -122,6 +119,8 @@ body {
 
 /* Media Query for Desktop */
 @media (min-width: 768px) {
+
+
   .hero-footer {
     display: none;
   }
@@ -140,6 +139,12 @@ body {
   }
 }
 
+
+@media (max-width : 767px) {
+  .nav {
+    display: none;
+  }
+}
 /* 4 boxes after header styling end */
 
 
