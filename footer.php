@@ -4,14 +4,13 @@
 <div class="section footer">
     <div class="container-fluid">
         <div class="row">
-            <!--  -->
                 <div class="col-6 col-md-3">
                     <div class="footer-gap">
                         <h3>Information</h3>
                         <p>CVR: 593826</p>
                     </div> 
                 </div>
-                
+
                 <div class="col-6 col-md-3">
                     <div class="footer-gap">
                         <h3>Adresse</h3>
@@ -38,7 +37,6 @@
                         <p>Instagram</p>
                     </div>
                 </div>
-            <!-- </div> -->
         </div>
     </div>
 </div>
