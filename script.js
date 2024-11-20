@@ -1,9 +1,3 @@
-const normalizePath = path => path.replace(/\/$/, ''); // Remove trailing slash
-const currentPath = normalizePath(window.location.pathname);
-const buttonPath = normalizePath(new URL(button.href).pathname);
-
-
-
 // Handling on click event for each button, so they change color based on their cliked status
 // Get all buttons
 document.querySelectorAll('.button-grid .btn').forEach(button => {
