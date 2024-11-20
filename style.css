@@ -109,6 +109,10 @@ body {
 
 /* Media Query for Desktop */
 @media (min-width: 768px) {
+  .hero-footer {
+    display: none;
+  }
+
   .button-grid .btn {
     flex: 1 1 calc(25% - 20px);
     max-width: calc(25% - 20px);
@@ -382,15 +386,15 @@ body {
   height: ; */
 }
 
-.home_ydelser-image{
+/* .home_ydelser-image{
   width: 400px;
   height: 400px;
   display: flex;
   justify-content: center;
-}
+} */
 
 .img_box_home_ydelser{
-  height: 800px;
+ 
   display: flex;
   justify-content: center;
 }
