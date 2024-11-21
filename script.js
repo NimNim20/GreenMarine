@@ -22,11 +22,11 @@ window.addEventListener('DOMContentLoaded', () => {
 });
   
   //End of click handling
-//Start of scroll handling
 
-document.querySelectorAll('.scroll-to').forEach(anchor => {
+  //Start of scroll handling
+  document.querySelectorAll('.scroll-to').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
-        e.preventDefault();
+        e.preventDefault(); // Prevent the default action (jumping to the top)
 
         // Get the title of the clicked icon
         const titleToMatch = this.getAttribute('data-title');
@@ -45,4 +45,5 @@ document.querySelectorAll('.scroll-to').forEach(anchor => {
         }
     });
 });
-    //End of scroll handling  
+
+//End of scroll handling

@@ -17,13 +17,15 @@ $loop = new WP_Query(array(
                 $post_id = get_the_ID(); // Unique ID for each post
                 ?>
 
-                <div class="row home_ydelser" data-title="<?php echo $title; ?>"> <!-- c -->
-                    <div class="col-12 col-sm-6  img_box_home_ydelser"> <!--  -->
-                        <img src="<?php echo $image["url"]; ?>" alt="" class="home_ydelser-image" loading="lazy">
+                <div class="row home_ydelser" data-title="<?php echo $title; ?>"> <!-- Data-title for matching -->
+                    <div class="col-12 col-sm-6 img_box_home_ydelser">
+                        <img src="<?php echo $image['url']; ?>" alt="<?php echo esc_attr($title); ?>" class="home_ydelser-image" loading="lazy">
                     </div>
                     <div class="col-12 col-sm-6 home_ydelser_title_text">
-                        <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
-                        <p class="home_ydelser_text"><?php echo $text; ?></p>
+                        <div class="home_ydelser_title_text_inder_box">
+                            <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
+                            <p class="home_ydelser_text"><?php echo $text; ?></p>
+                        </div>
                     </div>
                 </div>
 
