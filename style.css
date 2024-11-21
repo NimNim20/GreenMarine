@@ -35,23 +35,34 @@ html {
   text-align: center;
   position: relative;
   padding: 20px;
+  background-color: blue;
 }
 
 
 .hero-header {
-  display: flex;
   justify-content: space-between;
   padding: 10px;
   width: 100%;
-}
-
-.navLogos {
-  display: flex;
-  gap: 15px; 
+  align-items: center;
 }
 
 .logo {
   height: 40px;
+}
+
+.heroImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hero-header img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures image covers the container without stretching */
 }
 
 .nav {
@@ -200,7 +211,7 @@ label {
 .wpcf7-form-control.wpcf7-tel,
 .wpcf7-form-control.wpcf7-number,
 .wpcf7-form-control.wpcf7-select {
-  padding: 10px;
+  padding: 0 10px;
   width: 100%;
   max-width: 100%;
   height: 50px;
@@ -240,13 +251,6 @@ label {
   display: flex;
   gap: 15px;
   width: 100%;
-}
-
-#emne {
-  border: 2.5px solid #0f3947;
-  border-radius: 5px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .name-container {
@@ -327,13 +331,13 @@ label {
   }
 
   .name-container,
-  .city-info {
+  .city-info, .firma-container {
+    display: block;
     gap: 10px;
+    width: 100%;
   }
 
-  #fornavn, #efternavn,
-  #email, #firma, #cvr,
-  #by, #vejnum, #zip, #emne, #besked{
+  label{
     width: 100%;
   }
 }
@@ -494,7 +498,7 @@ label {
   }
    */
    .home_ydelser_title_text {
-    margin: 0 20% 10% -10%;
+    margin: 10% 20% 10% -10%;
   }
   .img_box_home_ydelser {
     margin: 5% 0 10% 10%;
@@ -519,7 +523,7 @@ label {
 
 /* MB Dávid styling start */
 .MB_David_text {
-  margin: 5%;
+  margin: 10%;
 }
 
 .MB_David_text h1 {
@@ -536,7 +540,6 @@ label {
 
 .MB_David_text p {
   font-family: Lora;
-  margin-bottom: 10%;
 }
 
 .MB_David_img {
