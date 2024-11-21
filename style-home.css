@@ -60,6 +60,12 @@ Description: A theme for Green Marine Divers
   background-color: white;
 }
 
+.home_ydelser{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
 .home_ydelser-image{
   width: 350px;
   height: 350px;
@@ -96,8 +102,5 @@ Description: A theme for Green Marine Divers
 
   .home_ydelser_boby .container-fluid .row:nth-child(even) {
     flex-direction: row-reverse;
-    gap: 40px;
   }
-
-
 }
