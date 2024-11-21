@@ -242,13 +242,23 @@ label {
   box-sizing: border-box;
 }
 
+#emne {
+  max-width: 300%;
+  width: 266%;
+}
+
+#besked {
+  max-width: 300%;
+  width: 210%;
+}
+
 .wpcf7-form-control.wpcf7-select option {
   background-color: #0f3947;
   color: white;
 }
 
 .wpcf7-form-control.wpcf7-textarea {
-  width: 100%;
+  width: 150%;
   max-width: 100%;
   box-sizing: border-box;
 }
@@ -352,6 +362,11 @@ label {
   .city-info, .firma-container {
     display: block;
     gap: 10px;
+    width: 100%;
+  }
+
+  #emne, #besked {
+    max-width: 100%;
     width: 100%;
   }
 
