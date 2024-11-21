@@ -459,6 +459,22 @@ label {
 
 }
 
+@media (min-width: 768px) {  
+  .home_ydelser {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+  }
+/* 
+  .MB_David_text {
+    margin: 10% 20% 10% -10%;
+  }
+  
+  .MB_David_img {
+    margin: 5% 0 10% 10%;
+  } */
+}
+
 /* home_ydelser end*/
 
 /* MB Dávis styling start */
