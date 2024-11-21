@@ -465,6 +465,10 @@ label {
     align-items: center; 
     flex-direction: row;
   }
+  
+  .home_ydelser:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 /* 
   .MB_David_text {
     margin: 10% 20% 10% -10%;
