@@ -25,15 +25,7 @@
 
         <!-- Hero Image Section (Main Content) -->
         <div class="hero-header">
-            <div class="heroImages">
-                <?php 
-                // Fetch the hero image for the current page using ACF
-                if ($hero_image): ?>
-                    <img src="<?php echo esc_url($hero_image['url']); ?>" alt="<?php echo esc_attr(get_the_title() . ' Hero Image'); ?>">
-                <?php else: ?>
-                    <img src="" alt="No Hero Image Available"> <!-- Optional fallback -->
-                <?php endif; ?>
-            </div>
+    
         </div>
 
         <!-- Hero Footer with 'KONTAKT' button -->
