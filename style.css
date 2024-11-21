@@ -459,6 +459,26 @@ label {
 
 }
 
+@media (min-width: 768px) {  
+  .home_ydelser {
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+  }
+  
+  .home_ydelser:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+/* 
+  .MB_David_text {
+    margin: 10% 20% 10% -10%;
+  }
+  
+  .MB_David_img {
+    margin: 5% 0 10% 10%;
+  } */
+}
+
 /* home_ydelser end*/
 
 /* MB Dávis styling start */
@@ -467,6 +487,14 @@ label {
 }
 
 .MB_David_text h1 {
+  font-family: Oswald;
+}
+
+.MB_David_text h2 {
+  font-family: Oswald;
+}
+
+.MB_David_text h3 {
   font-family: Oswald;
 }
 
