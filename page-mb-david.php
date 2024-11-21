@@ -43,7 +43,7 @@
         <div class="row">
           <div class="MB_David">
             <div class="col-12 col-md-6">
-              <div class="MB_David_img">
+              <div class="MB_David_img img2">
                 <img src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
               </div>
             </div>
