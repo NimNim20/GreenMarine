@@ -218,12 +218,8 @@ label {
   box-sizing: border-box;
 }
 
-.wpcf7-form-control.wpcf7-select label{
-  width: 100%;
-}
-
 .wpcf7-form-control.wpcf7-select option {
-  background-color: #0f3947; /* Fixed typo: "color" instead of "colour" */
+  background-color: #0f3947;
   color: white;
 }
 
@@ -249,12 +245,6 @@ label {
 
 .wpcf7-form-control.wpcf7-submit:hover {
   background-color: #0b7d3e;
-}
-
-.emne-area {
-  display: flex;
-  gap: 15px;
-  width: 100%;
 }
 
 .name-container {
