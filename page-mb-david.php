@@ -49,7 +49,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-             <div class="MB_David_text">
+             <div class="MB_David_text2">
                 <h2><?php echo esc_html($servicesHeading); ?></h2>
                 <h3><?php echo esc_html($serviceDiving); ?></h3>
                 <p><?php echo esc_html($divingDescription); ?></p>
