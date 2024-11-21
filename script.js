@@ -37,15 +37,18 @@ window.addEventListener('DOMContentLoaded', () => {
         );
 
         if (targetTitle) {
-            // Scroll to the section that contains the target title
-            const targetSection = targetTitle.closest('.home_ydelser'); // Find the parent section
+            // Find the parent section of the matching title
+            const targetSection = targetTitle.closest('.home_ydelser'); // This is the section to scroll to
 
+            // Scroll to the section's top position
             window.scrollTo({
+                top: targetSection.offsetTop - 100, // Optional offset, adjust as needed
                 behavior: 'smooth'
             });
         }
     });
 });
+
 
 
 //End of scroll handling
