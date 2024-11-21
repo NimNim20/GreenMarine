@@ -323,6 +323,10 @@ label {
   #by, #vejnum, #besked, #zip, #emne{
     width: 100%;
   }
+
+  label{
+    width: 100%;
+  }
 }
 /* Forms styling end */
 
