@@ -7,25 +7,20 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <section id="mobileHero"
-        <?php 
-        // Fetch the hero image URL dynamically using ACF
-        $hero_image = get_field('heroimage');
-        if ($hero_image): 
-            $hero_image_url = esc_url($hero_image['url']);
-            echo 'style="background-image: url(' . $hero_image_url . ');"'; 
-        endif;
-        ?>
-    >
+<section id="mobileHero"
+    <?php 
+    // Fetch the hero image URL dynamically using ACF
+    $hero_image = get_field('heroimage');
+    if ($hero_image): 
+        $hero_image_url = esc_url($hero_image['url']);
+        echo 'style="background-image: url(' . $hero_image_url . '); background-size: cover; background-position: center;"'; 
+    endif;
+    ?>
+>
         <!-- Logo Section (top left) -->
         <div class="navLogos">
             <img alt="Logo 1" class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo1.png"> <!-- Add logo image source -->
             <img alt="Logo 2" class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo2.png"> <!-- Add logo image source -->
-        </div>
-
-        <!-- Hero Image Section (Main Content) -->
-        <div class="hero-header">
-    
         </div>
 
         <!-- Hero Footer with 'KONTAKT' button -->
@@ -38,4 +33,4 @@
 
     <?php wp_footer(); ?>
 </body>
-</html>
+<html>
