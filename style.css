@@ -26,36 +26,32 @@ html {
 
 
 #mobileHero {
+  color: white;
+  height: 50vh; 
   display: flex;
   flex-direction: column;
+  justify-content: space-between; 
   align-items: center;
-  background-color: #f4f4f4;
-  padding: 10px;
+  text-align: center;
+  position: relative;
+  padding: 20px;
 }
 
 
 .hero-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
   width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 .navLogos {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 15px;
+  gap: 15px; 
 }
 
 .logo {
-  width: 60px;
-  height: auto;
-}
-
-.hero-images img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+  height: 40px;
 }
 
 .nav {
@@ -68,20 +64,21 @@ html {
 }
 
 
-
 .kontaktButton {
-  background-color: #007BFF;
-  color: white;
+  background-color: white;
+  color: #004a7c;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
   border: none;
-  padding: 15px 30px;
-  font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.kontaktButton:hover {
-  background-color: #0056b3;
+.kontakt-button:hover {
+  background-color: #e0e0e0;
 }
 
 .kontaktLink {
@@ -239,16 +236,10 @@ label {
   background-color: #0b7d3e;
 }
 
-.emne-area {
-  display: flex;
-  gap: 15px;
-  width: 100%;
-}
-
 #emne {
   border: 2.5px solid #0f3947;
   border-radius: 5px;
-  width: 100%;
+  width: 50%;
   box-sizing: border-box;
 }
 
@@ -484,7 +475,6 @@ label {
   
   .home_ydelser:nth-child(even) {
     flex-direction: row-reverse;
-    margin-right: 10%;
   }
 /* 
   
@@ -497,7 +487,7 @@ label {
   }
    */
    .home_ydelser_title_text {
-    margin: 0 20% 10% -10%;
+    margin: 10% 20% 10% -10%;
   }
   .img_box_home_ydelser {
     margin: 5% 0 10% 10%;
@@ -522,7 +512,7 @@ label {
 
 /* MB Dávid styling start */
 .MB_David_text {
-  margin: 5%;
+  margin: 10%;
 }
 
 .MB_David_text h1 {
@@ -539,7 +529,6 @@ label {
 
 .MB_David_text p {
   font-family: Lora;
-  margin-bottom: 10%;
 }
 
 .MB_David_img {
