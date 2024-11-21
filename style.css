@@ -26,7 +26,6 @@ html {
 
 
 #mobileHero {
-  background-color: #004a7c;
   color: white;
   height: 50vh; 
   display: flex;
@@ -237,10 +236,16 @@ label {
   background-color: #0b7d3e;
 }
 
-#emne label{
+.emne-area {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+#emne {
   border: 2.5px solid #0f3947;
   border-radius: 5px;
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -531,6 +536,7 @@ label {
 
 .MB_David_text p {
   font-family: Lora;
+  margin-bottom: 10%;
 }
 
 .MB_David_img {
