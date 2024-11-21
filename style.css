@@ -289,12 +289,12 @@ label {
   margin: 10px 0 0 0;
 }
 
-.name-container .wpcf7-form-control.wpcf7-text {
+/* .name-container .wpcf7-form-control.wpcf7-text {
   flex: 1;
   padding: 10px;
   min-width: 0;
   box-sizing: border-box;
-}
+} */
 
 .firma-container {
   display: flex;
@@ -323,12 +323,12 @@ label {
   width: 100%;
 }
 
-.city-info .wpcf7-form-control.wpcf7-text {
+/* .city-info .wpcf7-form-control.wpcf7-text {
   flex: 1;
   padding: 10px;
   min-width: 0;
   box-sizing: border-box;
-}
+} */
 
 .adresse {
   font-size: 2.25rem;
