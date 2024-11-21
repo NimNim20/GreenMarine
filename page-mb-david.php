@@ -19,6 +19,7 @@
     $fishfarmDescription = get_field("fishfarm-description");
     $davidImg2 = get_field("david-img2");
     $davidImg = get_field("david-img");
+    $contactText = get_field("contact-text");
     ?>
 
     <section>
@@ -55,6 +56,7 @@
                 <p><?php echo esc_html($divingDescription); ?></p>
                 <h3><?php echo esc_html($fishfarmHeading); ?></h3>
                 <p><?php echo esc_html($fishfarmDescription); ?></p>
+                <h3><?php echo esc_html($contactText); ?></h3>
               </div>
             </div>
           </div>
