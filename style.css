@@ -598,6 +598,10 @@ label {
     font-size: 22px;
   }
 
+  .MB_David_text p {
+    margin-bottom: 5%;
+  }
+
   .text2 {
     margin: 0 10% 10% 10%;
   }
