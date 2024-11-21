@@ -51,6 +51,10 @@
                 <h3><?php echo esc_html($fishfarmHeading); ?></h3>
                 <p><?php echo esc_html($fishfarmDescription); ?></p>
                 <h3><?php echo esc_html($contactText); ?></h3>
+
+                <div class="trelleborg-btn-container">
+                  <a href="<?php echo site_url('/contact')?>" class="trelleborg-btn">Kontakt</a>
+                </div>
               </div>
             </div>
 
