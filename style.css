@@ -334,7 +334,7 @@ label {
   }
 
   .name-container,
-  .city-info {
+  .city-info, firma-container {
     display: block;
     gap: 10px;
     width: 100%;
