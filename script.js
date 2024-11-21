@@ -41,7 +41,6 @@ window.addEventListener('DOMContentLoaded', () => {
             const targetSection = targetTitle.closest('.home_ydelser'); // Find the parent section
 
             window.scrollTo({
-                top: targetSection.offsetTop - 100, // Optional offset (adjust as needed)
                 behavior: 'smooth'
             });
         }
