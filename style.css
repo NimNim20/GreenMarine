@@ -247,6 +247,11 @@ label {
   width: 266%;
 }
 
+#besked {
+  max-width: 300%;
+  width: 210%;
+}
+
 .wpcf7-form-control.wpcf7-select option {
   background-color: #0f3947;
   color: white;
