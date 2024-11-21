@@ -9,8 +9,8 @@
 >
     <!-- Logo Section (top left) -->
     <div class="navLogos">
-        <!-- <img alt="Logo 1" class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo1.png">
-        <img alt="Logo 2" class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo2.png"> -->
+        <img alt="Logo 1" class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo1.png">
+        <img alt="Logo 2" class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo2.png">
     </div>
 
     <!-- Links Section (top right) -->
