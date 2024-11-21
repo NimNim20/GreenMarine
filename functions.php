@@ -6,6 +6,7 @@ function gmd_load_resources() {
 
     // The following returns by default style.css in the current active theme directory.
     wp_enqueue_style("my-theme-style", get_stylesheet_uri());
+    wp_enqueue_style('my-theme-home-style', get_theme_file_uri('style-home.css') );
     wp_enqueue_script("script", get_template_directory_uri() . "/script.js", array(), filemtime(get_template_directory() . "/script.js"), true);
 
     // Enqueue anime.js
