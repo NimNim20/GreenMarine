@@ -8,11 +8,12 @@
 </head>
 <body <?php body_class(); ?>>
     <section id="mobileHero">
+    <div class="navLogos">
+        <img alt="Logo 1" class="logo">
+        <img alt="Logo 2" class="logo">
+    </div>
         <div class="hero-header">
-            <div class="navLogos">
-                <img alt="Logo 1" class="logo">
-                <img alt="Logo 2" class="logo">
-            </div>
+
             <div class="heroImages">
                 <?php 
                 // Fetch the hero image for the current page using ACF
@@ -31,4 +32,4 @@
         </div>
     </section>
 </body>
-</html>
+<html>
