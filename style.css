@@ -462,7 +462,7 @@ label {
 @media (min-width: 768px) {  
   .home_ydelser {
     display: flex;
-    /* align-items: center; */
+    align-items: center; 
     flex-direction: row;
   }
 /* 
