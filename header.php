@@ -22,6 +22,10 @@
             <img alt="Logo 1" class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo1.png"> <!-- Add logo image source -->
             <img alt="Logo 2" class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo2.png"> <!-- Add logo image source -->
         </div>
+                <!-- Hero Image Section (Main Content) -->
+                <div class="hero-header">
+    
+                </div>
 
         <!-- Hero Footer with 'KONTAKT' button -->
         <div class="hero-footer">
