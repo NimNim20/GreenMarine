@@ -598,7 +598,7 @@ label {
   }
 
   .MB_David_text {
-    margin: 10% 20% 10% -10%;
+    margin: 0% 20% 0% -10%;
   }
 
   .MB_David_text h1{
@@ -611,6 +611,10 @@ label {
 
   .MB_David_text h3{
     font-size: 22px;
+  }
+
+  .MB_David_text p {
+    margin-bottom: 5%;
   }
 
   .text2 {

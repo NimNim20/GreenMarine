@@ -22,8 +22,10 @@ $loop = new WP_Query(array(
                         <img src="<?php echo $image["url"]; ?>" alt="" class="home_ydelser-image" loading="lazy">
                     </div>
                     <div class="col-12 col-sm-6 home_ydelser_title_text">
-                        <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
-                        <p class="home_ydelser_text"><?php echo $text; ?></p>
+                        <div class="home_ydelser_title_text_inder_box">
+                            <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
+                            <p class="home_ydelser_text"><?php echo $text; ?></p>
+                        </div>
                     </div>
                 </div>
 
