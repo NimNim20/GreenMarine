@@ -26,17 +26,18 @@ window.addEventListener('DOMContentLoaded', () => {
   //Start of scroll handling
   document.querySelectorAll('.scroll-to').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
-        e.preventDefault();
+        e.preventDefault(); // Prevent the default action (jumping to the top)
 
+        // Get the title of the clicked icon
         const titleToMatch = this.getAttribute('data-title');
-        console.log('Clicked title:', titleToMatch);
 
+        // Find the corresponding section by matching the title
         const targetSection = [...document.querySelectorAll('.home_ydelser')].find(section => 
             section.getAttribute('data-title') === titleToMatch
         );
 
         if (targetSection) {
-            console.log('Scrolling to:', targetSection); // Debugging line
+            // Scroll to the matching section
             window.scrollTo({
                 top: targetSection.offsetTop,
                 behavior: 'smooth'
@@ -44,4 +45,5 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
 //End of scroll handling
