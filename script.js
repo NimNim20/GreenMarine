@@ -31,19 +31,22 @@ window.addEventListener('DOMContentLoaded', () => {
         // Get the title of the clicked icon
         const titleToMatch = this.getAttribute('data-title');
 
-        // Find the corresponding section by matching the title
-        const targetSection = [...document.querySelectorAll('.home_ydelser')].find(section => 
-            section.getAttribute('data-title') === titleToMatch
+        // Find the corresponding title element within home_ydelser-title
+        const targetTitle = [...document.querySelectorAll('.home_ydelser-title')].find(titleElement => 
+            titleElement.getAttribute('data-title') === titleToMatch
         );
 
-        if (targetSection) {
-            // Scroll to the matching section
+        if (targetTitle) {
+            // Scroll to the section that contains the target title
+            const targetSection = targetTitle.closest('.home_ydelser'); // Find the parent section
+
             window.scrollTo({
-                top: targetSection.offsetTop,
+                top: targetSection.offsetTop - 100, // Optional offset (adjust as needed)
                 behavior: 'smooth'
             });
         }
     });
 });
+
 
 //End of scroll handling

@@ -23,10 +23,12 @@ $loop = new WP_Query(array(
                     </div>
                     <div class="col-12 col-sm-6 home_ydelser_title_text">
                         <div class="home_ydelser_title_text_inder_box">
-                            <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
+                            <h2 class="home_ydelser-title" data-title="<?php echo esc_attr($title); ?>">    
+                            <?php echo $title; ?></h2>
                             <p class="home_ydelser_text"><?php echo $text; ?></p>
                         </div>
                     </div>
+
                 </div>
 
             <?php endwhile; ?>
