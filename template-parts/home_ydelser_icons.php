@@ -27,7 +27,7 @@ $loop = new WP_Query(array(
             ?>
 
             <div class="icon-item">
-                <a href="#" class="scroll-to" data-title="<?php echo $title; ?>">
+                <a href="#<?php echo $title; ?>" data-title="<?php echo $title; ?>">
                     <img src="<?php echo $image["url"]; ?>" alt="" class="icon-image">
                 </a>
                 <p class="icon-title"><?php echo $title; ?></p>
