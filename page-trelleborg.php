@@ -24,11 +24,6 @@
         <img src="<?php echo esc_url($heroimg); ?>" alt="Hero Image">
     </div>
 
-    <!-- Navigation Buttons -->
-    <div id="navButtons">
-        <?php get_template_part("template-parts/navbuttons"); ?>
-    </div>
-
     <!-- Trelleborg Button -->
     <div class="trelleborg-btn-container">
         <a href="https://trelleborg.com" class="trelleborg-btn">trelleborg.com</a>
