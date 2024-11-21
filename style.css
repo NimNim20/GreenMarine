@@ -336,6 +336,7 @@ label {
   .name-container,
   .city-info {
     gap: 10px;
+    width: 100%;
   }
 
   label{
