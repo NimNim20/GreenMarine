@@ -237,7 +237,7 @@ label {
   background-color: #0b7d3e;
 }
 
-#emne {
+#emne label{
   border: 2.5px solid #0f3947;
   border-radius: 5px;
   width: 31.5%;
@@ -464,6 +464,10 @@ label {
     display: flex;
     align-items: center; 
     flex-direction: row;
+  }
+  
+  .home_ydelser:nth-child(even) {
+    flex-direction: row-reverse;
   }
 /* 
   .MB_David_text {
