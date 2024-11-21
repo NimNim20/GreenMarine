@@ -240,7 +240,7 @@ label {
 #emne label{
   border: 2.5px solid #0f3947;
   border-radius: 5px;
-  width: 100%;
+  width: 31.5%;
   box-sizing: border-box;
 }
 
@@ -469,19 +469,19 @@ label {
   .home_ydelser:nth-child(even) {
     flex-direction: row-reverse;
   }
-
-  .home_ydelser_title_text {
+/* 
+  .MB_David_text {
     margin: 10% 20% 10% -10%;
   }
   
-  .img_box_home_ydelser {
+  .MB_David_img {
     margin: 5% 0 10% 10%;
-  } 
+  } */
 }
 
 /* home_ydelser end*/
 
-/* MB Dávis styling start */
+/* MB Dávid styling start */
 .MB_David_text {
   margin: 10%;
 }
@@ -515,6 +515,10 @@ label {
 
   .MB_David_text {
     margin: 10% 20% 10% -10%;
+  }
+
+  .text2 {
+    margin: 0 10% 10% 10%;
   }
   
   .MB_David_img {
