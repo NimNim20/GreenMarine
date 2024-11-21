@@ -26,7 +26,6 @@ html {
 
 
 #mobileHero {
-  background-color: #004a7c;
   color: white;
   height: 50vh; 
   display: flex;
@@ -237,10 +236,16 @@ label {
   background-color: #0b7d3e;
 }
 
+.emne-area {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
 #emne {
   border: 2.5px solid #0f3947;
   border-radius: 5px;
-  width: 31.5%;
+  width: 50%;
   box-sizing: border-box;
 }
 
@@ -478,13 +483,21 @@ label {
     flex-direction: row-reverse;
   }
 /* 
-  .MB_David_text {
+  
+
+  
+
+ 
+  .text2 {
+    margin: 0 10% 10% 10%;
+  }
+   */
+   .home_ydelser_title_text {
     margin: 10% 20% 10% -10%;
   }
-  
-  .MB_David_img {
+  .img_box_home_ydelser {
     margin: 5% 0 10% 10%;
-  } */
+  } 
 }
 
 /* home_ydelser end*/
