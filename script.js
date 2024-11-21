@@ -24,16 +24,17 @@ window.addEventListener('DOMContentLoaded', () => {
   //End of click handling
 
   //Start of scroll handling
+  
   document.querySelectorAll('.scroll-to').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
 
-        // Get the title of the clicked icon
-        const titleToMatch = this.getAttribute('data-title');
+        // Get the title of the clicked icon from the <p class="icon-title">
+        const titleToMatch = this.querySelector('.icon-title').textContent.trim();
 
         // Find the corresponding title element within home_ydelser-title
         const targetTitle = [...document.querySelectorAll('.home_ydelser-title')].find(titleElement => 
-            titleElement.getAttribute('data-title') === titleToMatch
+            titleElement.textContent.trim() === titleToMatch
         );
 
         if (targetTitle) {
@@ -48,6 +49,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
 
 
 
