@@ -13,7 +13,7 @@
                 <img alt="Logo 1" class="logo">
                 <img alt="Logo 2" class="logo">
             </div>
-            <div class="hero-images">
+            <div class="container-fluid">
                 <?php 
                 // Fetch the hero image for the current page using ACF
                 $hero_image = get_field('heroimage'); 
