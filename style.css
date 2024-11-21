@@ -36,6 +36,7 @@ html {
   position: relative;
   padding: 20px;
   background-color: blue;
+  background-image: none;
 }
 
 
@@ -82,7 +83,9 @@ html {
 .heroImages img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the container without distortion */
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .nav {
