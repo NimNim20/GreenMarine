@@ -561,12 +561,6 @@ label {
   height: 100px;
   border: 2px solid #003d6b;
   border-radius: 5px;
-  transition: transform 0.3s ease;
-}
-
-.catalog-images img:hover {
-  transform: scale(1.1);
-  border-color: #005a99;
 }
 
 /* End of trelleborg styling */
