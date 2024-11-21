@@ -19,3 +19,4 @@ function gmd_disable_gutenberg() {
 }
 add_action("init", "gmd_disable_gutenberg");
 
+?>
