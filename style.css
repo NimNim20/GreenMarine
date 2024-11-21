@@ -56,11 +56,6 @@ html {
   height: 40px;
 }
 
-.container-fluid {
-  width: 100%; 
-  overflow: hidden;
-  position: relative; /* Ensure images don't overflow */
-}
 
 .hero-header img {
   width: 100%;
