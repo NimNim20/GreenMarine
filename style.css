@@ -289,12 +289,12 @@ label {
   margin: 10px 0 0 0;
 }
 
-.name-container .wpcf7-form-control.wpcf7-text {
+/* .name-container .wpcf7-form-control.wpcf7-text {
   flex: 1;
   padding: 10px;
   min-width: 0;
   box-sizing: border-box;
-}
+} */
 
 .firma-container {
   display: flex;
