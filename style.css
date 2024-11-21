@@ -218,6 +218,10 @@ label {
   box-sizing: border-box;
 }
 
+.wpcf7-form-control.wpcf7-select label{
+  width: 100%;
+}
+
 .wpcf7-form-control.wpcf7-select option {
   background-color: #0f3947; /* Fixed typo: "color" instead of "colour" */
   color: white;
