@@ -240,7 +240,7 @@ label {
 #emne label{
   border: 2.5px solid #0f3947;
   border-radius: 5px;
-  width: 31.5%;
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -469,14 +469,14 @@ label {
   .home_ydelser:nth-child(even) {
     flex-direction: row-reverse;
   }
-/* 
-  .MB_David_text {
+
+  .home_ydelser_title_text {
     margin: 10% 20% 10% -10%;
   }
   
-  .MB_David_img {
+  .img_box_home_ydelser {
     margin: 5% 0 10% 10%;
-  } */
+  } 
 }
 
 /* home_ydelser end*/
