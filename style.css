@@ -608,6 +608,12 @@ label {
 /* MB Dávid styling end */
 
 
+/* Pontech styling */
+.pontech-text p {
+  margin-bottom: 0;
+}
+
+
 /* Trelleborg styling start */
 /* General Styling */
 #trelleborg-section {

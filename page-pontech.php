@@ -20,7 +20,7 @@
         <div class="row">
           <div class="MB_David">
             <div class="col-12 col-md-6">
-              <div class="MB_David_text">
+              <div class="MB_David_text pontech-text">
                 <h1><?php echo esc_html($Heading); ?></h1>
                 <p><?php echo esc_html($Description); ?></p>
                 <div class="trelleborg-btn-container">
