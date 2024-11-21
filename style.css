@@ -318,7 +318,9 @@ label {
     gap: 10px;
   }
 
-  #emne{
+  #fornavn, #efternavn,
+  #email, #firma, #cvr,
+  #by, #vejnum, #besked, #zip, #emne{
     width: 100%;
   }
 }
