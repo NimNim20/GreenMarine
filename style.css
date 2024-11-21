@@ -484,6 +484,7 @@ label {
   
   .home_ydelser:nth-child(even) {
     flex-direction: row-reverse;
+    margin-right: 10%;
   }
 /* 
   
@@ -496,7 +497,7 @@ label {
   }
    */
    .home_ydelser_title_text {
-    margin: 10% 20% 10% -10%;
+    margin: 0 20% 10% -10%;
   }
   .img_box_home_ydelser {
     margin: 5% 0 10% 10%;
