@@ -241,13 +241,18 @@ label {
   box-sizing: border-box;
 }
 
+#emne {
+  max-width: 300%;
+  width: 266%;
+}
+
 .wpcf7-form-control.wpcf7-select option {
   background-color: #0f3947;
   color: white;
 }
 
 .wpcf7-form-control.wpcf7-textarea {
-  width: 100%;
+  width: 150%;
   max-width: 100%;
   box-sizing: border-box;
 }
