@@ -13,7 +13,7 @@
     <?php
     $heroimg = get_field("img_trel");
     $titel = get_field("titel_trel");
-    $flavortext = get_field("trelleborgtext");
+    $flavortext = get_field("trelleborgtxt");
     $catalogimg = get_field("catalogimg");
     $catalogimg2 = get_field("catalogimg2");
     $catalogimg3 = get_field("catalogimg3");
@@ -26,7 +26,7 @@
 
     <!-- Trelleborg Button -->
     <div class="trelleborg-btn-container">
-        <a href="https://trelleborg.com" class="trelleborg-btn">trelleborg.com</a>
+        <a href="https://trelleborg.com" class="trelleborg-btn">Trelleborg.com</a>
     </div>
 
     <!-- Content -->

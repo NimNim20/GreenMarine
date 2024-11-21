@@ -240,7 +240,7 @@ label {
 #emne {
   border: 2.5px solid #0f3947;
   border-radius: 5px;
-  width: 38.2%;
+  width: 31.5%;
   box-sizing: border-box;
 }
 
@@ -320,12 +320,8 @@ label {
 
   #fornavn, #efternavn,
   #email, #firma, #cvr,
-  #by, #vejnum, #zip, #emne{
+  #by, #vejnum, #zip, #emne, #besked{
     width: 100%;
-  }
-
-  #besked{
-    width: 150%;
   }
 }
 /* Forms styling end */
