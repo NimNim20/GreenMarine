@@ -1,4 +1,10 @@
-<section id="mobileHero"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <section id="mobileHero"
     <?php 
     $hero_image = get_field('heroimage');
     if ($hero_image): 
@@ -29,3 +35,7 @@
         </a>
     </div>
 </section>
+</head>
+<body>
+
+
