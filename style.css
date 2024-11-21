@@ -269,7 +269,7 @@ label {
 #fornavn, #efternavn,
 #email, #firma, #cvr,
 #by, #vejnum, #besked, #zip, #emne {
-  border: 2.5px solid #0f3947;
+  border: 2.5px solid #1A5B99;
   border-radius: 5px;
 }
 
@@ -552,13 +552,14 @@ label {
 .catalog-images {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 20px 0;
 }
 
 .catalog-images img {
-  width: 100px;
-  height: 100px;
+  width: 450px;
+  height: 210px;
   border: 2px solid #003d6b;
   border-radius: 5px;
 }
