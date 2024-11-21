@@ -7,11 +7,11 @@
   </section>
 
   <section id="home_ydelser_icons">
-    <?php get_template_part("template-parts/home_ydelser_icons"); ?>
+    <?php get_template_part("template-parts/home/home_ydelser_icons"); ?>
   </section>
 
   <section id="home_ydelser">
-    <?php get_template_part("template-parts/home_ydelser"); ?>
+    <?php get_template_part("template-parts/home/home_ydelser"); ?>
   </section>
 
 
