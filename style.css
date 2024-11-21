@@ -489,6 +489,7 @@ label {
   
   .home_ydelser:nth-child(even) {
     flex-direction: row-reverse;
+    margin-right: 30%;
   }
 /* 
   
@@ -543,6 +544,7 @@ label {
 
 .MB_David_text p {
   font-family: Lora;
+  margin-bottom: 10%;
 }
 
 .MB_David_img {
@@ -578,7 +580,6 @@ label {
   .MB_David_text h3{
     font-size: 22px;
   }
-
 
   .text2 {
     margin: 0 10% 10% 10%;
