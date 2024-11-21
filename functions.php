@@ -30,7 +30,4 @@ function get_hero_image_url() {
   if (has_post_thumbnail()) {
       return get_the_post_thumbnail_url();
   }
-
-  // Default fallback image
-  return get_template_directory_uri() . '/assets/default-hero.jpg';
 }
