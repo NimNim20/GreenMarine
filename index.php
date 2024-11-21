@@ -1,3 +1,5 @@
 <?php get_header(); ?>
 
-<p>Test</p>
+
+
+<?php get_footer(); ?>
