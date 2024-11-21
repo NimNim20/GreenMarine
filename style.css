@@ -481,7 +481,7 @@ label {
   
   .home_ydelser:nth-child(even) {
     flex-direction: row-reverse;
-    margin-right: 10%;
+    margin-right: 30%;
   }
 /* 
   
