@@ -242,13 +242,6 @@ label {
   width: 100%;
 }
 
-#emne {
-  border: 2.5px solid #0f3947;
-  border-radius: 5px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .name-container {
   display: flex;
   flex-wrap: wrap;
