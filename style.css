@@ -323,12 +323,6 @@ label {
   #by, #vejnum, #besked, #zip, #emne{
     width: 100%;
   }
-
-  .city-info label, 
-  .city-zip label, 
-  .name-container label {
-    width: 100%;
-  }
 }
 /* Forms styling end */
 
