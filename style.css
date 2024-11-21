@@ -365,6 +365,11 @@ label {
     width: 100%;
   }
 
+  #emne, #besked {
+    max-width: 100%;
+    width: 100%;
+  }
+
   label{
     width: 100%;
   }
