@@ -42,7 +42,7 @@
         </div>
 
         <div class="row">
-          <div class="MB_David">
+          <div class="MB_David2">
             <div class="col-12 col-md-6">
               <div class="MB_David_text text2">
                 <h2><?php echo esc_html($servicesHeading); ?></h2>
