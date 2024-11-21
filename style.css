@@ -557,8 +557,8 @@ label {
 }
 
 .catalog-images img {
-  width: 100px;
-  height: 100px;
+  width: 450px;
+  height: 210px;
   border: 2px solid #003d6b;
   border-radius: 5px;
   display: flex;
