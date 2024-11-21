@@ -240,7 +240,7 @@ label {
 #emne {
   border: 2.5px solid #0f3947;
   border-radius: 5px;
-  width: 38.2%;
+  width: 31.5%;
   box-sizing: border-box;
 }
 
@@ -269,7 +269,7 @@ label {
 #fornavn, #efternavn,
 #email, #firma, #cvr,
 #by, #vejnum, #besked, #zip, #emne {
-  border: 2.5px solid #0f3947;
+  border: 2.5px solid #1A5B99;
   border-radius: 5px;
 }
 
@@ -318,7 +318,9 @@ label {
     gap: 10px;
   }
 
-  #emne{
+  #fornavn, #efternavn,
+  #email, #firma, #cvr,
+  #by, #vejnum, #zip, #emne, #besked{
     width: 100%;
   }
 }
@@ -468,6 +470,14 @@ label {
   font-family: Oswald;
 }
 
+.MB_David_text h2 {
+  font-family: Oswald;
+}
+
+.MB_David-text h3 {
+  font-family: Oswald;
+}
+
 .MB_David_text p {
   font-family: Lora;
 }
@@ -480,14 +490,86 @@ label {
   .MB_David {
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
   }
 
   .MB_David_text {
-    margin: 10%;
+    margin: 10% 20% 10% -10%;
   }
   
   .MB_David_img {
-    margin: 10% 0;
+    margin: 5% 0 10% 10%;
   }
 }
 /* MB Dávid styling end */
+
+
+/* Trelleborg styling start */
+/* General Styling */
+#trelleborg-section {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+/* Navigation Buttons */
+#navButtons {
+  margin: 20px 0;
+}
+
+/* Trelleborg Button */
+.trelleborg-btn-container {
+  margin: 20px 0;
+}
+
+.trelleborg-btn {
+  display: inline-block;
+  background-color: #003d6b;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.trelleborg-btn:hover {
+  background-color: #005a99;
+}
+
+/* Content Styling */
+.trelleborg-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.trelleborg-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+/* Catalog Images */
+.catalog-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.catalog-images img {
+  width: 450px;
+  height: 210px;
+  border: 2px solid #003d6b;
+  border-radius: 5px;
+}
+
+/* End of trelleborg styling */

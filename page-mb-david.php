@@ -12,13 +12,17 @@
     <?php
     $Heading = get_field("heading");
     $Description = get_field("description");
-    $davidImg = get_field("david-img");
+    $servicesHeading = get_field("services-heading");
+    $serviceDiving = get_field("service-diving");
+    $divingDescription = get_field("diving-description");
+    $fishfarmHeading = get_field("fishfarm-heading");
+    $fishfarmDescription = get_field("fishfarm-description");
+    $davidImg2 = get_field("david-img2");
     ?>
 
     <section>
       <div class="container-fluid p-0">
         <div class="row">
-
           <div class="MB_David">
             <div class="col-12 col-md-6">
               <div class="MB_David_text">
@@ -33,7 +37,26 @@
               </div>
             </div>
           </div>
+        </div>
 
+        <div class="row">
+          <div class="MB_David">
+            <div class="col-12 col-md-6">
+              <div class="MB_David-text">
+                <h2><?php echo esc_html($servicesHeading); ?></h2>
+                <h3><?php echo esc_html($serviceDiving); ?></h3>
+                <p><?php echo esc_html($divingDescription); ?></p>
+                <h3><?php echo esc_html($fishfarmHeading); ?></h3>
+                <p><?php echo esc_html($fishfarmDescription); ?></p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="MB_David_img">
+                <img src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

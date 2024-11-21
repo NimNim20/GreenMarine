@@ -8,11 +8,40 @@
 
     <section id="navButtons">
     <?php get_template_part("template-parts/navbuttons"); ?>
-  </section>
-<h1>Hello World</h1>
-<p>Testing our clicking functionality</p>
+    </section>
 
+    <?php
+    $heroimg = get_field("img_trel");
+    $titel = get_field("titel_trel");
+    $flavortext = get_field("trelleborgtxt");
+    $catalogimg = get_field("catalogimg");
+    $catalogimg2 = get_field("catalogimg2");
+    $catalogimg3 = get_field("catalogimg3");
+    ?>
+    <section id="trelleborg-section">
+    <!-- Hero Image -->
+    <div class="hero">
+        <img src="<?php echo esc_url($heroimg['url']); ?>" alt="<?php echo esc_attr($heroimg['alt']); ?>" loading="lazy"> 
+    </div>
 
+    <!-- Trelleborg Button -->
+    <div class="trelleborg-btn-container">
+        <a href="https://trelleborg.com" class="trelleborg-btn">Trelleborg.com</a>
+    </div>
+
+    <!-- Content -->
+    <div class="trelleborg-content">
+        <h2><?php echo esc_html($titel); ?></h2>
+        <p><?php echo esc_html($flavortext); ?></p>
+    </div>
+
+    <!-- Catalog Images -->
+    <div class="catalog-images">
+        <img src="<?php echo esc_url($catalogimg['url']); ?>" alt="<?php echo esc_attr($catalogimg['alt']); ?>" loading="lazy"> 
+        <img src="<?php echo esc_url($catalogimg2['url']); ?>" alt="<?php echo esc_attr($catalogimg2['alt']); ?>" loading="lazy"> 
+        <img src="<?php echo esc_url($catalogimg3['url']); ?>" alt="<?php echo esc_attr($catalogimg3['alt']); ?>" loading="lazy"> 
+    </div>
+    </section>
 
     <?php endwhile; ?>
 <?php endif; ?>
