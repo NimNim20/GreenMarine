@@ -15,7 +15,7 @@
 
     <!-- Links Section (top right) -->
     <div class="navLinks">
-        <a href="<?php echo site_url('/kontakt'); ?>">Kontakt</a>
+        <a href="<?php echo site_url('/contact'); ?>">Kontakt</a>
         <a href="<?php echo site_url('/om-os'); ?>">Om os</a>
     </div>
 
