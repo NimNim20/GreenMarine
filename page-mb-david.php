@@ -18,6 +18,7 @@
     $fishfarmHeading = get_field("fishfarm-heading");
     $fishfarmDescription = get_field("fishfarm-description");
     $davidImg2 = get_field("david-img2");
+    $davidImg = get_field("david-img");
     ?>
 
     <section>
