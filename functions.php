@@ -19,3 +19,15 @@ function gmd_disable_gutenberg() {
   remove_post_type_support("post", "editor");
 }
 add_action("init", "gmd_disable_gutenberg");
+
+function get_hero_image_url() {
+  // Check if a custom field for a hero image exists (using ACF or similar)
+  if (function_exists('get_field') && get_field('hero_image')) {
+      return get_field('hero_image'); // URL of the image from ACF
+  }
+
+  // Use featured image if available
+  if (has_post_thumbnail()) {
+      return get_the_post_thumbnail_url();
+  }
+}
