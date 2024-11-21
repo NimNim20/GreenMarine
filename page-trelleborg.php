@@ -13,7 +13,7 @@
     <?php
     $heroimg = get_field("img_trel");
     $titel = get_field("titel_trel");
-    $flavortext = get_field("trelleborgtext");
+    $flavortext = get_field("trelleborgtxt");
     $catalogimg = get_field("catalogimg");
     $catalogimg2 = get_field("catalogimg2");
     $catalogimg3 = get_field("catalogimg3");
@@ -26,7 +26,7 @@
 
     <!-- Trelleborg Button -->
     <div class="trelleborg-btn-container">
-        <a href="https://trelleborg.com" class="trelleborg-btn">trelleborg.com</a>
+        <a href="https://trelleborg.com" class="trelleborg-btn">Trelleborg.com</a>
     </div>
 
     <!-- Content -->
@@ -37,9 +37,9 @@
 
     <!-- Catalog Images -->
     <div class="catalog-images">
-        <img src="<?php echo esc_url($catalogimg); ?>" alt="Catalog 1">
-        <img src="<?php echo esc_url($catalogimg2); ?>" alt="Catalog 2">
-        <img src="<?php echo esc_url($catalogimg3); ?>" alt="Catalog 3">
+        <img src="<?php echo esc_url($catalogimg['url']); ?>" alt="<?php echo esc_attr($catalogimg['alt']); ?>" loading="lazy"> 
+        <img src="<?php echo esc_url($catalogimg2['url']); ?>" alt="<?php echo esc_attr($catalogimg2['alt']); ?>" loading="lazy"> 
+        <img src="<?php echo esc_url($catalogimg3['url']); ?>" alt="<?php echo esc_attr($catalogimg3['alt']); ?>" loading="lazy"> 
     </div>
     </section>
 
