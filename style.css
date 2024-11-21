@@ -561,6 +561,8 @@ label {
   height: 100px;
   border: 2px solid #003d6b;
   border-radius: 5px;
+  display: flex;
+  flex: wrap;
 }
 
 /* End of trelleborg styling */
