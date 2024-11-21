@@ -482,6 +482,7 @@ label {
   .MB_David {
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
   }
 
   .MB_David_text {
