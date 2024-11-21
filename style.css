@@ -27,16 +27,17 @@ html {
 
 #mobileHero {
   color: white;
-  height: 50vh; 
+  height: 50vh; /* Height for mobile */
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
-  padding: 20px;
-  background-color: blue;
-  background-image: none;
+  padding: 15px;
+  background-size: cover;  /* Ensure background image covers the entire section */
+  background-position: center;  /* Center the background image */
+  background-color: #333;  /* Fallback color if image is not available */
 }
 
 
@@ -517,12 +518,12 @@ label {
     margin: 0 10% 10% 10%;
   }
    */
-   .home_ydelser_title_text {
+   /* .home_ydelser_title_text {
     margin: 10% 20% 10% -10%;
   }
   .img_box_home_ydelser {
     margin: 5% 0 10% 10%;
-  } 
+  }  */
 }
 
 /* home_ydelser end*/
