@@ -562,62 +562,62 @@ label {
 
 
 /* MB Dávid styling start */
-.MB_David_text {
+.content-text {
   margin: 10%;
 }
 
-.MB_David_text h1 {
+.content-text h1 {
   font-family: Oswald;
 }
 
-.MB_David_text h2 {
+.content-text h2 {
   font-family: Oswald;
 }
 
-.MB_David_text h3 {
+.content-text h3 {
   font-family: Oswald;
 }
 
-.MB_David_text p {
+.content-text p {
   font-family: Lora;
   margin-bottom: 10%;
 }
 
-.MB_David_img {
+.content_img {
   margin-bottom: 5%;
 }
 
 @media (min-width: 768px) {  
-  .MB_David {
+  .page-content {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     margin-left: 3%;
   }
 
-  .MB_David2 {
+  .page-content2 {
     display: flex;
     align-items: center;
     margin-left: 3%;
   }
 
-  .MB_David_text {
+  .content-text {
     margin: 0% 20% 0% -10%;
   }
 
-  .MB_David_text h1{
+  .content-text h1{
     font-size: 55px;
   }
 
-  .MB_David_text h2{
+  .content-text h2{
     font-size: 45px;
   }
 
-  .MB_David_text h3{
+  .content-text h3{
     font-size: 22px;
   }
 
-  .MB_David_text p {
+  .content-text p {
     margin-bottom: 5%;
   }
 
@@ -625,7 +625,7 @@ label {
     margin: 0 10% 10% 10%;
   }
   
-  .MB_David_img {
+  .content_img {
     margin: 5% 0 10% 10%;
   }
 }

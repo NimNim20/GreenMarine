@@ -24,24 +24,34 @@ window.addEventListener('DOMContentLoaded', () => {
   //End of click handling
 
   //Start of scroll handling
-  document.querySelectorAll('.scroll-to').forEach(anchor => {
+
+document.querySelectorAll('.scroll-to').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
 
-        const titleToMatch = this.getAttribute('data-title');
-        console.log('Clicked title:', titleToMatch);
+     
+        const titleToMatch = this.querySelector('.icon-title').textContent.trim();
 
-        const targetSection = [...document.querySelectorAll('.home_ydelser')].find(section => 
-            section.getAttribute('data-title') === titleToMatch
+   
+        const targetTitle = [...document.querySelectorAll('.home_ydelser-title')].find(titleElement => 
+            titleElement.textContent.trim() === titleToMatch
         );
 
-        if (targetSection) {
-            console.log('Scrolling to:', targetSection); // Debugging line
+        if (targetTitle) {
+         
+            const targetSection = targetTitle.closest('.home_ydelser'); 
+
+            
             window.scrollTo({
-                top: targetSection.offsetTop,
+                top: targetSection.offsetTop - 100,
                 behavior: 'smooth'
             });
         }
     });
 });
+
+
+
+
+
 //End of scroll handling
