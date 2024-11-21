@@ -14,7 +14,7 @@ $loop = new WP_Query(array(
                 $title = get_the_title();
                 $text = get_field("text");
                 $image = get_field("image");
-              
+                $post_id = get_the_ID(); // Unique ID for each post
                 ?>
 
                 <div class="row home_ydelser">
