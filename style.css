@@ -552,6 +552,7 @@ label {
 .catalog-images {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 20px 0;
 }
@@ -561,8 +562,6 @@ label {
   height: 210px;
   border: 2px solid #003d6b;
   border-radius: 5px;
-  display: flex;
-  flex: wrap;
 }
 
 /* End of trelleborg styling */
