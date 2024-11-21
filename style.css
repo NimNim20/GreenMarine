@@ -199,7 +199,8 @@ label {
 .wpcf7-form-control.wpcf7-text,
 .wpcf7-form-control.wpcf7-email,
 .wpcf7-form-control.wpcf7-tel,
-.wpcf7-form-control.wpcf7-number {
+.wpcf7-form-control.wpcf7-number,
+.wpcf7-form-control.wpcf7-select {
   padding: 10px;
   width: 100%;
   max-width: 100%;
@@ -234,10 +235,6 @@ label {
 
 .wpcf7-form-control.wpcf7-submit:hover {
   background-color: #0b7d3e;
-}
-
-.wpcf7-form-control.wpcf7-select {
-  width: 50%;
 }
 
 #emne {
