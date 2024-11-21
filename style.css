@@ -478,13 +478,21 @@ label {
     flex-direction: row-reverse;
   }
 /* 
-  .MB_David_text {
+  
+
+  
+
+ 
+  .text2 {
+    margin: 0 10% 10% 10%;
+  }
+   */
+   .home_ydelser_title_text {
     margin: 10% 20% 10% -10%;
   }
-  
-  .MB_David_img {
+  .img_box_home_ydelser {
     margin: 5% 0 10% 10%;
-  } */
+  } 
 }
 
 /* home_ydelser end*/
