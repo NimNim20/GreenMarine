@@ -18,10 +18,10 @@ $loop = new WP_Query(array(
                 ?>
 
                 <div class="row home_ydelser" data-title="<?php echo $title; ?>"> <!-- c -->
-                    <div class="col-6"> <!-- img_box_home_ydelser -->
+                    <div class="col-6 img_box_home_ydelser"> <!--  -->
                         <img src="<?php echo $image["url"]; ?>" alt="" class="home_ydelser-image" loading="lazy">
                     </div>
-                    <div class="col-6"> <!-- home_ydelser_title_text -->
+                    <div class="col-6 home_ydelser_title_text">
                         <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
                         <p class="home_ydelser_text"><?php echo $text; ?></p>
                     </div>
