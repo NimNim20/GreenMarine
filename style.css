@@ -46,12 +46,6 @@ html {
   align-items: center;
 }
 
-.navLogos {
-  display: flex;
-  justify-content: start;
-  gap: 15px; 
-}
-
 .logo {
   height: 40px;
 }
