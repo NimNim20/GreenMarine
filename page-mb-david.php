@@ -25,16 +25,16 @@
     <section>
       <div class="container-fluid p-0">
         <div class="row">
-          <div class="MB_David">
+          <div class="page-content">
             <div class="col-12 col-md-6">
-              <div class="MB_David_text">
+              <div class="content-text">
                 <h1><?php echo esc_html($Heading); ?></h1>
                 <p><?php echo esc_html($Description); ?></p>
               </div>
             </div>
 
             <div class="col-12 col-md-6">
-              <div class="MB_David_img">
+              <div class="content_img">
                 <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>" loading="lazy"> 
               </div>
             </div>
@@ -42,9 +42,9 @@
         </div>
 
         <div class="row">
-          <div class="MB_David2">
+          <div class="page-content2">
             <div class="col-12 col-md-6">
-              <div class="MB_David_text text2">
+              <div class="content-text text2">
                 <h2><?php echo esc_html($servicesHeading); ?></h2>
                 <h3><?php echo esc_html($serviceDiving); ?></h3>
                 <p><?php echo esc_html($divingDescription); ?></p>
@@ -59,7 +59,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-              <div class="MB_David_img img2">
+              <div class="content_img img2">
                 <img src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
               </div>
             </div>
