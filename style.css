@@ -489,6 +489,20 @@ label {
 
 /* home_ydelser end*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MB Dávid styling start */
 .MB_David_text {
   margin: 10%;
@@ -519,11 +533,31 @@ label {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    margin-left: 3%;
+  }
+
+  .MB_David2 {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
   }
 
   .MB_David_text {
     margin: 10% 20% 10% -10%;
   }
+
+  .MB_David_text h1{
+    font-size: 55px;
+  }
+
+  .MB_David_text h2{
+    font-size: 45px;
+  }
+
+  .MB_David_text h3{
+    font-size: 22px;
+  }
+
 
   .text2 {
     margin: 0 10% 10% 10%;
