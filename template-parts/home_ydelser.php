@@ -17,11 +17,11 @@ $loop = new WP_Query(array(
                 $post_id = get_the_ID(); // Unique ID for each post
                 ?>
 
-                <div class="row home_ydelser" data-title="<?php echo $title; ?>">
-                    <div class="col-6 img_box_home_ydelser">
+                <div class="row" data-title="<?php echo $title; ?>"> <!-- home_ydelser -->
+                    <div class="col-6"> <!-- img_box_home_ydelser -->
                         <img src="<?php echo $image["url"]; ?>" alt="" class="home_ydelser-image" loading="lazy">
                     </div>
-                    <div class="col-6 home_ydelser_title_text">
+                    <div class="col-6"> <!-- home_ydelser_title_text -->
                         <h2 class="home_ydelser-title"><?php echo $title; ?></h2>
                         <p class="home_ydelser_text"><?php echo $text; ?></p>
                     </div>
