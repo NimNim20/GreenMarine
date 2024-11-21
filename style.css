@@ -324,7 +324,9 @@ label {
     width: 100%;
   }
 
-  label{
+  .city-info label, 
+  .city-zip label, 
+  .name-container label {
     width: 100%;
   }
 }
