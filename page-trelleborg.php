@@ -37,9 +37,9 @@
 
     <!-- Catalog Images -->
     <div class="catalog-images">
-        <img src="<?php echo esc_url($catalogimg); ?>" alt="Catalog 1">
-        <img src="<?php echo esc_url($catalogimg2); ?>" alt="Catalog 2">
-        <img src="<?php echo esc_url($catalogimg3); ?>" alt="Catalog 3">
+        <img src="<?php echo esc_url($catalogimg['url']); ?>" alt="<?php echo esc_attr($catalogimg['alt']); ?>" loading="lazy"> 
+        <img src="<?php echo esc_url($catalogimg2['url']); ?>" alt="<?php echo esc_attr($catalogimg2['alt']); ?>" loading="lazy"> 
+        <img src="<?php echo esc_url($catalogimg3['url']); ?>" alt="<?php echo esc_attr($catalogimg3['alt']); ?>" loading="lazy"> 
     </div>
     </section>
 
