@@ -10,7 +10,7 @@ $loop = new WP_Query(array(
 <div class="container">
 
 <div class="titel_på_green_marine">
-    <h1>Green Marine</h1>
+    <h1>Green Marine TEST</h1>
     <h3>Vi tilbuder</h3>
 </div>
 
