@@ -237,10 +237,10 @@ label {
   background-color: #0b7d3e;
 }
 
-#emne {
+#emne label{
   border: 2.5px solid #0f3947;
   border-radius: 5px;
-  width: 31.5%;
+  width: 50%;
   box-sizing: border-box;
 }
 
@@ -544,6 +544,12 @@ label {
     margin-left: 3%;
   }
 
+  .MB_David2 {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+  }
+
   .MB_David_text {
     margin: 10% 20% 10% -10%;
   }
@@ -555,6 +561,11 @@ label {
   .MB_David_text h2{
     font-size: 45px;
   }
+
+  .MB_David_text h3{
+    font-size: 22px;
+  }
+
 
   .text2 {
     margin: 0 10% 10% 10%;

@@ -42,21 +42,21 @@
         </div>
 
         <div class="row">
-          <div class="MB_David">
+          <div class="MB_David2">
             <div class="col-12 col-md-6">
-              <div class="MB_David_img img2">
-                <img src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6">
-             <div class="MB_David_text text2">
+              <div class="MB_David_text text2">
                 <h2><?php echo esc_html($servicesHeading); ?></h2>
                 <h3><?php echo esc_html($serviceDiving); ?></h3>
                 <p><?php echo esc_html($divingDescription); ?></p>
                 <h3><?php echo esc_html($fishfarmHeading); ?></h3>
                 <p><?php echo esc_html($fishfarmDescription); ?></p>
                 <h3><?php echo esc_html($contactText); ?></h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="MB_David_img img2">
+                <img src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
               </div>
             </div>
           </div>
