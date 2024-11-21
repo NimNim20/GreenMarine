@@ -18,6 +18,7 @@
     $fishfarmHeading = get_field("fishfarm-heading");
     $fishfarmDescription = get_field("fishfarm-description");
     $davidImg2 = get_field("david-img2");
+    $davidImg = get_field("david-img");
     ?>
 
     <section>
@@ -25,15 +26,15 @@
         <div class="row">
           <div class="MB_David">
             <div class="col-12 col-md-6">
-              <div class="MB_David_text">
-                <h1><?php echo esc_html($Heading); ?></h1>
-                <p><?php echo esc_html($Description); ?></p>
+              <div class="MB_David_img">
+                <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>" loading="lazy"> 
               </div>
             </div>
 
             <div class="col-12 col-md-6">
-              <div class="MB_David_img">
-                <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>" loading="lazy"> 
+              <div class="MB_David_text">
+                <h1><?php echo esc_html($Heading); ?></h1>
+                <p><?php echo esc_html($Description); ?></p>
               </div>
             </div>
           </div>
