@@ -1,5 +1,4 @@
 
-<?php wp_footer(); ?>
 
 <div class="section footer">
     <div class="container-fluid">
