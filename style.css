@@ -320,12 +320,12 @@ label {
 
   #fornavn, #efternavn,
   #email, #firma, #cvr,
-  #by, #vejnum, #besked, #zip, #emne{
+  #by, #vejnum, #zip, #emne{
     width: 100%;
   }
 
-  label{
-    width: 100%;
+  #besked{
+    width: 150%;
   }
 }
 /* Forms styling end */
