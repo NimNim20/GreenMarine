@@ -598,6 +598,17 @@ label {
   z-index: 999;
 }
 
+.trelleborg-btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.trelleborg-btn a:hover {
+  color: #328847;
+}
+
+
 
 /* Content Styling */
 /* .trelleborg-content h2 {
