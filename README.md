@@ -13,3 +13,4 @@ Wordpress
 PHP
 HTML
 CSS
+JavaScript

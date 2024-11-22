@@ -6,7 +6,6 @@ document.querySelectorAll('.button-grid .btn').forEach(button => {
     // Remove 'clicked' class from all buttons
     document.querySelectorAll('.button-grid .btn').forEach(btn => btn.classList.remove('clicked'));
     
-    // Add 'clicked' class to the current button
     button.classList.add('clicked');
   });
 });
@@ -22,36 +21,3 @@ window.addEventListener('DOMContentLoaded', () => {
 });
   
   //End of click handling
-
-  //Start of scroll handling
-
-document.querySelectorAll('.scroll-to').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-
-     
-        const titleToMatch = this.querySelector('.icon-title').textContent.trim();
-
-   
-        const targetTitle = [...document.querySelectorAll('.home_ydelser-title')].find(titleElement => 
-            titleElement.textContent.trim() === titleToMatch
-        );
-
-        if (targetTitle) {
-         
-            const targetSection = targetTitle.closest('.home_ydelser'); 
-
-            
-            window.scrollTo({
-                top: targetSection.offsetTop - 100,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
-
-
-
-
-
-//End of scroll handling
