@@ -195,6 +195,15 @@ html {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.button-grid .btn a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.button-grid .btn a:hover {
+color: #00ff00;
+}
 
 .content {
   display: flex;
