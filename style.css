@@ -628,8 +628,6 @@ label {
 .catalog-images img {
   width: 450px;
   height: 210px;
-  border: 2px solid #003d6b;
-  border-radius: 5px;
 }
 
 @media (min-width: 768px) {  
