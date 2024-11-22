@@ -166,6 +166,7 @@ html {
   gap: 20px; /* Spacing between buttons */
   justify-content: center; /* Center buttons horizontally */
   margin-top: 20px;
+  font-family: Oswald;
 }
 
 .button-grid .btn {
