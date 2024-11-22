@@ -670,7 +670,7 @@ label {
 
 @media (min-width: 768px) {
   .about-text {
-    margin-left: 5%; 
+    margin: 5%; 
   }
 } 
 
