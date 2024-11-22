@@ -221,6 +221,11 @@ color: #00ff00;
     max-width: calc(25% - 20px);
     font-size: 15px;
     font-weight: normal;
+    transition: background-color 0.3s ease;
+  }
+
+  .button-grid .btn:hover {
+    background-color: #328847;
   }
   .button-grid {
     width: 50%;
@@ -229,14 +234,7 @@ color: #00ff00;
     height: 30%;
   }
 
-  .button-grid .btn a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  .button-grid .btn a:hover {
-    color: #00ff00;
-  }
+
 }
 
 
