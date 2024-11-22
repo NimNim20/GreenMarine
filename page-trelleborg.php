@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="page-content2">
                     <div class="col-12 col-md-6">
-                        <div class="content-text">
+                        <div class="content-text trelleborg-content">
 
                             <h2><?php echo esc_html($titel); ?></h2>
                             <p><?php echo esc_html($flavortext); ?></p>

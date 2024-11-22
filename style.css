@@ -13,7 +13,7 @@ body {
 }
 
 a:hover {
-color: #ffffff !important;
+color: #003d6b !important;
 }
 
 
@@ -544,6 +544,10 @@ label {
   width: 100%;
   height: auto;
 } */
+
+.trelleborg-content {
+  margin-left: 10%; 
+}
 
 /* Navigation Buttons */
 #navButtons {
