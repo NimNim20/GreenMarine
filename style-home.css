@@ -100,7 +100,14 @@ Description: A theme for Green Marine Divers
   .home_ydelser_icon_wrapper {
 
     grid-template-columns: repeat(5, 1fr);
+    max-width: 1100px;
+    padding-bottom: 40px;
     
+  }
+
+  .icon-item {
+    padding-bottom: 25px;
+ 
   }
 
 }
