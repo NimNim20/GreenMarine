@@ -216,7 +216,7 @@ html {
   .nav {
     display: none;
   }
-  #navigationLinks {
+  .navLinks {
     display: none;
   }
 }
