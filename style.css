@@ -216,7 +216,7 @@ html {
   .nav {
     display: none;
   }
-  .navLinks a {
+  #navigationLinks {
     display: none;
   }
 }
@@ -362,7 +362,7 @@ label {
   display: none;
 }
 
-.green-marine-group {
+.gm-group {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
