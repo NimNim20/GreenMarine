@@ -632,6 +632,10 @@ label {
 
 
 /* Front-page styling start */
+.frontpage-content {
+  display: flex;
+  justify-content: center;
+}
 
 .frontpage-text {
   width: 70%;
