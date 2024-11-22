@@ -96,4 +96,11 @@ Description: A theme for Green Marine Divers
     /* padding-left: 10%; */
     margin-left: 5%;
   }
+
+  .home_ydelser_icon_wrapper {
+
+    grid-template-columns: repeat(5, 1fr);
+    
+  }
+
 }
