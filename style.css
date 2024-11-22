@@ -477,6 +477,7 @@ label {
 
 .content_img {
   margin-bottom: 5%;
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {  
@@ -564,7 +565,6 @@ label {
   border-radius: 5px;
   font-size: 16px;
   transition: background-color 0.3s ease;
-  pointer-events: none;
 }
 
 .trelleborg-btn:hover {
