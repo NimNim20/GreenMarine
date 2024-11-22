@@ -228,6 +228,15 @@ color: #00ff00;
     z-index: 2;
     height: 30%;
   }
+
+  .button-grid .btn a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .button-grid .btn a:hover {
+    color: #00ff00;
+  }
 }
 
 
