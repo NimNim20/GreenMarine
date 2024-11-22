@@ -10,9 +10,18 @@
 <div class="navbarBlue">
     <!-- Logo Section (top left) -->
     <div class="navLogos">
-        <img alt="Logo 1" class="logo">
-        <img alt="Logo 2" class="logo">
-    </div>
+    <?php 
+    $logo1 = get_field('logo1');
+    $logo2 = get_field('logo2');
+
+    if ($logo1): ?>
+        <img src="<?php echo esc_url($logo1['url']); ?>" alt="<?php echo esc_attr($logo1['alt']); ?>" class="logo">
+    <?php endif; ?>
+
+    <?php if ($logo2): ?>
+        <img src="<?php echo esc_url($logo2['url']); ?>" alt="<?php echo esc_attr($logo2['alt']); ?>" class="logo">
+    <?php endif; ?>
+</div>
 
     <!-- Links Section (top right) -->
     <div class="navLinks">
