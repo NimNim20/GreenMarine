@@ -103,4 +103,9 @@ Description: A theme for Green Marine Divers
     
   }
 
+  .home_ydelser {
+    display: flex;
+    align-items: center;
+  }
+
 }
