@@ -664,8 +664,10 @@ label {
 /* Om os page start */
 @media (min-width: 768px) {
   .page-about {
-    margin-left: 5%; 
+    margin-left: 5% !important; 
   }
 } 
+
+
 
 /* Om os page end */
