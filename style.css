@@ -165,6 +165,9 @@ html {
   gap: 20px; /* Spacing between buttons */
   justify-content: center; /* Center buttons horizontally */
   margin-top: 20px;
+}
+
+.button-grid a {
   font-family: Oswald;
 }
 
