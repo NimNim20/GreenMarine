@@ -635,6 +635,7 @@ label {
 .frontpage-content {
   display: flex;
   justify-content: center;
+  margin: 5% 0 3% 0;
 }
 
 .frontpage-text {
@@ -649,5 +650,11 @@ label {
 .frontpage-text p {
   font-family: Lora;
 }
+
+@media (min-width: 768px) {
+  .frontpage-text h1 {
+    font-size: 55px;
+  }
+} 
 
 /* Front-page styling end */
