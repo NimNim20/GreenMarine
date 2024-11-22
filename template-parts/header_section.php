@@ -7,6 +7,7 @@
     endif;
     ?>
     >
+<div class="navbarBlue">
     <!-- Logo Section (top left) -->
     <div class="navLogos">
         <img alt="Logo 1" class="logo">
@@ -18,7 +19,7 @@
         <a href="<?php echo site_url('/contact'); ?>">Kontakt</a>
         <a href="<?php echo site_url('/om-os'); ?>">Om os</a>
     </div>
-
+</div>
     <!-- Hero Image Section (Main Content) -->
     <div class="hero-header"></div>
 

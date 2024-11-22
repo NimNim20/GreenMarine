@@ -21,9 +21,9 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 /* Header styling */
-
-
 
 #mobileHero {
   color: white;
@@ -61,6 +61,15 @@ html {
   z-index: 10; /* Ensures logos are above other content */
 }
 
+.navbarBlue {
+  background-color: #007BFF; /* Blue color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 10;
+}
 
 
 /* Hero Image Container */
@@ -477,6 +486,11 @@ label {
 
 .content_img {
   margin-bottom: 5%;
+  pointer-events: none;
+}
+
+.content-img img {
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {  
@@ -518,6 +532,7 @@ label {
   
   .content_img {
     margin: 5% 0 10% 10%;
+    pointer-events: none;
   }
 }
 /* MB Dávid styling end */
@@ -564,6 +579,7 @@ label {
   border-radius: 5px;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  z-index: 999;
 }
 
 .trelleborg-btn:hover {

@@ -89,12 +89,16 @@ Description: A theme for Green Marine Divers
   .home_ydelser_title_text_inder_box{
     width: 650px;
     margin-top: 60px;
-  
   }
 
-  .home_ydelser-image{
+
+  .home_ydelser_title_text_inder_box:nth-child(even) {
+    padding-left: 200px;
+
+  } 
+  /* .home_ydelser-image{
     width: 50px;
-  }
+  } */
 
   /* .home_ydelser{
     
@@ -104,11 +108,8 @@ Description: A theme for Green Marine Divers
     align-items: center; 
     flex-direction: row;
   }
-  
-  .home_ydelser:nth-child(even) {
-    flex-direction: row-reverse;
-    margin-right: 30%;
-  } */
+    */
+
 
   .home_ydelser_boby .container-fluid .row:nth-child(even) {
     flex-direction: row-reverse;
