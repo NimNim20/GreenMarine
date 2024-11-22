@@ -92,7 +92,7 @@ Description: A theme for Green Marine Divers
   }
 
 
-  .home_ydelser:nth-child(even) {
+  .home_ydelser_title_text_inder_box:nth-child(even) {
     padding-left: 15vw;
 
   } 
