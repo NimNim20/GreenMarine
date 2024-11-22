@@ -13,7 +13,7 @@ body {
 }
 
 a:hover {
-color: #ffffff !important;
+color: #003d6b !important;
 }
 
 
@@ -21,9 +21,9 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 /* Header styling */
-
-
 
 #mobileHero {
   color: white;
@@ -48,20 +48,35 @@ html {
   align-items: center;
 }
 
-.logo {
-  height: 40px;
-}
-
-.navLogos {
-  position: absolute;
-  top: 20px; /* Spacing from the top */
-  left: 20px; /* Spacing from the left */
+.navbarBlue {
+  background-color: #007BFF;
   display: flex;
-  gap: 15px;
-  z-index: 10; /* Ensures logos are above other content */
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 10; 
+  height: 60px; 
 }
 
+.navLogos .logo {
+  height: 40px; 
+}
 
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
 
 /* Hero Image Container */
 .hero-header {
@@ -212,11 +227,11 @@ html {
 }
 
 
-@media (max-width : 767px) {
+@media (max-width: 767px) {
   .nav {
     display: none;
   }
-  #navigationLinks {
+  .navLinks {
     display: none;
   }
 }
@@ -477,6 +492,11 @@ label {
 
 .content_img {
   margin-bottom: 5%;
+  pointer-events: none;
+}
+
+.content-img img {
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {  
@@ -484,7 +504,6 @@ label {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    margin-left: 3%;
   }
 
   .page-content2 {
@@ -519,30 +538,32 @@ label {
   
   .content_img {
     margin: 5% 0 10% 10%;
+    pointer-events: none;
   }
 }
 /* MB Dávid styling end */
 
 
-/* Pontech styling */
+/* Pontech styling start */
 .pontech-text p {
   margin-bottom: 0;
 }
+/* Pontech styling end */
 
 
 /* Trelleborg styling start */
 /* General Styling */
-#trelleborg-section {
+/* #trelleborg-section {
   font-family: Arial, sans-serif;
   color: #333;
   text-align: center;
   padding: 20px;
-}
+} */
 
-.hero img {
+/* .hero img {
   width: 100%;
   height: auto;
-}
+} */
 
 /* Navigation Buttons */
 #navButtons {
@@ -564,6 +585,7 @@ label {
   border-radius: 5px;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  z-index: 999;
 }
 
 .trelleborg-btn:hover {
@@ -571,7 +593,7 @@ label {
 }
 
 /* Content Styling */
-.trelleborg-content h2 {
+/* .trelleborg-content h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -581,7 +603,7 @@ label {
   line-height: 1.5;
   margin: 10px auto;
   max-width: 600px;
-}
+} */
 
 /* Catalog Images */
 .catalog-images {
@@ -599,4 +621,40 @@ label {
   border-radius: 5px;
 }
 
+@media (min-width: 768px) {  
+  .trelleborg-content {
+    margin: 10%;
+  }
+}
+
 /* End of trelleborg styling */
+
+
+
+/* Front-page styling start */
+.frontpage-content {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0 2% 0;
+}
+
+.frontpage-text {
+  width: 70%;
+  text-align: center;
+}
+
+.frontpage-text h1{
+  font-family: Oswald;
+}
+
+.frontpage-text p {
+  font-family: Lora;
+}
+
+@media (min-width: 768px) {
+  .frontpage-text h1 {
+    font-size: 55px;
+  }
+} 
+
+/* Front-page styling end */

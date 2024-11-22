@@ -18,20 +18,14 @@
     $catalogimg2 = get_field("catalogimg2");
     $catalogimg3 = get_field("catalogimg3");
     ?>
-    <section id="trelleborg-section">
-        <!-- Hero Image -->
-        <div class="hero">
-            <img src="<?php echo esc_url($heroimg['url']); ?>" alt="<?php echo esc_attr($heroimg['alt']); ?>" loading="lazy"> 
-        </div>
+    <!-- <section id="trelleborg-section"> -->
 
-
-
-        <!-- Content -->
+    
         <div class="container-fluid p-0">
             <div class="row">
-                <div class="page-content">
+                <div class="page-content2">
                     <div class="col-12 col-md-6">
-                        <div class="content-text pontech-text">
+                        <div class="content-text trelleborg-content">
 
                             <h2><?php echo esc_html($titel); ?></h2>
                             <p><?php echo esc_html($flavortext); ?></p>
