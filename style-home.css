@@ -84,6 +84,14 @@ Description: A theme for Green Marine Divers
 
 }
 
+.home_ydelser-title {
+  font-family: Oswald;
+}
+
+.home_ydelser_text {
+  font-family: Lora;
+}
+
 @media (min-width: 768px) {
 
   .home_ydelser_title_text_inder_box{
