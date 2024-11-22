@@ -627,11 +627,16 @@ label {
 
 /* Front-page styling start */
 
-.frontpage-content h1{
+.frontpage-text {
+  width: 70%;
+  text-align: center;
+}
+
+.frontpage-text h1{
   font-family: Oswald;
 }
 
-.frontpage-content p {
+.frontpage-text p {
   font-family: Lora;
 }
 
