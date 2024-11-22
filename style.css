@@ -658,5 +658,14 @@ label {
     font-size: 55px;
   }
 } 
-
 /* Front-page styling end */
+
+
+/* Om os page start */
+@media (min-width: 768px) {
+  .page-about {
+    margin-left: 5%; 
+  }
+} 
+
+/* Om os page end */
