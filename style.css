@@ -545,6 +545,10 @@ label {
   height: auto;
 } */
 
+.trelleborg-content {
+  margin-left: 10%; 
+}
+
 /* Navigation Buttons */
 #navButtons {
   z-index: 999;
