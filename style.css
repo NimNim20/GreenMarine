@@ -546,7 +546,7 @@ label {
 } */
 
 .trelleborg-content {
-  margin-left: 10%; 
+  margin: 0 !important;
 }
 
 /* Navigation Buttons */
