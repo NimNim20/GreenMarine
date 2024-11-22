@@ -484,7 +484,6 @@ label {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    margin-left: 3%;
   }
 
   .page-content2 {
