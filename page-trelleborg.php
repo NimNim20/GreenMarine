@@ -19,28 +19,43 @@
     $catalogimg3 = get_field("catalogimg3");
     ?>
     <section id="trelleborg-section">
-    <!-- Hero Image -->
-    <div class="hero">
-        <img src="<?php echo esc_url($heroimg['url']); ?>" alt="<?php echo esc_attr($heroimg['alt']); ?>" loading="lazy"> 
-    </div>
+        <!-- Hero Image -->
+       
 
-    <!-- Trelleborg Button -->
-    <div class="trelleborg-btn-container">
-        <a href="https://trelleborg.com" class="trelleborg-btn">Trelleborg.com</a>
-    </div>
 
-    <!-- Content -->
-    <div class="trelleborg-content">
-        <h2><?php echo esc_html($titel); ?></h2>
-        <p><?php echo esc_html($flavortext); ?></p>
-    </div>
 
-    <!-- Catalog Images -->
-    <div class="catalog-images">
-        <img src="<?php echo esc_url($catalogimg['url']); ?>" alt="<?php echo esc_attr($catalogimg['alt']); ?>" loading="lazy"> 
-        <img src="<?php echo esc_url($catalogimg2['url']); ?>" alt="<?php echo esc_attr($catalogimg2['alt']); ?>" loading="lazy"> 
-        <img src="<?php echo esc_url($catalogimg3['url']); ?>" alt="<?php echo esc_attr($catalogimg3['alt']); ?>" loading="lazy"> 
-    </div>
+        <!-- Content -->
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="page-content">
+                    <div class="col-12 col-md-6">
+                        <div class="content-text pontech-text">
+
+                            <h2><?php echo esc_html($titel); ?></h2>
+                            <p><?php echo esc_html($flavortext); ?></p>
+
+                            <!-- Trelleborg Button -->
+                            <div class="trelleborg-btn-container">
+                                <a href="https://trelleborg.com" class="trelleborg-btn">Trelleborg.com</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+        <!-- Catalog Images -->
+        <div class="catalog-images">
+            <img src="<?php echo esc_url($catalogimg['url']); ?>" alt="<?php echo esc_attr($catalogimg['alt']); ?>" loading="lazy"> 
+            <img src="<?php echo esc_url($catalogimg2['url']); ?>" alt="<?php echo esc_attr($catalogimg2['alt']); ?>" loading="lazy"> 
+            <img src="<?php echo esc_url($catalogimg3['url']); ?>" alt="<?php echo esc_attr($catalogimg3['alt']); ?>" loading="lazy"> 
+        </div>
     </section>
 
     <?php endwhile; ?>
