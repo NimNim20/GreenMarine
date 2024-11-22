@@ -526,6 +526,7 @@ label {
   
   .content_img {
     margin: 5% 0 10% 10%;
+    pointer-events: none;
   }
 }
 /* MB Dávid styling end */
