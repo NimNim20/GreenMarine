@@ -9,12 +9,6 @@ $loop = new WP_Query(array(
 
 <div class="container">
 
-<div class="titel_på_green_marine">
-    <h1>Green Marine</h1>
-    <h3>Vi tilbuder</h3>
-</div>
-
-
     <div class="container home_ydelser_icon_wrapper">
 
     <?php if($loop->have_posts()): ?>

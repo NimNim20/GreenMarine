@@ -61,6 +61,15 @@ html {
   z-index: 10; /* Ensures logos are above other content */
 }
 
+.navbarBlue {
+  background-color: #007BFF; /* Blue color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 10;
+}
 
 
 /* Hero Image Container */
@@ -613,3 +622,17 @@ label {
 }
 
 /* End of trelleborg styling */
+
+
+
+/* Front-page styling start */
+
+.frontpage-content h1{
+  font-family: Oswald;
+}
+
+.frontpage-content p {
+  font-family: Lora;
+}
+
+/* Front-page styling end */
