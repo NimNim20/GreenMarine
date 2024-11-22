@@ -603,9 +603,8 @@ label {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-
-.trelleborg-btn a:hover {
-  color: #328847;
+.trelleborg-btn a:hover  {
+  color: #328847 !important;
 }
 
 
