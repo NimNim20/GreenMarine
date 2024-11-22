@@ -78,13 +78,18 @@ Description: A theme for Green Marine Divers
   margin-top: 60px;
 }
 
-.home_ydelser_title_text{
+.home_ydelser_title_text_inder_box{
   width: 350px;
   padding-left: 38px;
 
 }
 
 @media (min-width: 768px) {  
+
+  .home_ydelser_title_text_inder_box{
+    width: 650px;
+  
+  }
 
   /* .home_ydelser{
     
