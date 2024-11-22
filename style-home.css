@@ -92,26 +92,10 @@ Description: A theme for Green Marine Divers
   }
 
 
-  .home_ydelser_title_text_inder_box:nth-child(even) {
-    padding-left: 200px;
-
-  } 
-  /* .home_ydelser-image{
-    width: 50px;
-  } */
-
-  /* .home_ydelser{
-    
-  } */
-  /* .home_ydelser {
-    display: flex;
-    align-items: center; 
-    flex-direction: row;
-  }
-    */
 
 
   .home_ydelser_boby .container-fluid .row:nth-child(even) {
     flex-direction: row-reverse;
+    padding-left: 200px;
   }
 }
