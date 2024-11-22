@@ -668,10 +668,21 @@ label {
 
 
 /* Om os page start */
+.about-text h1 {
+  font-size: 55px;
+  font-family: Oswald;
+}
+
+.about-text p {
+  font-family: Lora;
+}
+
 @media (min-width: 768px) {
-  .page-about {
-    margin-left: 5%; 
+  .about-text {
+    margin: 5%; 
   }
 } 
+
+
 
 /* Om os page end */

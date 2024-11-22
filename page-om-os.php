@@ -17,7 +17,7 @@
         <div class="row">
           <div class="page-content2">
             <div class="col-12 col-md-6">
-              <div class="content-text page-about">
+              <div class="about-text">
                 <h1><?php echo esc_html($Heading); ?></h1>
                 <p><?php echo esc_html($Description); ?></p>
               </div>
