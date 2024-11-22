@@ -33,8 +33,6 @@
       </div>
     </section>
 
-    <!-- Section to Showcase PDFs -->
-
 
     <?php endwhile; ?>
 <?php endif; ?>
