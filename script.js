@@ -24,30 +24,30 @@ window.addEventListener('DOMContentLoaded', () => {
 
   //Start of scroll handling
 
-document.querySelectorAll('.scroll-to').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
+// document.querySelectorAll('.scroll-to').forEach(anchor => {
+//     anchor.addEventListener('click', function(e) {
+//         e.preventDefault();
 
      
-        const titleToMatch = this.querySelector('.icon-title').textContent.trim();
+//         const titleToMatch = this.querySelector('.icon-title').textContent.trim();
 
    
-        const targetTitle = [...document.querySelectorAll('.home_ydelser-title')].find(titleElement => 
-            titleElement.textContent.trim() === titleToMatch
-        );
+//         const targetTitle = [...document.querySelectorAll('.home_ydelser-title')].find(titleElement => 
+//             titleElement.textContent.trim() === titleToMatch
+//         );
 
-        if (targetTitle) {
+//         if (targetTitle) {
          
-            const targetSection = targetTitle.closest('.home_ydelser'); 
+//             const targetSection = targetTitle.closest('.home_ydelser'); 
 
             
-            window.scrollTo({
-                top: targetSection.offsetTop - 100,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
+//             window.scrollTo({
+//                 top: targetSection.offsetTop - 100,
+//                 behavior: 'smooth'
+//             });
+//         }
+//     });
+// });
 
 
 
