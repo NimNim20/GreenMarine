@@ -15,8 +15,10 @@
       <div class="row">
         <div class="col-12">
           <div class="frontpage-content">
-            <h1><?php echo esc_html($Heading); ?></h1>
-            <p><?php echo esc_html($Description); ?></p>
+            <div class="frontpage-text">
+              <h1><?php echo esc_html($Heading); ?></h1>
+              <p><?php echo esc_html($Description); ?></p>
+            </div>
           </div>
         </div>
       </div>
