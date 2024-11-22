@@ -49,7 +49,7 @@ html {
 }
 
 .navbarBlue {
-  background-color: #007BFF;
+  background-color: #1A5B99;
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -116,7 +116,7 @@ html {
 
 .kontaktButton {
   background-color: white;
-  color: #004a7c;
+  color: #1A5B99;
   font-size: 1rem;
   font-weight: bold;
   padding: 10px 20px;
@@ -186,7 +186,7 @@ html {
   color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #1e88e5;
+  background-color: #1A5B99;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-sizing: border-box;
 }
