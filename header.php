@@ -8,3 +8,5 @@
 </head>
 <body <?php body_class() ?>>
 <?php get_template_part("template-parts/header_section"); ?>
+
+<?php wp_footer(); ?>
