@@ -229,13 +229,13 @@ color: #00ff00;
     height: 30%;
   }
 
-  .button-grid .btn a {
+  .button-grid a {
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
   }
-  .button-grid .btn a:hover {
-    color: #00ff00;
+  .button-grid a:hover {
+    color: #328847;
   }
 }
 
