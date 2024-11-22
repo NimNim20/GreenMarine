@@ -188,6 +188,7 @@ html {
 }
 
 
+
 /* Media Query for Desktop */
 @media (min-width: 768px) {
 
@@ -213,6 +214,9 @@ html {
 
 @media (max-width : 767px) {
   .nav {
+    display: none;
+  }
+  #navigationLinks {
     display: none;
   }
 }
@@ -542,6 +546,7 @@ label {
 
 /* Navigation Buttons */
 #navButtons {
+  z-index: 999;
   margin: 20px 0;
 }
 
