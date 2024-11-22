@@ -602,16 +602,6 @@ label {
   background-color: #328847;
 }
 
-.trelleborg-btn-container a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.trelleborg-btn-container a:hover {
-  color: #fff;
-}
-
 /* Content Styling */
 /* .trelleborg-content h2 {
   font-size: 24px;
