@@ -13,7 +13,6 @@ body {
 }
 
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -149,11 +148,11 @@ html {
   text-decoration: none;
   font-weight: bold;
   font-size: 16px; /* Adjust font size */
-  transition: color 0.3s ease;
+  transition: text-decoration 0.3s ease;
 }
 
 .navLinks a:hover {
-  color: #328847; /* Change to desired hover color */
+  text-decoration: underline;
 }
 
 
@@ -596,15 +595,11 @@ label {
   border-radius: 5px;
   font-size: 16px;
   z-index: 999;
+  transition: background-color 0.3s ease;
 }
 
-.trelleborg-btn a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-.trelleborg-btn a:hover  {
-  color: #328847 !important;
+.trelleborg-btn:hover {
+  background-color: #328847;
 }
 
 
