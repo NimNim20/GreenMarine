@@ -18,14 +18,14 @@
     $catalogimg2 = get_field("catalogimg2");
     $catalogimg3 = get_field("catalogimg3");
     ?>
-    <section id="trelleborg-section">
+    <!-- <section id="trelleborg-section"> -->
 
     
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="page-content">
                     <div class="col-12 col-md-6">
-                        <div class="content-text pontech-text">
+                        <div class="content-text">
 
                             <h2><?php echo esc_html($titel); ?></h2>
                             <p><?php echo esc_html($flavortext); ?></p>
