@@ -72,10 +72,6 @@ html {
   transition: background-color 0.3s ease;
 }
 
-.navLinks a:hover {
-  background-color: #00ff00;
-  text-decoration: underline;
-}
 
 /* Hero Image Container */
 .hero-header {
@@ -195,6 +191,15 @@ html {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.button-grid .btn a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.button-grid .btn a:hover {
+color: #00ff00;
+}
 
 .content {
   display: flex;
@@ -222,6 +227,15 @@ html {
     margin-top: -5%;
     z-index: 2;
     height: 30%;
+  }
+
+  .button-grid .btn a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .button-grid .btn a:hover {
+    color: #00ff00;
   }
 }
 
