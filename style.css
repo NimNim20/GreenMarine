@@ -21,9 +21,9 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 /* Header styling */
-
-
 
 #mobileHero {
   color: white;
@@ -477,6 +477,7 @@ label {
 
 .content_img {
   margin-bottom: 5%;
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {  
@@ -518,6 +519,7 @@ label {
   
   .content_img {
     margin: 5% 0 10% 10%;
+    pointer-events: none;
   }
 }
 /* MB Dávid styling end */
@@ -564,6 +566,7 @@ label {
   border-radius: 5px;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  z-index: 999;
 }
 
 .trelleborg-btn:hover {
