@@ -29,3 +29,5 @@
         </a>
     </div>
 </section>
+
+<?php wp_footer(); ?>
