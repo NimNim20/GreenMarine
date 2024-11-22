@@ -545,10 +545,6 @@ label {
   height: auto;
 } */
 
-.trelleborg-content {
-  margin: 0 !important;
-}
-
 /* Navigation Buttons */
 #navButtons {
   z-index: 999;
@@ -602,6 +598,12 @@ label {
   height: 210px;
   border: 2px solid #003d6b;
   border-radius: 5px;
+}
+
+@media (min-width: 768px) {  
+  .trelleborg-content {
+    margin: 0; 
+  }
 }
 
 /* End of trelleborg styling */
