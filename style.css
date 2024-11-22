@@ -186,7 +186,11 @@ html {
   display: flex;
   justify-content: center;
 }
-
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+} 
 
 /* Media Query for Desktop */
 @media (min-width: 768px) {
