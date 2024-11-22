@@ -20,9 +20,7 @@
     ?>
     <section id="trelleborg-section">
         <!-- Hero Image -->
-        <div class="hero">
-            <img src="<?php echo esc_url($heroimg['url']); ?>" alt="<?php echo esc_attr($heroimg['alt']); ?>" loading="lazy"> 
-        </div>
+       
 
 
 
