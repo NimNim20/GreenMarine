@@ -606,3 +606,17 @@ label {
 }
 
 /* End of trelleborg styling */
+
+
+
+/* Front-page styling start */
+
+.frontpage-content h1{
+  font-family: Oswald;
+}
+
+.frontpage-content p {
+  font-family: Lora;
+}
+
+/* Front-page styling end */
