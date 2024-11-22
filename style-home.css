@@ -93,6 +93,7 @@ Description: A theme for Green Marine Divers
 
   .home_ydelser_boby .container-fluid .row:nth-child(even) {
     flex-direction: row-reverse;
-    padding-left: 10%;
+    /* padding-left: 10%; */
+    margin-left: 5%;
   }
 }
