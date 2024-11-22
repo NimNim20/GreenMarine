@@ -212,7 +212,7 @@ html {
 }
 
 
-@media (max-width : 767px) {
+@media (max-width: 767px) {
   .nav {
     display: none;
   }
@@ -532,17 +532,17 @@ label {
 
 /* Trelleborg styling start */
 /* General Styling */
-#trelleborg-section {
+/* #trelleborg-section {
   font-family: Arial, sans-serif;
   color: #333;
   text-align: center;
   padding: 20px;
-}
+} */
 
-.hero img {
+/* .hero img {
   width: 100%;
   height: auto;
-}
+} */
 
 /* Navigation Buttons */
 #navButtons {
@@ -571,7 +571,7 @@ label {
 }
 
 /* Content Styling */
-.trelleborg-content h2 {
+/* .trelleborg-content h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -581,7 +581,7 @@ label {
   line-height: 1.5;
   margin: 10px auto;
   max-width: 600px;
-}
+} */
 
 /* Catalog Images */
 .catalog-images {

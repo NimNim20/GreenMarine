@@ -19,12 +19,8 @@
     $catalogimg3 = get_field("catalogimg3");
     ?>
     <section id="trelleborg-section">
-        <!-- Hero Image -->
-       
 
-
-
-        <!-- Content -->
+    
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="page-content">
