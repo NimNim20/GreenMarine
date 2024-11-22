@@ -484,7 +484,6 @@ label {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    margin-left: 3%;
   }
 
   .page-content2 {
@@ -545,10 +544,6 @@ label {
   height: auto;
 } */
 
-.trelleborg-content {
-  margin-left: 10%; 
-}
-
 /* Navigation Buttons */
 #navButtons {
   z-index: 999;
@@ -602,6 +597,12 @@ label {
   height: 210px;
   border: 2px solid #003d6b;
   border-radius: 5px;
+}
+
+@media (min-width: 768px) {  
+  .trelleborg-content {
+    margin: 10%;
+  }
 }
 
 /* End of trelleborg styling */
