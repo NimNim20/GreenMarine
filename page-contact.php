@@ -6,7 +6,7 @@
     <?php get_template_part("template-parts/navbuttons"); ?>
   </section>
   <section class="contactForm">
-    <?php echo do_shortcode ('[cf7form cf7key="greenmarinecontact"]'); ?>
+    <?php echo do_shortcode ('[contact-form-7 id="75513d2" title="GreenMarineContact"]'); ?>
   </section>
 
   <?php endwhile; ?>
