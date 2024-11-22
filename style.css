@@ -72,10 +72,6 @@ html {
   transition: background-color 0.3s ease;
 }
 
-.navLinks a:hover {
-  background-color: #00ff00;
-  text-decoration: underline;
-}
 
 /* Hero Image Container */
 .hero-header {
