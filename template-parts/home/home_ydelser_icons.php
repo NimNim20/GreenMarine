@@ -9,12 +9,6 @@ $loop = new WP_Query(array(
 
 <div class="container">
 
-<div class="titel_på_green_marine">
-    <h1>Green Marine</h1>
-    <h3>Vi tilbuder</h3>
-</div>
-
-
     <div class="container home_ydelser_icon_wrapper">
 
     <?php if($loop->have_posts()): ?>
@@ -27,7 +21,7 @@ $loop = new WP_Query(array(
             ?>
 
             <div class="icon-item">
-                <a href="#" class="scroll-to" data-title="<?php echo $title; ?>">
+                <a href="#<?php echo $title; ?>" data-title="<?php echo $title; ?>">
                     <img src="<?php echo $image["url"]; ?>" alt="" class="icon-image">
                 </a>
                 <p class="icon-title"><?php echo $title; ?></p>

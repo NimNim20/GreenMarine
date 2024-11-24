@@ -12,18 +12,14 @@ body {
   margin: 0;
 }
 
-a:hover {
-color: #ffffff !important;
-}
-
 
 html {
   scroll-behavior: smooth;
 }
 
+
+
 /* Header styling */
-
-
 
 #mobileHero {
   color: white;
@@ -48,19 +44,32 @@ html {
   align-items: center;
 }
 
-.logo {
-  height: 40px;
-}
-
-.navLogos {
-  position: absolute;
-  top: 20px; /* Spacing from the top */
-  left: 20px; /* Spacing from the left */
+.navbarBlue {
+  background-color: #1A5B99;
   display: flex;
-  gap: 15px;
-  z-index: 10; /* Ensures logos are above other content */
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 10; 
+  height: 60px; 
 }
 
+.navLogos .logo {
+  height: 40px; 
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
 
 
 /* Hero Image Container */
@@ -101,7 +110,7 @@ html {
 
 .kontaktButton {
   background-color: white;
-  color: #004a7c;
+  color: #1A5B99;
   font-size: 1rem;
   font-weight: bold;
   padding: 10px 20px;
@@ -139,11 +148,11 @@ html {
   text-decoration: none;
   font-weight: bold;
   font-size: 16px; /* Adjust font size */
-  transition: color 0.3s ease;
+  transition: text-decoration 0.3s ease;
 }
 
 .navLinks a:hover {
-  color: #00ff00; /* Change to desired hover color */
+  text-decoration: underline;
 }
 
 
@@ -156,6 +165,10 @@ html {
   gap: 20px; /* Spacing between buttons */
   justify-content: center; /* Center buttons horizontally */
   margin-top: 20px;
+}
+
+.button-grid a {
+  font-family: Oswald;
 }
 
 .button-grid .btn {
@@ -171,7 +184,7 @@ html {
   color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #1e88e5;
+  background-color: #1A5B99;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-sizing: border-box;
 }
@@ -181,11 +194,21 @@ html {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.button-grid .btn a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.button-grid .btn a:hover {
+color: #00ff00;
+}
 
 .content {
   display: flex;
   justify-content: center;
 }
+
 
 
 /* Media Query for Desktop */
@@ -201,6 +224,11 @@ html {
     max-width: calc(25% - 20px);
     font-size: 15px;
     font-weight: normal;
+    transition: background-color 0.3s ease;
+  }
+
+  .button-grid .btn:hover {
+    background-color: #328847;
   }
   .button-grid {
     width: 50%;
@@ -208,11 +236,16 @@ html {
     z-index: 2;
     height: 30%;
   }
+
+
 }
 
 
-@media (max-width : 767px) {
+@media (max-width: 767px) {
   .nav {
+    display: none;
+  }
+  .navLinks {
     display: none;
   }
 }
@@ -359,7 +392,7 @@ label {
   display: none;
 }
 
-.green-marine-group {
+.gm-group {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
@@ -456,137 +489,6 @@ label {
 /* Footer styling end */ 
 
 
-/* home_ydelser_icons start */ 
-
-.titel_på_green_marine{
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 20px;
-}
-
-.home_ydelser_icon_wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
-  background-color: #ffffff;
-}
-
-.icon-item {
-  padding-top: 25px;
-  text-align: center;
-  background: #ffffff;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.icon-item:hover {
-  transform: translateY(-1.5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.icon-image {
-  width: 90px;
-  height: 90px;
-  margin-bottom: 5px;
-}
-
-.icon-title {
-  font-size: 16px;
-  color: #000000;
-  margin: 0;
-}
-
-/* home_ydelser_icons end */ 
-
-/* home_ydelser stard*/
-
-.home_ydelser:nth-child(odd) {
-  background-color: #F5F5F5;
-}
-
-.home_ydelser:nth-child(even) {
-  background-color: white;
-}
-
-.home_ydelser{
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-
-.home_ydelser-image{
-  width: 350px;
-  height: 350px;
-}
-
-.img_box_home_ydelser{
- 
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: 60px;
-}
-
-.home_ydelser_title_text{
-  width: 350px;
-  padding-left: 38px;
-
-}
-
-@media (min-width: 768px) {  
-
-  /* .home_ydelser{
-    
-  } */
-  /* .home_ydelser {
-    display: flex;
-    align-items: center; 
-    flex-direction: row;
-  }
-  
-  .home_ydelser:nth-child(even) {
-    flex-direction: row-reverse;
-    margin-right: 30%;
-  } */
-
-  .home_ydelser_boby .container-fluid .row:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-/* 
-  
-
-  
-
- 
-  .text2 {
-    margin: 0 10% 10% 10%;
-  }
-   */
-   /* .home_ydelser_title_text {
-    margin: 10% 20% 10% -10%;
-  }
-  .img_box_home_ydelser {
-    margin: 5% 0 10% 10%;
-  }  */
-}
-
-/* home_ydelser end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MB Dávid styling start */
 .content-text {
   margin: 10%;
@@ -611,6 +513,11 @@ label {
 
 .content_img {
   margin-bottom: 5%;
+  pointer-events: none;
+}
+
+.content-img img {
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {  
@@ -618,7 +525,6 @@ label {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    margin-left: 3%;
   }
 
   .page-content2 {
@@ -653,33 +559,36 @@ label {
   
   .content_img {
     margin: 5% 0 10% 10%;
+    pointer-events: none;
   }
 }
 /* MB Dávid styling end */
 
 
-/* Pontech styling */
+/* Pontech styling start */
 .pontech-text p {
   margin-bottom: 0;
 }
+/* Pontech styling end */
 
 
 /* Trelleborg styling start */
 /* General Styling */
-#trelleborg-section {
+/* #trelleborg-section {
   font-family: Arial, sans-serif;
   color: #333;
   text-align: center;
   padding: 20px;
-}
+} */
 
-.hero img {
+/* .hero img {
   width: 100%;
   height: auto;
-}
+} */
 
 /* Navigation Buttons */
 #navButtons {
+  z-index: 999;
   margin: 20px 0;
 }
 
@@ -696,15 +605,16 @@ label {
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 16px;
+  z-index: 999;
   transition: background-color 0.3s ease;
 }
 
 .trelleborg-btn:hover {
-  background-color: #005a99;
+  background-color: #328847;
 }
 
 /* Content Styling */
-.trelleborg-content h2 {
+/* .trelleborg-content h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -714,7 +624,7 @@ label {
   line-height: 1.5;
   margin: 10px auto;
   max-width: 600px;
-}
+} */
 
 /* Catalog Images */
 .catalog-images {
@@ -728,8 +638,62 @@ label {
 .catalog-images img {
   width: 450px;
   height: 210px;
-  border: 2px solid #003d6b;
-  border-radius: 5px;
+}
+
+@media (min-width: 768px) {  
+  .trelleborg-content {
+    margin: 10%;
+  }
 }
 
 /* End of trelleborg styling */
+
+
+
+/* Front-page styling start */
+.frontpage-content {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0 2% 0;
+}
+
+.frontpage-text {
+  width: 70%;
+  text-align: center;
+}
+
+.frontpage-text h1{
+  font-family: Oswald;
+}
+
+.frontpage-text p {
+  font-family: Lora;
+}
+
+@media (min-width: 768px) {
+  .frontpage-text h1 {
+    font-size: 55px;
+  }
+} 
+/* Front-page styling end */
+
+
+/* Om os page start */
+.about-text h1 {
+  font-size: 55px;
+  font-family: Oswald;
+}
+
+.about-text p {
+  font-family: Lora;
+}
+
+@media (min-width: 768px) {
+  .about-text {
+    margin: 10%; 
+  }
+} 
+
+
+
+/* Om os page end */
