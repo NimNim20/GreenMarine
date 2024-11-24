@@ -400,6 +400,10 @@ label {
   margin: 10px 0 0 0;
 }
 
+.wpcf7-list-item first{
+  margin: 0;
+}
+
 /* Media Query for iPhone 14 Pro Max */
 @media screen and (max-width: 430px) {
   .reqTxt {
