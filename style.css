@@ -4,6 +4,7 @@ Author: Helena Kjeld, Ida Ballegaard, Simon Nyblom, Benjamin Vid Gard
 Description: A theme for Green Marine Divers 
 */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
@@ -11,7 +12,9 @@ body {
   background-color: #ffffff;
   margin: 0;
 }
-
+.row {
+  --bs-gutter-x: 0 !important;
+}
 
 html {
   scroll-behavior: smooth;
