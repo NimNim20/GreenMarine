@@ -597,6 +597,14 @@ label {
   z-index: 999;
 }
 
+.trelleborg-btn a {
+  transition: text-decoration 0.3s ease;
+}
+
+.trelleborg-btn a:hover {
+  text-decoration: underline;
+}
+
 /* Content Styling */
 /* .trelleborg-content h2 {
   font-size: 24px;
