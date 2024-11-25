@@ -45,7 +45,7 @@ html {
 }
 
 .navbarBlue {
-  background-color: #1A5B99;
+  background-color: #1A2541;
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -55,11 +55,11 @@ html {
   left: 0;
   width: 100%; 
   z-index: 10; 
-  height: 60px; 
+  height: 80px; 
 }
 
 .navLogos .logo {
-  height: 40px; 
+  height: 70px; 
 }
 
 .navLinks a {
@@ -136,7 +136,6 @@ html {
 
 .navLinks {
   position: absolute;
-  top: 20px;
   right: 20px;
   display: flex;
   gap: 20px; /* Adds spacing between links */
@@ -182,7 +181,7 @@ html {
   text-decoration: none;
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #1A5B99;
+  background-color: #1A2541;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-sizing: border-box;
 }
@@ -597,11 +596,14 @@ label {
   border-radius: 5px;
   font-size: 16px;
   z-index: 999;
-  transition: background-color 0.3s ease;
 }
 
-.trelleborg-btn:hover {
-  background-color: #328847;
+.trelleborg-btn a {
+  transition: text-decoration 0.3s ease;
+}
+
+.trelleborg-btn a:hover {
+  text-decoration: underline;
 }
 
 /* Content Styling */
@@ -688,3 +690,59 @@ label {
 
 
 /* Om os page end */
+
+
+
+/* PDF Styling */
+
+  #pdfList {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+#pdfList h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#pdfList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#pdfList ul li {
+    margin-bottom: 10px;
+}
+
+
+#pdfList ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+
+#pdfList ul li a:hover {
+    color: #0056b3;
+    text-shadow: 0px 0px 5px rgba(0, 91, 187, 0.8);
+}
+
+
+#pdfList ul li {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+/* PDF Styling end */
