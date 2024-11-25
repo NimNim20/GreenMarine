@@ -598,12 +598,12 @@ label {
   z-index: 999;
 }
 
-.trelleborg-btn-container a {
+.trelleborg-btn a {
   transition: text-decoration 0.3s ease;
 }
 
-.trelleborg-btn-container a:hover {
-  text-decoration: underline;
+.trelleborg-btn a:hover {
+  text-decoration: underline !important;
 }
 
 /* Content Styling */
