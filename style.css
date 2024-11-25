@@ -596,6 +596,11 @@ label {
   border-radius: 5px;
   font-size: 16px;
   z-index: 999;
+  transition: color 0.3s ease;
+}
+
+.trelleborg-btn :hover {
+  color: #FFF;
 }
 
 .trelleborg-btn-container a {
