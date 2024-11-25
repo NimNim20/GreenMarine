@@ -354,7 +354,7 @@ label {
   border-radius: 5px;
 }
 
-#greenmarine {
+#greenmarine, #mb-dropdown, #services {
   max-width: 200%;
   width: 175%;
   border: 2.5px solid #1A5B99;
