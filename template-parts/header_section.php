@@ -15,7 +15,7 @@
     $logo2 = get_field('logo2');
 
     if ($logo1): ?>
-        <img src="<?php echo esc_url($logo1['url']); ?>" alt="<?php echo esc_attr($logo1['alt']); ?>" class="logo">
+       <a href="<?php echo site_url('/')?>"><img src="<?php echo esc_url($logo1['url']); ?>" alt="<?php echo esc_attr($logo1['alt']); ?>" class="logo"></a>
     <?php endif; ?>
 
     <?php if ($logo2): ?>
