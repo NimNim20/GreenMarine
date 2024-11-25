@@ -16,8 +16,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-
+/* Trying to remove the bootstrap hover */
+a:hover {
+  color: #FFF !important;
+}
 
 /* Header styling */
 
@@ -596,12 +598,8 @@ label {
   border-radius: 5px;
   font-size: 16px;
   z-index: 999;
-  transition: color 0.3s ease;
 }
 
-.trelleborg-btn :hover {
-  color: #FFF !important;
-}
 
 .trelleborg-btn-container a {
   transition: text-decoration 0.3s ease;
