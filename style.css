@@ -687,3 +687,59 @@ label {
 
 
 /* Om os page end */
+
+
+
+/* PDF Styling */
+
+  #pdfList {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+#pdfList h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#pdfList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#pdfList ul li {
+    margin-bottom: 10px;
+}
+
+
+#pdfList ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+
+#pdfList ul li a:hover {
+    color: #0056b3;
+    text-shadow: 0px 0px 5px rgba(0, 91, 187, 0.8);
+}
+
+
+#pdfList ul li {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+/* PDF Styling end */
