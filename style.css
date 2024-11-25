@@ -4,6 +4,7 @@ Author: Helena Kjeld, Ida Ballegaard, Simon Nyblom, Benjamin Vid Gard
 Description: A theme for Green Marine Divers 
 */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
@@ -11,13 +12,17 @@ body {
   background-color: #ffffff;
   margin: 0;
 }
-
+.row {
+  --bs-gutter-x: 0 !important;
+}
 
 html {
   scroll-behavior: smooth;
 }
-
-
+/* Trying to remove the bootstrap hover */
+a:hover {
+  color: #FFF !important;
+}
 
 /* Header styling */
 
@@ -187,7 +192,7 @@ html {
 }
 
 .button-grid .btn.clicked {
-  background-color: #328847;
+  background-color: #1B9938;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -198,7 +203,7 @@ html {
 }
 
 .button-grid .btn a:hover {
-color: #00ff00;
+color: #1B9938;
 }
 
 .content {
@@ -225,7 +230,7 @@ color: #00ff00;
   }
 
   .button-grid .btn:hover {
-    background-color: #328847;
+    background-color: #1B9938;
   }
   .button-grid {
     width: 50%;
@@ -328,7 +333,7 @@ label {
 }
 
 .wpcf7-form-control.wpcf7-submit:hover {
-  background-color: #0b7d3e;
+  background-color: #1B9938;
 }
 
 .name-container {
@@ -430,7 +435,7 @@ label {
 /* Footer styling start */ 
 .footer {
   padding: 12%;
-  background-color: #1A5B99;
+  background-color: #1A2541;
   color: white;
 }
 
@@ -454,7 +459,7 @@ label {
 @media (min-width: 768px) {
   .footer {
     padding: 7% 7% 3% 7%;
-    background-color: #1A5B99;
+    background-color: #1A2541;
     color: white;
     display: flex;
     flex-direction: row;
@@ -520,7 +525,6 @@ label {
   .page-content2 {
     display: flex;
     align-items: center;
-    margin-left: 3%;
   }
 
   .content-text {
@@ -579,7 +583,6 @@ label {
 /* Navigation Buttons */
 #navButtons {
   z-index: 999;
-  margin: 20px 0;
 }
 
 /* Trelleborg Button */
@@ -598,12 +601,13 @@ label {
   z-index: 999;
 }
 
+
 .trelleborg-btn-container a {
   transition: text-decoration 0.3s ease;
 }
 
 .trelleborg-btn-container a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 /* Content Styling */
@@ -696,10 +700,10 @@ label {
 /* PDF Styling */
 
   #pdfList {
-    background-color: #f9f9f9;
+    background-color: #F5F5F5;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(58, 58, 58, 0.1);
     width: 100%;
     max-width: 500px;
     margin: auto;
@@ -729,13 +733,13 @@ label {
     text-decoration: none;
     font-size: 18px;
     color: #007bff;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
+    transition: color 0.3s ease, text-decoration 0.3s ease !important;
 }
 
 
 #pdfList ul li a:hover {
-    color: #0056b3;
-    text-shadow: 0px 0px 5px rgba(0, 91, 187, 0.8);
+ color: #003d6b !important;
+ text-decoration: underline;
 }
 
 
