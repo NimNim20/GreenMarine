@@ -734,12 +734,12 @@ label {
     text-decoration: none;
     font-size: 18px;
     color: #007bff;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
+    transition: color 0.3s ease, text-decoration 0.3s ease !important;
 }
 
 
 #pdfList ul li a:hover {
- color: #003d6b;
+ color: #003d6b !important;
  text-decoration: underline;
 }
 
