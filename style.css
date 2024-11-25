@@ -352,14 +352,15 @@ label {
 #fornavn, #efternavn,
 #email, #firma, #cvr,
 #by, #vejnum, #besked, 
-#zip, #emne, #greenmarine {
+#zip, #emne {
   border: 2.5px solid #1A5B99;
   border-radius: 5px;
 }
 
 #greenmarine {
   width: 100%;
-  
+  border: 2.5px solid #1A5B99;
+  border-radius: 5px;
 }
 
 .city-zip{
