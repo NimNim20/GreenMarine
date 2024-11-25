@@ -600,7 +600,7 @@ label {
 }
 
 .trelleborg-btn :hover {
-  color: #FFF;
+  color: #FFF !important;
 }
 
 .trelleborg-btn-container a {
