@@ -22,9 +22,9 @@
                 <div class="col-6 col-md-3">
                     <div class="footer-gap">
                         <h3>Kontakt</h3>
-                        <p>Kontaktformular</p>
-                        <p>Tlf: +298 770060</p>
-                        <p>Mail: hk@gmd.fo</p>
+                        <a href="<?php echo site_url('/contact'); ?>"><p>Kontaktformular</p></a>
+                        <a href="tel:+298770060"><p>Tlf: +298 770060</p></a>
+                        <a href="mailto:hk@gmd.fo"><p>Mail: hk@gmd.fo</p></a>
                     </div>
                 </div>
             
