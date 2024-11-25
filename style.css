@@ -55,7 +55,7 @@ html {
   left: 0;
   width: 100%; 
   z-index: 10; 
-  height: 60px; 
+  height: 80px; 
 }
 
 .navLogos .logo {
@@ -182,7 +182,7 @@ html {
   text-decoration: none;
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #1A5B99;
+  background-color: #1A2541;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-sizing: border-box;
 }
