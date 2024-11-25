@@ -230,7 +230,7 @@ color: #1B9938;
   }
 
   .button-grid .btn:hover {
-    background-color: #328847;
+    background-color: #1B9938;
   }
   .button-grid {
     width: 50%;
@@ -333,7 +333,7 @@ label {
 }
 
 .wpcf7-form-control.wpcf7-submit:hover {
-  background-color: #0b7d3e;
+  background-color: #1B9938;
 }
 
 .name-container {
