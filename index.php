@@ -33,7 +33,9 @@
     <?php get_template_part("template-parts/home/home_ydelser"); ?>
   </section>
 
-
+  <section id="scrollToTopBtn">
+    <?php get_template_part ("template-parts/scrolltotop"); ?>
+  </section>
 
   <?php endwhile; ?>
 <?php endif; ?>
