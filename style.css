@@ -360,10 +360,18 @@ label {
 }
 
 #greenmarine, #mb-dropdown, #services {
-  max-width: 200%;
+  max-width: 500%;
   width: 175%;
   border: 2.5px solid #1A5B99;
   border-radius: 5px;
+}
+
+#mb-dropdown {
+  width: 395%;
+}
+
+#services {
+  width: 270%;
 }
 
 .city-zip{
