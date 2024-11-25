@@ -181,7 +181,6 @@ html {
   font-weight: bold;
   text-decoration: none;
   color: white;
-  border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #1A5B99;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
