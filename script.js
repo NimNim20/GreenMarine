@@ -21,8 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
   
   //End of click handling
-
-
+  
 // Scroll to Top Button Functionality
 document.addEventListener("DOMContentLoaded", () => {
   const scrollToTopBtn = document.getElementById('scrollToTopBtn');
@@ -44,4 +43,3 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   };
 });
-
