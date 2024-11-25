@@ -480,6 +480,9 @@ label {
   .footer-gap {
     margin-bottom: 25%;
   }
+  .footer-gap a {
+    color: white;
+  }
 }
 /* Footer styling end */ 
 
