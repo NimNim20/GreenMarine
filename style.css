@@ -482,6 +482,7 @@ label {
   }
   .footer-gap a {
     color: white;
+    text-decoration: none;
   }
 }
 /* Footer styling end */ 
