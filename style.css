@@ -408,6 +408,10 @@ label {
   margin: 10px 0 0 0;
 }
 
+#trelleborg-check {
+  margin: 0 0 2% 0;
+}
+
 /* Media Query for iPhone 14 Pro Max */
 @media screen and (max-width: 430px) {
   .reqTxt {
@@ -438,6 +442,7 @@ label {
   #trelleborg-check{
     width: 100%;
     padding: 0 20px
+    margin: 0;
   }
 
   label{
