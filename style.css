@@ -366,7 +366,7 @@ label {
   padding: 10px 20px;
   margin-bottom: 25px;
   width: auto; /* Allow flexibility */
-  max-width: 125px;
+  max-width: 175px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-align: center;
