@@ -326,6 +326,10 @@ label {
 .wpcf7-list-item {
   display: flex; /* Align checkbox and label inline */
   align-items: center;
+  margin: 0 0 5px 15px;
+}
+
+.wpcf7-list-item.first{
   margin: 0 0 5px 0;
 }
 
@@ -442,6 +446,7 @@ label {
 
 #trelleborg-check {
   margin: 0 0 2% 0;
+  display: flex;
 }
 
 /* Media Query for iPhone 14 Pro Max */
