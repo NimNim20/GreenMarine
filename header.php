@@ -7,4 +7,9 @@
     <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
+
+    <div class="lang"> 
+        <?php pll_the_languages() ?>
+    </div>
+
 <?php get_template_part("template-parts/header_section"); ?>
