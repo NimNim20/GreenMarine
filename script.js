@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // Scroll detection
     window.addEventListener('scroll', () => {
         const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-        if (scrollPosition > 20) {
+        if (scrollPosition > 45) {
             scrollToTopBtn.style.display = 'block'; // Show button
         } else {
             scrollToTopBtn.style.display = 'none'; // Hide button
