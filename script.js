@@ -45,4 +45,13 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
   });
+  //End of Scroll to Top Button Functionality
+
+  // Burger menu functionality start
+
+  document.querySelector('.burgerButton').addEventListener('click', () => {
+    const navLinks = document.querySelector('.navLinks');
+    navLinks.classList.toggle('active'); // Toggles the `active` class
+  });
+  //End of Burger menu functionality
   
