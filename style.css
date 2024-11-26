@@ -655,6 +655,11 @@ label {
   pointer-events: none;
 }
 
+.img-text {
+  font-family: Lora;
+  color: grey;
+}
+
 @media (min-width: 768px) {  
   .page-content {
     display: flex;
@@ -695,6 +700,7 @@ label {
     margin: 5% 0 10% 10%;
     pointer-events: none;
   }
+
 }
 /* MB Dávid styling end */
 
