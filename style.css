@@ -291,6 +291,9 @@ color: #1B9938;
   .burgerMenu {
     display: block; /* Show burger menu */
   }
+  .navLinks a {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
