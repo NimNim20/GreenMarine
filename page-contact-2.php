@@ -2,11 +2,6 @@
 
 <?php if(have_posts()) : ?>
   <?php while(have_posts()) : the_post(); ?>
-
-  <?php
-    $formtext = get_field('formtext');
-  ?>
-
   <section id="navButtons">
     <?php get_template_part("template-parts/navbuttons"); ?>
   </section>
