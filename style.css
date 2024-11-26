@@ -376,6 +376,11 @@ label {
   background-color: #1B9938;
 }
 
+.ContactHeader {
+  font-size: 2.25rem;
+  font-family: Oswald;
+}
+
 .name-container {
   display: flex;
   flex-wrap: wrap;
