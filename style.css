@@ -297,6 +297,39 @@ label {
   box-sizing: border-box;
 }
 
+/* Style the checkbox container */
+.wpcf7-form-control.wpcf7-checkbox {
+  margin: 10px 0; /* Add space around the checkbox */
+}
+
+/* Style the checkbox itself */
+.wpcf7-checkbox input[type="checkbox"] {
+  width: 20px; /* Set size */
+  height: 20px; /* Set size */
+  accent-color: #007BFF; /* Modern browsers: Change the color */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Style the checkbox label text */
+.wpcf7-list-item-label {
+  font-size: 16px;
+  color: #333;
+  margin-left: 8px; /* Space between checkbox and label */
+}
+
+/* Add hover effect to the label */
+.wpcf7-list-item label:hover .wpcf7-list-item-label {
+  color: #007BFF;
+}
+
+/* Add spacing between items in a group */
+.wpcf7-list-item {
+  display: flex; /* Align checkbox and label inline */
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
 .wpcf7-form-control.wpcf7-list-item{
   display: flex;
   margin: 0;
