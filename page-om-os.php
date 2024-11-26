@@ -36,7 +36,9 @@
 
             <div class="col-12 col-md-6">
               <div class="content_img about-images">
-                <img class="about-img1" src="<?php echo esc_url($aboutImg['url']); ?>" alt="<?php echo esc_attr($aboutImg['alt']); ?>" loading="lazy">
+                <div class= "about-img1">
+                  <img src="<?php echo esc_url($aboutImg['url']); ?>" alt="<?php echo esc_attr($aboutImg['alt']); ?>" loading="lazy">
+                </div>
                 <img src="<?php echo esc_url($aboutImg2['url']); ?>" alt="<?php echo esc_attr($aboutImg2['alt']); ?>" loading="lazy">  
               </div>
             </div>
