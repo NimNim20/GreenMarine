@@ -31,7 +31,6 @@
                 <p><?php echo esc_html($Description4); ?></p>
                 <p><?php echo esc_html($Description5); ?></p>
                 <p><?php echo esc_html($Description6); ?></p>
-                <p><?php echo esc_html($Description6); ?></p>
               </div>
             </div>
 
