@@ -843,10 +843,10 @@ label {
 
 /* Style for Scroll to Top Button */
 .scroll-to-top {
+  display: block !important;
   position: absolute;
   bottom: 20px;
   left: 20px;
-  display: none; 
   background-color: #007BFF;
   color: white;
   border: none;
