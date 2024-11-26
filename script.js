@@ -49,9 +49,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Burger menu functionality start
 
-  document.querySelector('.burgerButton').addEventListener('click', () => {
-    const navLinks = document.querySelector('.navLinks');
-    navLinks.classList.toggle('active'); // Toggles the `active` class
-  });
+// Select the burger button and dropdown menu
+const burgerButton = document.querySelector('.burgerButton');
+const dropdown = document.querySelector('.burgerMenu .dropdown');
+
+// Add a click event listener to toggle the dropdown menu
+burgerButton.addEventListener('click', () => {
+  dropdown.classList.toggle('active'); // Toggle 'active' class
+});
+
   //End of Burger menu functionality
   
