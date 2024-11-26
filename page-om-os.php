@@ -9,6 +9,9 @@
     <?php
     $Heading = get_field("heading");
     $Description = get_field("description");
+    $Description2 = get_field("description2");
+    $Description3 = get_field("description3");
+    $Description4 = get_field("description4");
     $aboutImg = get_field ("about_image");
     ?>
 
@@ -20,6 +23,9 @@
               <div class="about-text">
                 <h1><?php echo esc_html($Heading); ?></h1>
                 <p><?php echo esc_html($Description); ?></p>
+                <p><?php echo esc_html($Description2); ?></p>
+                <p><?php echo esc_html($Description3); ?></p>
+                <p><?php echo esc_html($Description4); ?></p>
               </div>
             </div>
 
