@@ -33,7 +33,7 @@
     <?php get_template_part("template-parts/home/home_ydelser"); ?>
   </section>
 
-  <section id="scrollToTopBtn">
+  <section id="scrolltotopbutton">
     <?php get_template_part ("template-parts/scrolltotop"); ?>
   </section>
 
