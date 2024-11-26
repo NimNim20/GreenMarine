@@ -843,10 +843,10 @@ label {
 
 /* Style for Scroll to Top Button */
 .scroll-to-top {
-  display: block !important;
-  position: absolute;
+  position: fixed;
   bottom: 20px;
-  left: 20px;
+  right: 20px; 
+  display: none;
   background-color: #007BFF;
   color: white;
   border: none;
@@ -856,22 +856,18 @@ label {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   z-index: 1000;
-  animation: jump 2s infinite; 
+  animation: jump 2s infinite;
 }
 
-/* Button hover effect */
 .scroll-to-top:hover {
   background-color: #0056b3;
 }
 
-/* Keyframes for jump animation */
 @keyframes jump {
   0%, 100% {
       transform: translateY(0);
   }
   50% {
-      transform: translateY(-10px); 
+      transform: translateY(-10px);
   }
 }
-
-/* End of Scroll to top button */
