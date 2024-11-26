@@ -329,15 +329,6 @@ label {
   margin-bottom: 5px;
 }
 
-
-.wpcf7-form-control.wpcf7-list-item{
-  display: flex;
-  margin: 0;
-  height: 75px;
-  justify-content: center;
-  align-items: center;
-}
-
 .Form-container {
   margin: 5% 0 5% 2%;
 }
