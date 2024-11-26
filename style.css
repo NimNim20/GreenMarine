@@ -503,6 +503,10 @@ label {
     margin: 0 0 10px 15px;
   }
 
+  .ContactHeader {
+    font-size: 1.50rem;
+  }
+
   label{
     width: 100%;
   }
