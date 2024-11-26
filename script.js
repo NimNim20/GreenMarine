@@ -27,20 +27,22 @@ window.addEventListener('DOMContentLoaded', () => {
   document.addEventListener("DOMContentLoaded", () => {
     const scrollToTopBtn = document.getElementById('scrollToTopBtn');
   
-    // Show the button when user scrolls down 20px
-    window.onscroll = function () {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            scrollToTopBtn.style.display = 'block'; // Show the button
+    // Scroll detection
+    window.addEventListener('scroll', () => {
+        const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollPosition > 20) {
+            scrollToTopBtn.style.display = 'block'; // Show button
         } else {
-            scrollToTopBtn.style.display = 'none'; // Hide the button
+            scrollToTopBtn.style.display = 'none'; // Hide button
         }
-    };
+    });
   
-    // Scroll to top smoothly when button is clicked
-    window.scrollToTop = function () {
+    // Smooth scroll to top
+    scrollToTopBtn.addEventListener('click', () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
-    };
+    });
   });
+  
