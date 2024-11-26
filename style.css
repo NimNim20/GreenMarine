@@ -306,7 +306,7 @@ label {
 .wpcf7-checkbox input[type="checkbox"] {
   width: 20px; /* Set size */
   height: 20px; /* Set size */
-  accent-color: #007BFF; /* Modern browsers: Change the color */
+  accent-color: #1A2541; /* Modern browsers: Change the color */
   cursor: pointer; /* Change cursor to pointer */
 }
 
@@ -319,7 +319,7 @@ label {
 
 /* Add hover effect to the label */
 .wpcf7-list-item label:hover .wpcf7-list-item-label {
-  color: #007BFF;
+  color: #1A2541;
 }
 
 /* Add spacing between items in a group */
