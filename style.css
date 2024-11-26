@@ -12,6 +12,7 @@ body {
   background-color: #ffffff;
   margin: 0;
 }
+/*Removing bootstrap's custom styling*/
 .row {
   --bs-gutter-x: 0 !important;
 }
@@ -768,3 +769,6 @@ label {
 }
 
 /* PDF Styling end */
+
+
+

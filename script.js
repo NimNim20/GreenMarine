@@ -21,3 +21,4 @@ window.addEventListener('DOMContentLoaded', () => {
 });
   
   //End of click handling
+  
