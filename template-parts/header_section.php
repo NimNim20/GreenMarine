@@ -1,12 +1,14 @@
 <section id="mobileHero"
     <?php 
     $hero_image = get_field('heroimage');
-    if ($hero_image): 
+    if (is_array($hero_image) && isset($hero_image['url'])) { 
         $hero_image_url = esc_url($hero_image['url']);
         echo 'style="background-image: url(' . $hero_image_url . '); background-size: cover; background-position: center;"'; 
-    endif;
+    } else {
+        echo 'style="background-color: #f4f4f4;"';
+    }
     ?>
-    >
+>
 <div class="navbarBlue">
     <!-- Logo Section (top left) -->
     <div class="navLogos">
