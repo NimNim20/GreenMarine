@@ -312,7 +312,7 @@ label {
 
 /* Style the checkbox label text */
 .wpcf7-list-item-label {
-  font-size: 20px;
+  font-size: 26px;
   color: #333;
   margin-left: 8px; /* Space between checkbox and label */
 }
@@ -485,13 +485,13 @@ label {
   }
 
   .wpcf7-list-item {
-    display: flex; /* Align checkbox and label inline */
+    display: flex;
     align-items: center;
-    margin: 0 0 5px 15px;
+    margin: 0 0 10px 15px;
   }
   
   .wpcf7-list-item.first{
-    margin: 0 0 5px 15px;
+    margin: 0 0 10px 15px;
   }
 
   label{
