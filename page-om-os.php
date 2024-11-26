@@ -15,6 +15,7 @@
     $Description5 = get_field("description5");
     $Description6 = get_field("description6");
     $aboutImg = get_field ("about_image");
+    $aboutImg2 = get_field ("about_image2");
     ?>
 
     <section>
@@ -30,12 +31,14 @@
                 <p><?php echo esc_html($Description4); ?></p>
                 <p><?php echo esc_html($Description5); ?></p>
                 <p><?php echo esc_html($Description6); ?></p>
+                <p><?php echo esc_html($Description6); ?></p>
               </div>
             </div>
 
             <div class="col-12 col-md-6">
               <div class="content_img">
-                <img src="<?php echo esc_url($aboutImg['url']); ?>" alt="<?php echo esc_attr($aboutImg['alt']); ?>" loading="lazy"> 
+                <img src="<?php echo esc_url($aboutImg['url']); ?>" alt="<?php echo esc_attr($aboutImg['alt']); ?>" loading="lazy">
+                <img src="<?php echo esc_url($aboutImg2['url']); ?>" alt="<?php echo esc_attr($aboutImg2['alt']); ?>" loading="lazy">  
               </div>
             </div>
           </div>
