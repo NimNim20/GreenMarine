@@ -139,22 +139,40 @@ a:hover {
   text-decoration: none;
   color: white;
 }
+.burgerMenu {
+  position: relative;
+}
+
+.burgerButton {
+  display: none; /* Hidden by default */
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
 
 .navLinks {
+  display: flex;
+  gap: 20px; 
   position: absolute;
   right: 20px;
-  display: flex;
-  gap: 20px; /* Adds spacing between links */
+  background-color: #333;
+  padding: 10px;
+  flex-direction: column; 
+  display: none; 
 }
 
 .navLinks a {
-  color: #fff; /* Link color */
+  color: white;
   text-decoration: none;
+  font-size: 16px;
+  margin: 10px 0;
   font-weight: bold;
-  font-size: 16px; /* Adjust font size */
-  transition: text-decoration 0.3s ease;
+  transition: background-color 0.3s ease;
 }
-
 .navLinks a:hover {
   text-decoration: underline;
 }
@@ -245,11 +263,17 @@ color: #1B9938;
 
 
 @media (max-width: 767px) {
-  .nav {
-    display: none;
+  .burgerButton {
+    display: block; /* Show the burger button on small screens */
   }
   .navLinks {
-    display: none;
+    right: 0;
+    top: 40px; /* Adjust to position below the button */
+    display: none; /* Default hidden state for the dropdown menu */
+    width: 100%; /* Full width dropdown */
+  }
+  .navLinks.active {
+    display: flex; /* Show menu when active class is added */
   }
 }
 /* 4 boxes after header styling end */
