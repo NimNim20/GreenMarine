@@ -825,6 +825,11 @@ label {
   font-family: Lora;
 }
 
+.about-images {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 768px) {
   .about-text {
     margin: 10%; 
