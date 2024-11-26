@@ -484,6 +484,16 @@ label {
     flex-direction: column;
   }
 
+  .wpcf7-list-item {
+    display: flex; /* Align checkbox and label inline */
+    align-items: center;
+    margin: 0 0 5px 15px;
+  }
+  
+  .wpcf7-list-item.first{
+    margin: 0 0 5px 15px;
+  }
+
   label{
     width: 100%;
   }
