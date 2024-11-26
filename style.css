@@ -657,7 +657,7 @@ label {
 
 .img-text {
   font-family: Lora;
-  color: red;
+  color: gray;
 }
 
 @media (min-width: 768px) {  
