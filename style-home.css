@@ -125,3 +125,11 @@ Description: A theme for Green Marine Divers
   }
 
 } 
+
+/* Om os styling start */
+.about-images {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Om os styling end */
