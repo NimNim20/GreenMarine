@@ -12,6 +12,8 @@
     $Description2 = get_field("description2");
     $Description3 = get_field("description3");
     $Description4 = get_field("description4");
+    $Description5 = get_field("description5");
+    $Description6 = get_field("description6");
     $aboutImg = get_field ("about_image");
     ?>
 
@@ -26,6 +28,8 @@
                 <p><?php echo esc_html($Description2); ?></p>
                 <p><?php echo esc_html($Description3); ?></p>
                 <p><?php echo esc_html($Description4); ?></p>
+                <p><?php echo esc_html($Description5); ?></p>
+                <p><?php echo esc_html($Description6); ?></p>
               </div>
             </div>
 
