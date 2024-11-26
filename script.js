@@ -24,23 +24,23 @@ window.addEventListener('DOMContentLoaded', () => {
   
 
   // Scroll to Top Button Functionality
-document.addEventListener("DOMContentLoaded", () => {
-  const scrollToTopBtn = document.getElementById('scrollToTopBtn');
-
-  // Show the button when user scrolls down 20px
-  window.onscroll = function() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          scrollToTopBtn.style.display = 'block';
-      } else {
-          scrollToTopBtn.style.display = 'none';
-      }
-  };
-
-  // Scroll to top smoothly when button is clicked
-  window.scrollToTop = function() {
-      window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-      });
-  };
-});
+  document.addEventListener("DOMContentLoaded", () => {
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+  
+    // Show the button when user scrolls down 20px
+    window.onscroll = function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = 'block'; // Show the button
+        } else {
+            scrollToTopBtn.style.display = 'none'; // Hide the button
+        }
+    };
+  
+    // Scroll to top smoothly when button is clicked
+    window.scrollToTop = function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+  });
