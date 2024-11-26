@@ -326,7 +326,7 @@ label {
 .wpcf7-list-item {
   display: flex; /* Align checkbox and label inline */
   align-items: center;
-  margin-bottom: 5px;
+  margin: 0 0 5px 0;
 }
 
 .Form-container {
