@@ -30,7 +30,8 @@
     <div class="lang"> 
             <?php 
                 pll_the_languages(array(
-                'show_flags' => -1
+                'show_flags' => 1,
+                'show_names' => 0
             )); 
             ?>
         </div>
