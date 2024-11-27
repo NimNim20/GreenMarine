@@ -60,3 +60,12 @@ burgerButton.addEventListener('click', () => {
 
   //End of Burger menu functionality
   
+
+// Start of carousel auto slide //
+var myCarousel = document.querySelector('#customCarousel');
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 5000,
+  wrap: true
+});
+
+// End of carousel auto slide //
