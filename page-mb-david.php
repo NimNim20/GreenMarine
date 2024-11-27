@@ -53,7 +53,7 @@
                 <h3><?php echo esc_html($contactText); ?></h3>
 
                 <div class="trelleborg-btn-container">
-                  <a href="<?php echo site_url('/contact')?>" class="trelleborg-btn">Kontakt</a>
+                  <a href="<?php echo site_url('/contact')?>" class="trelleborg-btn"><?php pll_e("Kontakt") ?></a>
                 </div>
               </div>
             </div>
