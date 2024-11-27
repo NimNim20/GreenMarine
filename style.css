@@ -839,6 +839,9 @@ label {
 .contact-us {
   font-family: Oswald;
   color:#1A2541;
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
 }
 
 @media (min-width: 768px) {
