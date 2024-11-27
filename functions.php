@@ -15,7 +15,7 @@ function gmd_load_resources() {
 add_action("wp_enqueue_scripts", "gmd_load_resources");
 
 function pll_register_string() {
-  pll_register_string("trelleborg", "Ingen tilgængelige PDFer")
+  pll_register_string("trelleborg", "Ingen tilgængelige PDFer");
 }
 add_action("init", "pll_register_string");
 
