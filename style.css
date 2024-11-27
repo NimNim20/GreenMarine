@@ -29,6 +29,13 @@ body {
 
 
 
+/* carousel styling */
+.carousel-item img {
+  height: auto;
+}
+.carousel-item .col-md-4 {
+  padding: 5px;
+}
 
 
 

@@ -53,7 +53,7 @@
                             wp_reset_postdata();
                         else :
                         ?>
-                            <li>No PDFs available.</li>
+                            <li><?php pll_e ("Ingen tilgængelige PDF'er.") ?></li>
                         <?php endif; ?>
                     </ul>
                 </div>
