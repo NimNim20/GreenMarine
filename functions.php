@@ -35,6 +35,7 @@ function gmd_register_strings() {
   pll_register_string("header-section", "KONTAKT");
   pll_register_string("page-mb-david", "Kontakt");
   pll_register_string("mb-david", "Kontakt");
+  pll_register_string("pontech", "Pontech's side");
 }
 
 add_action("init", "gmd_register_strings");
