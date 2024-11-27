@@ -20,3 +20,8 @@ function gmd_disable_gutenberg() {
 }
 add_action("init", "gmd_disable_gutenberg");
 
+function pll_register_strings() {
+  pll_register_string("footer", "Adresse");
+}
+
+add_action("init", "pll_register_strings");
