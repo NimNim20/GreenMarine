@@ -4,13 +4,13 @@
     <div class="carousel-item active">
       <div class="row">
         <div class="col-12 col-md-4">
-          <img src="image1.jpg" class="d-block w-100" alt="...">
+        <img src="<?php echo esc_url($pontechImg['url']); ?>" alt="<?php echo esc_attr($pontechImg['alt']); ?>" loading="lazy"> 
         </div>
         <div class="col-12 col-md-4">
-          <img src="image2.jpg" class="d-block w-100" alt="...">
+        <img src="<?php echo esc_url($pontechImg['url']); ?>" alt="<?php echo esc_attr($pontechImg['alt']); ?>" loading="lazy"> 
         </div>
         <div class="col-12 col-md-4">
-          <img src="image3.jpg" class="d-block w-100" alt="...">
+        <img src="<?php echo esc_url($pontechImg['url']); ?>" alt="<?php echo esc_attr($pontechImg['alt']); ?>" loading="lazy"> 
         </div>
       </div>
     </div>
@@ -18,13 +18,13 @@
     <div class="carousel-item">
       <div class="row">
         <div class="col-12 col-md-4">
-          <img src="image4.jpg" class="d-block w-100" alt="...">
+        <img src="<?php echo esc_url($pontechImg['url']); ?>" alt="<?php echo esc_attr($pontechImg['alt']); ?>" loading="lazy"> 
         </div>
         <div class="col-12 col-md-4">
-          <img src="image5.jpg" class="d-block w-100" alt="...">
+        <img src="<?php echo esc_url($pontechImg['url']); ?>" alt="<?php echo esc_attr($pontechImg['alt']); ?>" loading="lazy"> 
         </div>
         <div class="col-12 col-md-4">
-          <img src="image6.jpg" class="d-block w-100" alt="...">
+        <img src="<?php echo esc_url($pontechImg['url']); ?>" alt="<?php echo esc_attr($pontechImg['alt']); ?>" loading="lazy"> 
         </div>
       </div>
     </div>
