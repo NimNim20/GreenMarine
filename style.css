@@ -785,6 +785,8 @@ label {
   font-size: 16px;
   z-index: 999;
   font-family: Oswald;
+  display: flex;
+  align-items: center;
 }
 
 .contact-btn {
@@ -792,7 +794,8 @@ label {
   background-color:#1A2541;
   color: #fff;
   text-decoration: none;
-
+  display: flex;
+  align-items: center;
   border-radius: 5px;
   font-size: 16px;
   z-index: 999;
