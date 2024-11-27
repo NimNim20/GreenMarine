@@ -37,7 +37,7 @@
         </div>
     <!-- Desktop Navigation -->
     <div class="navLinks">
-        <a href="<?php echo site_url('/contact'); ?>"><?php pll_e("Kontakt") ?></a>
+        <a href="<?php echo site_url('/kontakt'); ?>"><?php pll_e("Kontakt") ?></a>
         <a href="<?php echo site_url('/om-os'); ?>"><?php pll_e("Om os") ?></a>
     </div>
 
@@ -45,7 +45,7 @@
     <div class="burgerMenu">
         <button class="burgerButton">☰</button>
         <div class="dropdown">
-            <a href="<?php echo site_url('/contact'); ?>"><?php pll_e("Kontakt") ?></a>
+            <a href="<?php echo site_url('/kontakt'); ?>"><?php pll_e("Kontakt") ?></a>
             <a href="<?php echo site_url('/om-os'); ?>"><?php pll_e("Om os") ?></a>
         </div>
     </div>
@@ -55,11 +55,4 @@
 </div>
     <!-- Hero Image Section (Main Content) -->
     <div class="hero-header"></div>
-
-    <!-- Hero Footer with 'KONTAKT' button -->
-    <div class="hero-footer">
-        <a href="<?php echo site_url('/contact'); ?>">
-            <button class="kontaktButton"><?php pll_e("KONTAKT") ?></button>
-        </a>
-    </div>
 </section>
