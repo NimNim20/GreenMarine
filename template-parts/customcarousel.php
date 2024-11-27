@@ -4,7 +4,7 @@ if (have_rows('carousel_field', get_the_ID())) : ?>
   <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <?php
-      $slide_index = 0; // To track the active slide.
+      $slide_index = 1; // To track the active slide.
       while (have_rows('carousel_field', get_the_ID())) : the_row();
         $carousel_images = get_field('carouselimage'); // ACF Image Field (should be array).
         $alt_text = get_field('alt_text'); // Alt text for the image.
