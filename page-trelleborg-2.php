@@ -7,7 +7,7 @@
     <?php while(have_posts()) : the_post(); ?>
 
     <section id="navButtons">
-      <?php get_template_part("template-parts/navbuttonstrans"); ?>
+      <?php get_template_part("template-parts/navbuttons"); ?>
     </section>
 
     <section>
