@@ -39,7 +39,7 @@
         <div class="col-12 col-md-6 d-flex align-items-center">
             <section id="pdfList">
                 <div class="pdf-container">
-                    <h2>Available PDFs</h2>
+                    <h2>Tilgængelige PDF'er</h2>
                     <ul>
                         <?php
                         // Query to get attachments of type PDF
@@ -65,7 +65,7 @@
                             wp_reset_postdata();
                         else :
                         ?>
-                            <li>No PDFs available.</li>
+                            <li>Ingen tilgængelige PDF'er.</li>
                         <?php endif; ?>
                     </ul>
                 </div>
@@ -74,7 +74,7 @@
     </div>
 </div>
 
-  
+
 
         <!-- Catalog Images -->
         <div class="catalog-images">
