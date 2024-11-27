@@ -39,7 +39,7 @@
         <div class="col-12 col-md-6 d-flex align-items-center">
             <section id="pdfList">
                 <div class="pdf-container">
-                    <h2>Tilgængelige PDF'er</h2>
+                    <h2><?php pll_e("Tilgængelige PDF'er") ?></h2>
                     <ul>
                         <?php
                         // Query to get attachments of type PDF

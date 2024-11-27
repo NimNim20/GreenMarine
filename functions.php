@@ -39,6 +39,8 @@ function gmd_register_strings() {
   pll_register_string("page-pontech", "Pontech's side");
   pll_register_string("page-trelleborg", "Ingen tilgængelige PDF'er.");
   pll_register_string("trelleborg", "Ingen tilgængelige PDF'er.");
+  pll_register_string("page-trelleborg", "Tilgængelige PDF'er");
+  pll_register_string("trelleborg", "Tilgængelige PDF'er");
 }
 
 add_action("init", "gmd_register_strings");
