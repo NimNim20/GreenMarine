@@ -11,8 +11,8 @@
         <div class="lang"> 
             <?php 
                 echo pll_the_languages(array(
-                'show_flags' => 1,
-                'show_names' => 1
+                'show_flags' => -1,
+                'show_names' => -1
             )); 
             ?>
         </div>
