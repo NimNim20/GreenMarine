@@ -785,6 +785,8 @@ label {
   font-size: 16px;
   z-index: 999;
   font-family: Oswald;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-btn {
@@ -797,6 +799,8 @@ label {
   font-size: 16px;
   z-index: 999;
   font-family: Oswald;
+  display: flex;
+  justify-content: center;
 }
 
 .trelleborg-btn-container a {
