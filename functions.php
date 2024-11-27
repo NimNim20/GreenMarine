@@ -26,7 +26,7 @@ function gmd_register_strings() {
   pll_register_string("footer", "Færøerne");
   pll_register_string("footer", "Kontaktformular");
   pll_register_string("footer", "Kontakt");
-  pll_register_string("footer", "Find of på");
+  pll_register_string("footer", "Find os på");
 }
 
 add_action("init", "gmd_register_strings");
