@@ -40,6 +40,10 @@
       </div>
     </section>
 
+    <section id="scrolltotopbutton">
+    <?php get_template_part ("template-parts/scrolltotop"); ?>
+    </section>
+
 
     <?php endwhile; ?>
 <?php endif; ?>
