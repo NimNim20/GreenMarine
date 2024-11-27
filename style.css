@@ -31,14 +31,12 @@ li.lang-item:nth-child(1) > a:nth-child(1) > img:nth-child(1)
 {
   width: 34px !important;
   height: 25px !important;
-  border-radius: 80%;
 }
 
 li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 {
   width: 34px !important;
   height: 25px !important;
-  border-radius: 80%;
 }
 
 /* carousel styling */
@@ -975,7 +973,7 @@ label {
   bottom: 50px;
   right: 50px;
   display: none;
-  background-color: #1A2541;
+  background-color: #1B9938;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -988,7 +986,7 @@ label {
 }
 
 .scroll-to-top:hover {
-  background-color: #0056b3;
+  background-color: #1bb13e;
 }
 
 @keyframes jump {
