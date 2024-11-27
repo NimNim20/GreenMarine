@@ -27,9 +27,7 @@
 
     <!-- Links Section (top right) -->
     <div class="nav">
-        <div class="lang"> 
-            <?php pll_the_languages() ?>
-        </div>
+
     <!-- Desktop Navigation -->
     <div class="navLinks">
         <a href="<?php echo site_url('/contact'); ?>">Kontakt</a>
