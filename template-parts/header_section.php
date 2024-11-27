@@ -27,7 +27,14 @@
 
     <!-- Links Section (top right) -->
     <div class="nav">
-
+    <div class="lang"> 
+            <?php 
+                pll_the_languages(array(
+                'show_flags' => -1,
+                'show_names' => -1
+            )); 
+            ?>
+        </div>
     <!-- Desktop Navigation -->
     <div class="navLinks">
         <a href="<?php echo site_url('/contact'); ?>"><?php pll_e("Kontakt") ?></a>
