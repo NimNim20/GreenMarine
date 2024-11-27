@@ -27,6 +27,7 @@ function gmd_register_strings() {
   pll_register_string("footer", "Kontaktformular");
   pll_register_string("footer", "Kontakt");
   pll_register_string("footer", "Find os på");
+  pll_register_string("index", "Kontakt");
 }
 
 add_action("init", "gmd_register_strings");
