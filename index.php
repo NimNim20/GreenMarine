@@ -33,10 +33,11 @@
   <p class="contact-us"><?php echo esc_html($contactUs); ?></p>
 
   <div class="trelleborg-btn-container contact-btn-index">
-    <a href="<?php echo pll_permalink(get_page_by_path('kontakt')->ID); ?>" class="contact-btn">
+    <a href="<?php echo (pll_current_language() === 'da') ? site_url('/kontakt') : site_url('/en/contact'); ?>" class="contact-btn">
         <?php pll_e("Kontakt"); ?>
     </a>
 </div>
+
 
 
   <section id="home_ydelser">
