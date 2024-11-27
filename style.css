@@ -784,6 +784,7 @@ label {
   border-radius: 5px;
   font-size: 16px;
   z-index: 999;
+  font-family: Oswald;
 }
 
 .contact-btn {
@@ -795,6 +796,7 @@ label {
   border-radius: 5px;
   font-size: 16px;
   z-index: 999;
+  font-family: Oswald;
 }
 
 .trelleborg-btn-container a {
