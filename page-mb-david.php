@@ -22,7 +22,7 @@
     $contactText = get_field("contact-text");
     ?>
 
-    <section>
+    <section id="mbdavid">
       <div class="container-fluid p-0">
         <div class="row">
           <div class="page-content">
@@ -66,6 +66,10 @@
           </div>
         </div>
       </div>
+
+      <section id="customcarousel">
+        <?php get_template_part("template-parts/customcarousel"); ?>
+      </section>
     </section>
 
 

@@ -4,13 +4,13 @@
     <div class="carousel-item active">
       <div class="row">
         <div class="col-12 col-md-4">
-          <img src="image1.jpg" class="d-block w-100" alt="...">
+          <img src="https://picsum.photos/300/200?random=1" class="d-block w-100" alt="Placeholder Image 1">
         </div>
         <div class="col-12 col-md-4">
-          <img src="image2.jpg" class="d-block w-100" alt="...">
+          <img src="https://picsum.photos/300/200?random=2" class="d-block w-100" alt="Placeholder Image 2">
         </div>
         <div class="col-12 col-md-4">
-          <img src="image3.jpg" class="d-block w-100" alt="...">
+          <img src="https://picsum.photos/300/200?random=3" class="d-block w-100" alt="Placeholder Image 3">
         </div>
       </div>
     </div>
@@ -18,18 +18,19 @@
     <div class="carousel-item">
       <div class="row">
         <div class="col-12 col-md-4">
-          <img src="image4.jpg" class="d-block w-100" alt="...">
+          <img src="https://picsum.photos/300/200?random=4" class="d-block w-100" alt="Placeholder Image 4">
         </div>
         <div class="col-12 col-md-4">
-          <img src="image5.jpg" class="d-block w-100" alt="...">
+          <img src="https://picsum.photos/300/200?random=5" class="d-block w-100" alt="Placeholder Image 5">
         </div>
         <div class="col-12 col-md-4">
-          <img src="image6.jpg" class="d-block w-100" alt="...">
+          <img src="https://picsum.photos/300/200?random=6" class="d-block w-100" alt="Placeholder Image 6">
         </div>
       </div>
     </div>
-    <!-- Add more slides as needed -->
   </div>
+</div>
+
   <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
