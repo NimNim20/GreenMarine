@@ -33,8 +33,11 @@
   <p class="contact-us"><?php echo esc_html($contactUs); ?></p>
 
   <div class="trelleborg-btn-container contact-btn-index">
-    <a href="<?php echo site_url('/contact')?>" class="contact-btn"><?php pll_e("Kontakt") ?></a>
-  </div>
+    <a href="<?php echo pll_permalink(get_page_by_path('kontakt')->ID); ?>" class="contact-btn">
+        <?php pll_e("Kontakt"); ?>
+    </a>
+</div>
+
 
   <section id="home_ydelser">
     <?php get_template_part("template-parts/home/home_ydelser"); ?>
