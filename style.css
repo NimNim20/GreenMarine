@@ -786,6 +786,16 @@ label {
   z-index: 999;
 }
 
+.contact-btn {
+  display: inline-block;
+  background-color:#1A2541;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  z-index: 999;
+}
 
 .trelleborg-btn-container a {
   transition: text-decoration 0.3s ease;
@@ -825,6 +835,12 @@ label {
 @media (min-width: 768px) {  
   .trelleborg-content {
     margin: 10%;
+  }
+
+  .contact-btn {
+    width: 10rem;
+    height: 4rem;
+    font-size: 2rem;
   }
 }
 

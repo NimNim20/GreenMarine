@@ -33,7 +33,7 @@
   <p class="contact-us"><?php echo esc_html($contactUs); ?></p>
 
   <div class="trelleborg-btn-container contact-btn-index">
-    <a href="<?php echo site_url('/contact')?>" class="trelleborg-btn"><?php pll_e("Kontakt") ?></a>
+    <a href="<?php echo site_url('/contact')?>" class="contact-btn"><?php pll_e("Kontakt") ?></a>
   </div>
 
   <section id="home_ydelser">
