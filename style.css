@@ -846,7 +846,8 @@ label {
 }
 
 .contact-btn-index {
-  margin-left: 13%;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
