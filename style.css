@@ -12,6 +12,28 @@ body {
   background-color: #ffffff;
   margin: 0;
 }
+.lang {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lang a {
+  text-decoration: none;
+  color: #0073aa; /* Adjust as needed */
+}
+
+.lang a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
 /*Removing bootstrap's custom styling*/
 .row {
   --bs-gutter-x: 0 !important;
