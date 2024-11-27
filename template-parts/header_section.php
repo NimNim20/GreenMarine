@@ -35,21 +35,20 @@
             )); 
             ?>
         </div>
-        <!-- Desktop Navigation -->
-        <div class="navLinks">
-            <a href="<?php echo pll_permalink(get_page_by_path('kontakt')->ID); ?>"><?php pll_e("Kontakt"); ?></a>
-            <a href="<?php echo pll_permalink(get_page_by_path('om-os')->ID); ?>"><?php pll_e("Om os"); ?></a>
-        </div>
+    <!-- Desktop Navigation -->
+    <div class="navLinks">
+        <a href="<?php echo site_url('/kontakt'); ?>"><?php pll_e("Kontakt") ?></a>
+        <a href="<?php echo site_url('/om-os'); ?>"><?php pll_e("Om os") ?></a>
+    </div>
 
-        <!-- Burger Menu for Mobile -->
-        <div class="burgerMenu">
-            <button class="burgerButton">☰</button>
-            <div class="dropdown">
-                <a href="<?php echo pll_permalink(get_page_by_path('kontakt')->ID); ?>"><?php pll_e("Kontakt"); ?></a>
-                <a href="<?php echo pll_permalink(get_page_by_path('om-os')->ID); ?>"><?php pll_e("Om os"); ?></a>
-            </div>
+    <!-- Burger Menu for Mobile -->
+    <div class="burgerMenu">
+        <button class="burgerButton">☰</button>
+        <div class="dropdown">
+            <a href="<?php echo site_url('/kontakt'); ?>"><?php pll_e("Kontakt") ?></a>
+            <a href="<?php echo site_url('/om-os'); ?>"><?php pll_e("Om os") ?></a>
         </div>
-
+    </div>
 </div>
 
 
