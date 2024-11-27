@@ -9,6 +9,7 @@
   <?php
     $Heading = get_field("heading");
     $Description = get_field("description");
+    $contactUs = get_field("contact_us");
     ?>
     
     <div class="container">
@@ -28,6 +29,8 @@
   <section id="home_ydelser_icons">
     <?php get_template_part("template-parts/home/home_ydelser_icons"); ?>
   </section>
+
+  <p class="contact-us"><?php echo esc_html($contactUs); ?></p>
 
   <section id="home_ydelser">
     <?php get_template_part("template-parts/home/home_ydelser"); ?>

@@ -829,10 +829,16 @@ label {
 
 .frontpage-text h1{
   font-family: Oswald;
+  color:#1A2541;
 }
 
 .frontpage-text p {
   font-family: Lora;
+}
+
+.contact-us {
+  font-family: Oswald;
+  color:#1A2541;
 }
 
 @media (min-width: 768px) {

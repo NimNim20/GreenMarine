@@ -27,6 +27,8 @@ $loop = new WP_Query(array(
                 <p class="icon-title"><?php echo $title; ?></p>
             </div>
 
+            
+
 
         <?php endwhile; ?>
     <?php endif; ?>
