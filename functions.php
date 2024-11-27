@@ -28,6 +28,11 @@ function gmd_register_strings() {
   pll_register_string("footer", "Kontakt");
   pll_register_string("footer", "Find os på");
   pll_register_string("index", "Kontakt");
+  pll_register_string("header-section", "Kontakt");
+  pll_register_string("header-section", "Om os");
+  pll_register_string("header-section", "Kontakt");
+  pll_register_string("header-section", "Om os");
+  pll_register_string("header-section", "KONTAKT");
 }
 
 add_action("init", "gmd_register_strings");

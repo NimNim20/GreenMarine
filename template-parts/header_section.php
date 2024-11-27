@@ -30,16 +30,16 @@
 
     <!-- Desktop Navigation -->
     <div class="navLinks">
-        <a href="<?php echo site_url('/contact'); ?>">Kontakt</a>
-        <a href="<?php echo site_url('/om-os'); ?>">Om os</a>
+        <a href="<?php echo site_url('/contact'); ?>"><?php pll_e("Kontakt") ?></a>
+        <a href="<?php echo site_url('/om-os'); ?>"><?php pll_e("Om os") ?></a>
     </div>
 
     <!-- Burger Menu for Mobile -->
     <div class="burgerMenu">
         <button class="burgerButton">☰</button>
         <div class="dropdown">
-            <a href="<?php echo site_url('/contact'); ?>">Kontakt</a>
-            <a href="<?php echo site_url('/om-os'); ?>">Om os</a>
+            <a href="<?php echo site_url('/contact'); ?>"><?php pll_e("Kontakt") ?></a>
+            <a href="<?php echo site_url('/om-os'); ?>"><?php pll_e("Om os") ?></a>
         </div>
     </div>
 </div>
@@ -52,7 +52,7 @@
     <!-- Hero Footer with 'KONTAKT' button -->
     <div class="hero-footer">
         <a href="<?php echo site_url('/contact'); ?>">
-            <button class="kontaktButton">KONTAKT</button>
+            <button class="kontaktButton"><?php pll_e("KONTAKT") ?></button>
         </a>
     </div>
 </section>
