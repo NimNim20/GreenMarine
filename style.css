@@ -861,7 +861,6 @@ label {
   display: flex;
   justify-content: center;
   margin: 5% 0 1% 0;
-  font-size: 2rem;
 }
 
 .contact-btn-index {
@@ -873,6 +872,10 @@ label {
 @media (min-width: 768px) {
   .frontpage-text h1 {
     font-size: 55px;
+  }
+
+  .contact-us {
+    font-size: 2rem;
   }
 } 
 /* Front-page styling end */
