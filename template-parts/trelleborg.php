@@ -25,7 +25,7 @@
 
         <!-- Right Side: PDF Showcase -->
         <div class="col-12 col-md-6 d-flex align-items-center">
-            <section id="pdfList">
+        <section id="pdfList">
                 <div class="pdf-container">
                     <h2>Available PDFs</h2>
                     <ul>
