@@ -5,14 +5,14 @@
         <div class="row">
                 <div class="col-6 col-md-3">
                     <div class="footer-gap">
-                        <h3>Information</h3>
+                        <h3><?php pll_e("Information") ?></h3>
                         <p>CVR: 593826</p>
                     </div> 
                 </div>
 
                 <div class="col-6 col-md-3">
                     <div class="footer-gap">
-                        <h3><?php pll_e ("Adresse") ?></h3>
+                        <h3><?php pll_e("Adresse") ?></h3>
                         <p>Rossagerdi 3</p>
                         <p>530 Fuglafjørdur</p>
                         <p>Færøerne</p>

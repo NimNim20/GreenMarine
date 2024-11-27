@@ -21,6 +21,7 @@ function gmd_disable_gutenberg() {
 add_action("init", "gmd_disable_gutenberg");
 
 function gmd_register_strings() {
+  pll_register_string("footer", "Information");
   pll_register_string("footer", "Adresse");
 }
 
