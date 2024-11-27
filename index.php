@@ -32,7 +32,7 @@
 
   <p class="contact-us"><?php echo esc_html($contactUs); ?></p>
 
-  <div class="trelleborg-btn-container">
+  <div class="trelleborg-btn-container contact-btn-index">
     <a href="<?php echo site_url('/contact')?>" class="trelleborg-btn">Kontakt</a>
   </div>
 

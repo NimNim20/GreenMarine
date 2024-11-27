@@ -845,6 +845,10 @@ label {
   font-size: 2rem;
 }
 
+.contact-btn-index {
+  margin-left: 13%;
+}
+
 @media (min-width: 768px) {
   .frontpage-text h1 {
     font-size: 55px;
