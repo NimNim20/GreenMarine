@@ -29,15 +29,15 @@ body {
 
 li.lang-item:nth-child(1) > a:nth-child(1) > img:nth-child(1)
 {
-  width: 29px !important;
-  height: 18px !important;
+  width: 34px !important;
+  height: 25px !important;
   border-radius: 80%;
 }
 
 li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 {
-  width: 29px !important;
-  height: 18px !important;
+  width: 34px !important;
+  height: 25px !important;
   border-radius: 80%;
 }
 
