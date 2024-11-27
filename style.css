@@ -923,6 +923,39 @@ label {
     margin: 10%; 
   }
 } 
+.about-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-img1 img,
+.about-images img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-text {
+  text-align: center;
+  font-size: 14px; 
+}
+
+@media (min-width: 768px) {
+  .about-text {
+    margin: 10%; 
+  }
+
+  .about-images {
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .img-text {
+    font-size: 16px; 
+  }
+}
 
 
 
