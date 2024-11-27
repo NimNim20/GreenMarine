@@ -34,6 +34,7 @@
                         <p>LinkedIn</p>
                         <p>Facebook</p>
                         <p>Instagram</p>
+                        <p>Twitter</p>
                     </div>
                 </div>
         </div>
