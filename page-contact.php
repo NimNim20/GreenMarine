@@ -16,6 +16,10 @@
     <?php echo do_shortcode ('[contact-form-7 id="75513d2" title="GreenMarineContact"]'); ?>
   </section>
 
+  <section id="scrolltotopbutton">
+    <?php get_template_part ("template-parts/scrolltotop"); ?>
+  </section>
+
   <?php endwhile; ?>
 <?php endif; ?>
 

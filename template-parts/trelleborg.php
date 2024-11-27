@@ -71,3 +71,7 @@
             <img src="<?php echo esc_url($catalogimg3['url']); ?>" alt="<?php echo esc_attr($catalogimg3['alt']); ?>" loading="lazy"> 
         </div>
     </section>
+
+    <section id="scrolltotopbutton">
+    <?php get_template_part ("template-parts/scrolltotop"); ?>
+    </section>
