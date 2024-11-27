@@ -37,15 +37,22 @@
         </div>
     <!-- Desktop Navigation -->
     <div class="navLinks">
-    <a href="<?php echo pll_get_post(get_page_by_path('kontakt')->ID); ?>"><?php pll_e("Kontakt"); ?></a>
-    <a href="<?php echo pll_get_post(get_page_by_path('om-os')->ID); ?>"><?php pll_e("Om os"); ?></a>
-</div>
+        <a href="<?php echo site_url('/kontakt'); ?>"><?php pll_e("Kontakt") ?></a>
+        <a href="<?php echo site_url('/om-os'); ?>"><?php pll_e("Om os") ?></a>
+    </div>
 
-<!-- Burger Menu for Mobile -->
-<div class="burgerMenu">
-    <button class="burgerButton">☰</button>
-    <div class="dropdown">
-        <a href="<?php echo pll_get_post(get_page_by_path('kontakt')->ID); ?>"><?php pll_e("Kontakt"); ?></a>
-        <a href="<?php echo pll_get_post(get_page_by_path('om-os')->ID); ?>"><?php pll_e("Om os"); ?></a>
+    <!-- Burger Menu for Mobile -->
+    <div class="burgerMenu">
+        <button class="burgerButton">☰</button>
+        <div class="dropdown">
+            <a href="<?php echo site_url('/kontakt'); ?>"><?php pll_e("Kontakt") ?></a>
+            <a href="<?php echo site_url('/om-os'); ?>"><?php pll_e("Om os") ?></a>
+        </div>
     </div>
 </div>
+
+
+</div>
+    <!-- Hero Image Section (Main Content) -->
+    <div class="hero-header"></div>
+</section>
