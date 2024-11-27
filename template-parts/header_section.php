@@ -37,19 +37,20 @@
         </div>
             <!-- Desktop Navigation -->
             <div class="navLinks">
-    <?php
-        $current_language = pll_current_language();  // Get current language code
-        if ($current_language == 'da') {
-            $contact_url = site_url('/kontakt/');
-            $about_url = site_url('/om-os/');
-        } else if ($current_language == 'en') {
-            $contact_url = site_url('/en/contact/');
-            $about_url = site_url('/en/about-us/');
-        }
-    ?>
-    <a href="<?php echo $contact_url; ?>"><?php pll_e("Kontakt"); ?></a>
-    <a href="<?php echo $about_url; ?>"><?php pll_e("Om os"); ?></a>
-</div>
+            <?php
+                $current_language = pll_current_language();  // Get current language code
+                    if ($current_language == 'da') {
+                    $contact_url = site_url('/kontakt/');
+                    $about_url = site_url('/om-os/');
+                    }
+                        else if ($current_language == 'en') {
+                        $contact_url = site_url('/en/contact/');
+                        $about_url = site_url('/en/about-us/');
+                    }
+                    ?>
+                        <a href="<?php echo $contact_url; ?>"><?php pll_e("Kontakt"); ?></a>
+                        <a href="<?php echo $about_url; ?>"><?php pll_e("Om os"); ?></a>
+            </div>
 
             <!-- Burger Menu for Mobile -->
         <div class="burgerMenu">
