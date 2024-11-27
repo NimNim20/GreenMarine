@@ -47,6 +47,10 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   padding: 5px;
 }
 
+.carousel-control-prev, .carousel-control-next {
+  display: block !important;
+}
+
 @media (max-width: 768px) {
   .carousel-inner .carousel-item {
       text-align: center;
