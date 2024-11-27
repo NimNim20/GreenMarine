@@ -773,6 +773,8 @@ label {
 /* Trelleborg Button */
 .trelleborg-btn-container {
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .trelleborg-btn {
