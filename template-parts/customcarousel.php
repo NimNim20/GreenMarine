@@ -8,7 +8,7 @@
         ));
 
         $active_class_set = false;
-        $counter = 0; // Counter to group the images into sets of 3
+        $counter = 0;
         
         if ($loop->have_posts()):
             while ($loop->have_posts()): $loop->the_post();
