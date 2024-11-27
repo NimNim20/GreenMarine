@@ -27,7 +27,12 @@ body {
   text-decoration: underline;
 }
 
-
+li.lang-item:nth-child(1) > a:nth-child(1) > img:nth-child(1)
+{
+  width: 45px;
+  height: 32px;
+  border-radius: 100%;
+}
 
 /* carousel styling */
 .carousel-item img {

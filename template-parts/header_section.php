@@ -27,7 +27,7 @@
 
     <!-- Links Section (top right) -->
     <div class="nav">
-    <div class="lang"> 
+        <div class="lang"> 
             <?php 
                 pll_the_languages(array(
                 'show_flags' => 1,
