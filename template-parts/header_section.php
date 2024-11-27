@@ -55,11 +55,4 @@
 </div>
     <!-- Hero Image Section (Main Content) -->
     <div class="hero-header"></div>
-
-    <!-- Hero Footer with 'KONTAKT' button -->
-    <div class="hero-footer">
-        <a href="<?php echo site_url('/contact'); ?>">
-            <button class="kontaktButton"><?php pll_e("KONTAKT") ?></button>
-        </a>
-    </div>
 </section>
