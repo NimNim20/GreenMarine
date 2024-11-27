@@ -32,6 +32,10 @@
 
   <p class="contact-us"><?php echo esc_html($contactUs); ?></p>
 
+  <div class="trelleborg-btn-container">
+    <a href="<?php echo site_url('/contact')?>" class="trelleborg-btn">Kontakt</a>
+  </div>
+
   <section id="home_ydelser">
     <?php get_template_part("template-parts/home/home_ydelser"); ?>
   </section>
