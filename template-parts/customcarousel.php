@@ -1,13 +1,14 @@
 <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <?php
+        // Fetch all carousel posts
         $loop = new WP_Query(array(
             "post_type" => "carousel",
             "posts_per_page" => -1
         ));
 
         $active_class_set = false;
-        $counter = 0; 
+        $counter = 0; // Counter to group the images into sets of 3
         
         if ($loop->have_posts()):
             while ($loop->have_posts()): $loop->the_post();
@@ -20,11 +21,12 @@
                         if ($counter > 0): 
                             echo '</div>'; 
                         endif;
-                        
+                        // Start new slide
                         echo '<div class="carousel-item ' . (!$active_class_set ? 'active' : '') . '">';
                         echo '<div class="row">'; 
                     endif;
                     ?>
+            
                     <div class="col-12 col-md-4">
                         <img src="<?php echo esc_url($carouselimage['url']); ?>" 
                              class="d-block w-100" 
