@@ -13,7 +13,7 @@
                 <h1><?php echo esc_html($Heading); ?></h1>
                 <p><?php echo esc_html($Description); ?></p>
                 <div class="trelleborg-btn-container">
-                <a href="https://pontechmarina.com/se/" class="trelleborg-btn" target="_blank"><?php ("Pontech's side") ?></a>
+                <a href="https://pontechmarina.com/se/" class="trelleborg-btn" target="_blank"><?php pll_e("Pontech's side") ?></a>
                 </div>
                 
               </div>
