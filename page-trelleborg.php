@@ -30,7 +30,7 @@
 
                 <!-- Trelleborg Button -->
                 <div class="trelleborg-btn-container">
-                    <a href="https://trelleborg.com" class="trelleborg-btn">Trelleborg.com</a>
+                    <a href="https://trelleborg.com" class="trelleborg-btn" target="_blank">Trelleborg.com</a>
                 </div>
             </div>
         </div>
