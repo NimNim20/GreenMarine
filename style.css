@@ -46,34 +46,17 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 }
 
 .carousel-item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
-
 
 @media (max-width: 768px) {
-  .carousel-item .row {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      justify-content: center; 
-  }
+    .carousel-item .row {
+        display: flex;
+        justify-content: center;
+    }
 }
-
-
-@media (max-width: 767.98px) {
-  .carousel-inner .carousel-item .col-md-4 {
-      display: none; 
-  }
-  .carousel-inner .carousel-item .col-12.d-block.d-md-none {
-      display: block;
-      flex: 0 0 100%;
-      max-width: 100%;
-  }
-}
-
-
 
 
 
