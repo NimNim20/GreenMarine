@@ -192,6 +192,12 @@ a:hover {
   }
 }
 
+@media (max-width: 280px) {
+  .navbarLogos .logo {
+    height: 20px; 
+  }
+}
+
 
 .navLinks a {
   color: white;
