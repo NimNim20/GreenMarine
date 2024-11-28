@@ -24,15 +24,10 @@
                             echo '</div>'; // Close previous carousel-item
                         endif;
                         echo '<div class="carousel-item ' . (!$active_class_set ? 'active' : '') . '">';
-                        echo '<div class="row d-flex justify-content-center">'; // Use row for proper alignment
+                        echo '<div class="row">'; // Open a new row
                     endif;
                     ?>
-                    <div class="col-12 col-md-4 d-md-block d-none">
-                        <img src="<?php echo esc_url($carouselimage['url']); ?>" 
-                             class="d-block w-100" 
-                             alt="<?php echo esc_attr($alt_text); ?>">
-                    </div>
-                    <div class="col-12 d-block d-md-none">
+                    <div class="col-12 col-md-4">
                         <img src="<?php echo esc_url($carouselimage['url']); ?>" 
                              class="d-block w-100" 
                              alt="<?php echo esc_attr($alt_text); ?>">
@@ -57,11 +52,11 @@
 
     <!-- Carousel controls -->
     <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-        <span>Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-        <span>Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
     </button>
 </div>
