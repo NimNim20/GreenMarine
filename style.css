@@ -59,6 +59,14 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   height: auto;
 }
 
+#customCarousel .carousel-item img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
 #customcarousel{
   overflow: visible;
 }
