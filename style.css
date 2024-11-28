@@ -84,7 +84,7 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 }
 
 .carousel-indicators {
-  bottom: 30% !important;
+  bottom: 26% !important;
   position: fixed;
 }
 
