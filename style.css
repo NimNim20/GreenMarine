@@ -77,15 +77,14 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   background-color: #1A2541;
 }
 
-/* Container for the carousel to prevent overflow */
 #carouselExampleIndicators {
-  max-width: 100%;  /* Ensures the carousel container doesn't overflow */
-  margin: 0 auto;   /* Centers the carousel horizontally */
+  max-width: 100%;
+  margin: 0 auto; 
 }
 
 /* Style for carousel images */
 #carouselExampleIndicators .carousel-item img {
-  max-width: 80%;
+  max-width: 60%;
   height: auto;  
   object-fit: contain;
   margin: 0 auto;
