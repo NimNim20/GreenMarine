@@ -24,7 +24,7 @@
 
     <section id="mbdavid">
       <div class="container p-3">
-        <div class="row align-items-center">
+        <div class="row">
           <div class="col-12 col-md-6">
             <div class="content-text">
               <h1><?php echo esc_html($Heading); ?></h1>
