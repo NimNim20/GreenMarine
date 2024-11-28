@@ -522,7 +522,7 @@ label {
 #fornavn, #efternavn,
 #email, #firma, #cvr,
 #by, #vejnum, #besked, 
-#zip, #emne {
+#zip, #emne, #greenmarine, #mb-dropdown, #services {
   border: 2.5px solid #1A5B99;
   border-radius: 5px;
 }
