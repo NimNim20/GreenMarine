@@ -58,9 +58,6 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
       flex-direction: column;
       justify-content: center; 
   }
-  .carousel-item .col-md-4 {
-      display: none;
-  }
 }
 
 
