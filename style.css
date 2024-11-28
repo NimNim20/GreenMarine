@@ -53,6 +53,21 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   }
 }
 
+@media (max-width: 350px)
+{
+  li.lang-item:nth-child(1) > a:nth-child(1) > img:nth-child(1)
+  {
+    width: 24px !important;
+    height: 15px !important;
+  }
+  
+  li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
+  {
+    width: 24px !important;
+    height: 15px !important;
+  }
+}
+
 /* Carousel container */
 #carouselExampleIndicators {
   max-width: 100%;
