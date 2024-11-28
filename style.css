@@ -50,11 +50,7 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   height: auto;
   object-fit: cover;
 }
-.carousel-inner .carousel-item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 
 @media (max-width: 768px) {
   .carousel-item .row {
@@ -65,6 +61,17 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   }
 }
 
+
+@media (max-width: 767.98px) {
+  .carousel-inner .carousel-item .col-md-4 {
+      display: none; 
+  }
+  .carousel-inner .carousel-item .col-12.d-block.d-md-none {
+      display: block;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
 
 
 
