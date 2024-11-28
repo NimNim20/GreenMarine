@@ -87,13 +87,14 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   bottom: 26% !important;
 }
 
+.titeltext {
+  font-size: 2rem;
+  font-family: Oswald;
+}
 
 .bundtekst {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-family: Oswald;
-  color: #1A2541;
-  text-align: center;
-  margin: 5% 0 5% 0;
 }
 
 .carousel-control-next-icon,
