@@ -75,6 +75,10 @@
             <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
             <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
         </div>
+        <div class="carousel-item">
+        </div>
+        <div class="carousel-item">
+        </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
