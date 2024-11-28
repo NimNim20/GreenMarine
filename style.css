@@ -53,7 +53,29 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   }
 }
 
+.carousel-control-next, .carousel-control-prev {
+  transition: transform 0.5s ease-in-out !important; /* Adjust the timing as needed */
+}
 
+
+.carousel-item {
+  transition: transform 0.5s ease-in-out !important;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active
+ {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-control-next-icon {
+  background-color: #1A2541;
+}
+
+.carousel-control-prev-icon {
+  background-color: #1A2541;
+}
 
 /*Removing bootstrap's custom styling*/
 .row {
