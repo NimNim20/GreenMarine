@@ -840,6 +840,10 @@ label {
     pointer-events: none;
   }
 
+  .davidImg1, .davidImg2 {
+    width: 100%;
+  }
+
 }
 /* MB Dávid styling end */
 
