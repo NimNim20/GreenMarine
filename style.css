@@ -184,7 +184,7 @@ a:hover {
   }
 
   .nav {
-    gap: 0px;
+    gap: 0px !important;
   }
 }
 
