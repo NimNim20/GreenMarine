@@ -22,8 +22,7 @@
                     <div class="d-flex justify-content-center">
                         <img src="<?php echo esc_url($carouselimage['url']); ?>" 
                              class="d-block" 
-                             alt="<?php echo esc_attr($alt_text); ?>" 
-                             style="max-width: 80%; height: auto;">
+                             alt="<?php echo esc_attr($alt_text); ?>">
                     </div>
                     </div>
                     <?php
