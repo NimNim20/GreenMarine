@@ -77,6 +77,23 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   background-color: #1A2541;
 }
 
+/* Container for the carousel to prevent overflow */
+#carouselExampleIndicators {
+  max-width: 100%;  /* Ensures the carousel container doesn't overflow */
+  margin: 0 auto;   /* Centers the carousel horizontally */
+}
+
+/* Style for carousel images */
+#carouselExampleIndicators .carousel-item img {
+  max-width: 80%;
+  height: auto;  
+  object-fit: contain;
+  margin: 0 auto;
+  display: block; 
+}
+
+
+
 /*Removing bootstrap's custom styling*/
 .row {
   --bs-gutter-x: 0 !important;
@@ -686,6 +703,7 @@ label {
     color: white;
     display: flex;
     flex-direction: row;
+    margin-top: 15%;
   }
   
   .footer p {
