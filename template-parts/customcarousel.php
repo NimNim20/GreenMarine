@@ -24,10 +24,15 @@
                             echo '</div>'; // Close previous carousel-item
                         endif;
                         echo '<div class="carousel-item ' . (!$active_class_set ? 'active' : '') . '">';
-                        echo '<div class="row">'; // Open a new row
+                        echo '<div class="row d-flex justify-content-center">'; // Use row for proper alignment
                     endif;
                     ?>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 d-md-block d-none">
+                        <img src="<?php echo esc_url($carouselimage['url']); ?>" 
+                             class="d-block w-100" 
+                             alt="<?php echo esc_attr($alt_text); ?>">
+                    </div>
+                    <div class="col-12 d-block d-md-none">
                         <img src="<?php echo esc_url($carouselimage['url']); ?>" 
                              class="d-block w-100" 
                              alt="<?php echo esc_attr($alt_text); ?>">

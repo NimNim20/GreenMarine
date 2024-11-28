@@ -40,10 +40,17 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 }
 
 /* carousel styling */
-.carousel .carousel-item img {
+.carousel {
   object-fit: cover;
   height: 100%;
 }
+
+.carousel-item img {
+  object-fit: cover;
+  height: auto;
+}
+
+
 
 .carousel-item .col-md-4 {
   padding: 5px;
