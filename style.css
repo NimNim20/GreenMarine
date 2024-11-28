@@ -84,6 +84,7 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 
 /* Style for carousel images */
 #carouselExampleIndicators .carousel-item img {
+  width: 100%;
   max-width: 60%;
   height: auto;  
   object-fit: contain;
