@@ -35,7 +35,7 @@
 
             <div class="col-12 col-md-6">
               <div class="content_img">
-                <img src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>" loading="lazy"> 
+                <img class="davidImg1" src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>" loading="lazy"> 
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
 
             <div class="col-12 col-md-6">
               <div class="content_img img2">
-                <img src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
+                <img class="davidImg2" src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
               </div>
             </div>
           </div>

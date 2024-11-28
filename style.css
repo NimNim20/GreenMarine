@@ -803,6 +803,10 @@ label {
   color: gray;
 }
 
+.davidImg1, .davidImg2 {
+  width: 100%;
+}
+
 @media (min-width: 768px) {  
   .page-content {
     display: flex;
@@ -842,6 +846,10 @@ label {
   .content_img {
     margin: 5% 0 10% 10%;
     pointer-events: none;
+  }
+
+  .davidImg1, .davidImg2 {
+    width: 100%;
   }
 
 }
