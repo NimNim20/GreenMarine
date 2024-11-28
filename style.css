@@ -174,7 +174,7 @@ a:hover {
     height: 30px;
   }
   .nav {
-    gap: 5px;
+    gap: 0px;
   }
 }
 
