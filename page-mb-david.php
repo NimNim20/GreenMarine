@@ -72,12 +72,8 @@
     <div class="carousel-inner">
         <div class="carousel-item active col-12 col-md-4">
             <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="image2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="image3.jpg" class="d-block w-100" alt="...">
+            <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
+            <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
