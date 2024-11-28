@@ -45,32 +45,18 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   height: 100%;
 }
 
-.carousel-inner .carousel-item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-@media (min-width: 768px) {
-  .carousel-inner .carousel-item .col-md-4 {
-      display: block; 
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
-  }
-  .carousel-inner .carousel-item .col-12.d-block.d-md-none {
-      display: none; 
-  }
-}
-
-
-@media (max-width: 767.98px) {
-  .carousel-inner .carousel-item .col-md-4 {
-      display: none; 
-  }
-  .carousel-inner .carousel-item .col-12.d-block.d-md-none {
-      display: block;
-      flex: 0 0 100%;
-      max-width: 100%;
+@media (max-width: 768px) {
+  .carousel-item .row {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      justify-content: center; 
   }
 }
 
