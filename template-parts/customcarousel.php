@@ -19,10 +19,11 @@
                     // Open new carousel item (slide)
                     echo '<div class="carousel-item ' . (!$active_class_set ? 'active' : '') . '">';
                     ?>
-                    <div class="d-block w-100" style="max-height: 400px; object-fit: cover;">
+                    <div class="d-flex justify-content-center">
                         <img src="<?php echo esc_url($carouselimage['url']); ?>" 
-                             class="d-block w-100" 
-                             alt="<?php echo esc_attr($alt_text); ?>">
+                             class="d-block" 
+                             alt="<?php echo esc_attr($alt_text); ?>" 
+                             style="max-width: 80%; height: auto;">
                     </div>
                     </div>
                     <?php
