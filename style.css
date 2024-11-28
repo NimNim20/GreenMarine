@@ -795,6 +795,10 @@ label {
   color: gray;
 }
 
+.davidImg1, .davidImg2 {
+  width: 100%;
+}
+
 @media (min-width: 768px) {  
   .page-content {
     display: flex;
