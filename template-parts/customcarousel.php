@@ -5,7 +5,7 @@
               <ol class="carousel-indicators">
                 <?php
                 $loop = new WP_Query(array(
-                  "post_type" => "carousels",
+                  "post_type" => "carousel",
                   "posts_per_page" => -1
                 ));
                 $index = 0;
