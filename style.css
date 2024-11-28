@@ -802,9 +802,9 @@ label {
   color: gray;
 }
 
-.davidImg1, .davidImg2 {
+/* .davidImg1, .davidImg2 {
   width: auto;
-}
+} */
 
 @media (min-width: 768px) {  
   .page-content {
