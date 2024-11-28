@@ -108,7 +108,12 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   transition: transform 0.5s ease-in-out;
 }
 
+@media (max-width: 768px) {
+  .carousel-indicators {
+    display: none;
+  }
 
+}
 /*Removing bootstrap's custom styling*/
 .row {
   --bs-gutter-x: 0 !important;
