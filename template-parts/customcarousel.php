@@ -9,22 +9,22 @@
 
         $active_class_set = false;
         $counter = 0;
-
+        
         if ($loop->have_posts()):
             while ($loop->have_posts()): $loop->the_post();
 
                 $carouselimage = get_field('carouselimage');
                 $alt_text = get_field('alt_text');
-
+                
                 if ($carouselimage):
-                    // Start a new carousel-item every 3 images
-                    if ($counter % 3 == 0):
+                    // Open new carousel item (slide) if needed
+                    if ($counter % 3 == 0): 
                         if ($counter > 0): 
                             echo '</div>'; // Close previous row
                             echo '</div>'; // Close previous carousel-item
                         endif;
                         echo '<div class="carousel-item ' . (!$active_class_set ? 'active' : '') . '">';
-                        echo '<div class="row">'; // Open a new row
+                        echo '<div class="row g-2">'; // Start new row with gutter
                     endif;
                     ?>
                     <div class="col-12 col-md-4">
@@ -34,13 +34,13 @@
                     </div>
                     <?php
                     $counter++;
-                    $active_class_set = true;
+                    $active_class_set = true; 
                 endif;
 
             endwhile;
 
-            // Close any remaining open tags
-            if ($counter % 3 != 0):
+            // Close remaining open tags
+            if ($counter % 3 != 0): 
                 echo '</div>'; // Close last row
                 echo '</div>'; // Close last carousel-item
             endif;
