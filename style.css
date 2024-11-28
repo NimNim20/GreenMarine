@@ -913,7 +913,7 @@ label {
   .contact-btn {
     width: 10rem;
     height: 4rem;
-    font-size: 2rem;
+    font-size: 30px;
     display:flex;
     align-items: center;
     justify-content: center;
