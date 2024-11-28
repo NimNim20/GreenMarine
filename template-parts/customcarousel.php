@@ -17,16 +17,16 @@
                 $alt_text = get_field('alt_text');
                 
                 if ($carouselimage):
+                    // Open new carousel item (slide) if needed
                     if ($counter % 3 == 0): 
                         if ($counter > 0): 
-                            echo '</div>'; 
+                            echo '</div>'; // Close previous row
+                            echo '</div>'; // Close previous carousel-item
                         endif;
-                        // Start new slide
                         echo '<div class="carousel-item ' . (!$active_class_set ? 'active' : '') . '">';
-                        echo '<div class="row">'; 
+                        echo '<div class="row g-2">'; // Start new row with gutter
                     endif;
                     ?>
-            
                     <div class="col-12 col-md-4">
                         <img src="<?php echo esc_url($carouselimage['url']); ?>" 
                              class="d-block w-100" 
@@ -34,15 +34,17 @@
                     </div>
                     <?php
                     $counter++;
-                    if ($counter % 3 == 0 || $counter == $loop->post_count): 
-                        // If 3 images have been added or it's the last image, close the row and the slide
-                        echo '</div>'; 
-                        echo '</div>';
-                    endif;
                     $active_class_set = true; 
                 endif;
 
             endwhile;
+
+            // Close remaining open tags
+            if ($counter % 3 != 0): 
+                echo '</div>'; // Close last row
+                echo '</div>'; // Close last carousel-item
+            endif;
+
             wp_reset_postdata();
         endif;
         ?>
