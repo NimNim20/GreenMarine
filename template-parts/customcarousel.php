@@ -32,8 +32,6 @@
                     ?>
                     <div class="carousel-item <?php echo ($index == 0) ? "active" : "" ?>">
                       <img class="d-block w-100" src="<?php echo esc_url($CarouselImage['url']); ?>" alt="<?php echo esc_attr($CarouselImage['alt']); ?>">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5><?php echo esc_html($Date); ?></h5>
                         <h5><?php echo esc_html($imgtitel); ?></h5>
                         <p><?php echo esc_html($bundtekst); ?></p>
                     </div>
