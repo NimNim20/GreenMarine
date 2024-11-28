@@ -23,12 +23,14 @@
     ?>
 
     <section id="mbdavid">
-      <div class="container p-3">
+      <div class="container-fluid p-0">
         <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="content-text">
-              <h1><?php echo esc_html($Heading); ?></h1>
-              <p><?php echo esc_html($Description); ?></p>
+          <div class="page-content">
+            <div class="col-12 col-md-6">
+              <div class="content-text">
+                <h1><?php echo esc_html($Heading); ?></h1>
+                <p><?php echo esc_html($Description); ?></p>
+              </div>
             </div>
 
             <div class="col-12 col-md-6">
