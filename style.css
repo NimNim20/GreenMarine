@@ -53,6 +53,15 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   }
 }
 
+#customCarousel {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 /*Removing bootstrap's custom styling*/
