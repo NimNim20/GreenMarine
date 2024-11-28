@@ -176,7 +176,7 @@ a:hover {
 }
 
 @media (max-width: 280px) {
-  .navbarLogos .logo {
+  .navLogos .logo {
     height: 15px; 
   }
 }
