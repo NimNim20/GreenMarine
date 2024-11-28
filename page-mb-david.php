@@ -73,9 +73,9 @@
         <div class="carousel-item active col-12 col-md-4">
             <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
             <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
-            <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
-        </div>
-        <div class="carousel-item">
+          </div>
+          <div class="carousel-item">
+          <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block" alt="...">
         </div>
         <div class="carousel-item">
         </div>
