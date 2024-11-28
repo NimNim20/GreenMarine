@@ -71,7 +71,7 @@
       <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block w-100" alt="...">
+            <img src="<?php echo esc_url($davidImg2['url']); ?>" class="d-block w-50" alt="...">
         </div>
         <div class="carousel-item">
             <img src="image2.jpg" class="d-block w-100" alt="...">
