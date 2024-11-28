@@ -21,7 +21,7 @@
 
             <div class="col-12 col-md-6">
               <div class="content_img">
-                <img src="<?php echo esc_url($pontechImg['url']); ?>" alt="<?php echo esc_attr($pontechImg['alt']); ?>" loading="lazy"> 
+                <img class="img-fluid" src="<?php echo esc_url($pontechImg['url']); ?>" alt="<?php echo esc_attr($pontechImg['alt']); ?>" loading="lazy"> 
               </div>
             </div>
           </div>
