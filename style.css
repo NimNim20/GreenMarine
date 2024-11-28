@@ -60,35 +60,33 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fff; /* Ensures a background color for the carousel */
+  background-color: #fff;
 }
 
 #customCarousel .carousel-item img {
-  max-width: 70%; /* Controls the size of the image */
-  height: auto; /* Maintains aspect ratio */
-  object-fit: contain; /* Ensures the entire image fits inside the box */
+  max-width: 70%;
+  height: auto; 
+  object-fit: contain;
 }
 
-/* Style for carousel indicators */
 .carousel-indicators {
   position: absolute;
-  bottom: 10px; /* Position at the bottom of the carousel */
+  bottom: 10px; 
   left: 50%;
   transform: translateX(-50%);
 }
 
 .carousel-indicators li {
-  background-color: #000; /* Change indicator color to black */
-  opacity: 0.5; /* Add transparency to make it less harsh */
+  background-color: #000;
+  opacity: 0.5;
 }
 
 .carousel-indicators .active {
-  background-color: #007bff; /* Active indicator color (blue or any color of your choice) */
+  background-color: #007bff;
 }
 
-/* Custom styling for the control buttons */
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: #000; /* Change control button icon color */
+  background-color: #000;
 }
 
 
