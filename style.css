@@ -178,7 +178,7 @@ a:hover {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 260px) {
   .navLogos .logo {
     height: 20px; 
   }
