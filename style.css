@@ -703,6 +703,7 @@ label {
     color: white;
     display: flex;
     flex-direction: row;
+    margin-top: 15%;
   }
   
   .footer p {
