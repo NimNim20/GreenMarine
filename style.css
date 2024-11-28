@@ -39,6 +39,20 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   height: 25px !important;
 }
 
+@media (max-width: 768px) {
+  li.lang-item:nth-child(1) > a:nth-child(1) > img:nth-child(1)
+  {
+    width: 29px !important;
+    height: 20px !important;
+  }
+  
+  li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
+  {
+    width: 29px !important;
+    height: 20px !important;
+  }
+}
+
 /* carousel styling */
 .carousel {
   object-fit: cover;
