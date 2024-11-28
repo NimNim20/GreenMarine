@@ -165,6 +165,13 @@ a:hover {
   height: 70px; 
 }
 
+@media (max-width: 768px) {
+  .navLogos .logo {
+    height: 50px; 
+  }
+}
+
+
 .navLinks a {
   color: white;
   text-decoration: none;
