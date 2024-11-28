@@ -173,6 +173,9 @@ a:hover {
   .navLogos .logo {
     height: 30px;
   }
+  .nav {
+    gap: 5px;
+  }
 }
 
 @media (max-width: 280px) {
