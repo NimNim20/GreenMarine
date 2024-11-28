@@ -1,4 +1,4 @@
-<section id="mobileHero"
+<section id="mobileHero" loading="lazy"
     <?php 
     $hero_image = get_field('heroimage');
     if (is_array($hero_image) && isset($hero_image['url'])) { 
