@@ -9,6 +9,7 @@
 
         $active_class_set = false;
         $counter = 0;
+        $slides = [];
 
         if ($loop->have_posts()):
             while ($loop->have_posts()): $loop->the_post();
@@ -17,32 +18,34 @@
                 $alt_text = get_field('alt_text');
 
                 if ($carouselimage):
-                    // Create a new slide for each image
-                    ?>
-                    <div class="carousel-item <?php echo (!$active_class_set ? 'active' : ''); ?>">
-                        <div class="row justify-content-center">
-                            <div class="col-12 d-block d-md-none">
-                                <!-- Single image for mobile -->
-                                <img src="<?php echo esc_url($carouselimage['url']); ?>" 
-                                     class="d-block w-100" 
-                                     alt="<?php echo esc_attr($alt_text); ?>">
-                            </div>
-                            <div class="col-12 col-md-4 d-none d-md-block">
-                                <!-- One of three images for desktop -->
-                                <img src="<?php echo esc_url($carouselimage['url']); ?>" 
-                                     class="d-block w-100" 
-                                     alt="<?php echo esc_attr($alt_text); ?>">
-                            </div>
-                        </div>
-                    </div>
-                    <?php
-                    $counter++;
-                    $active_class_set = true;
+                    $slides[] = [
+                        'url' => esc_url($carouselimage['url']),
+                        'alt' => esc_attr($alt_text),
+                    ];
                 endif;
 
             endwhile;
             wp_reset_postdata();
         endif;
+
+        // Group images into slides (3 images per slide)
+        $chunked_slides = array_chunk($slides, 3);
+
+        foreach ($chunked_slides as $index => $slide_images):
+            ?>
+            <div class="carousel-item <?php echo $index === 0 ? 'active' : ''; ?>">
+                <div class="row">
+                    <?php foreach ($slide_images as $image): ?>
+                        <div class="col-12 col-md-4">
+                            <img src="<?php echo $image['url']; ?>" 
+                                 class="d-block w-100" 
+                                 alt="<?php echo $image['alt']; ?>">
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <?php
+        endforeach;
         ?>
     </div>
 
