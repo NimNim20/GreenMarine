@@ -217,23 +217,45 @@ a:hover {
 
 @media (max-width: 768px) {
   .navLogos .logo {
-    height: 40px; 
+    height: 40px;
   }
+
   .phoneIcon {
     width: 26px;
     height: 40px;
-}
+  }
 
   .phoneIcon a {
     font-size: 18px;
   }
 }
 
-
-@media (max-width: 520px)
-{
+@media (max-width: 600px) {
   .navLogos .logo {
-    height: 30px; 
+    height: 35px;
+  }
+
+  .phoneIcon {
+    width: 22px;
+    height: 35px;
+  }
+
+  .phoneIcon a {
+    font-size: 17px;
+  }
+
+  .phoneNum a {
+    font-size: 14px;
+  }
+
+  .nav {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navLogos .logo {
+    height: 30px;
   }
 
   .phoneIcon {
@@ -249,46 +271,19 @@ a:hover {
     font-size: 12px;
   }
 
+  .nav {
+    gap: 4px;
+  }
 }
 
-
-
-
-
-
-
-@media (max-width: 360px)
-{
+@media (max-width: 361px) {
   .navLogos .logo {
     height: 25px;
   }
 
   .phoneIcon {
-    width: 15px;
-    height: 21px;
-  }
-
-  .phoneIcon a {
-    font-size: 16px;
-  }
-
-  .phoneNum a {
-    font-size: 10px;
-  }
-  .nav {
-    gap: 0px;
-  }
-}
-
-@media (max-width: 327px)
-{
-  .navLogos .logo {
-    height: 20px;
-  }
-
-  .phoneIcon {
-    width: 15px;
-    height: 21px;
+    width: 18px;
+    height: 25px;
   }
 
   .phoneIcon a {
@@ -296,10 +291,35 @@ a:hover {
   }
 
   .phoneNum a {
+    font-size: 11px;
+  }
+
+  .nav {
+    gap: 3px;
+  }
+}
+
+
+@media (max-width: 335px) {
+  .navLogos .logo {
+    height: 22px;
+  }
+
+  .phoneIcon {
+    width: 16px;
+    height: 22px;
+  }
+
+  .phoneIcon a {
+    font-size: 13px;
+  }
+
+  .phoneNum a {
     font-size: 10px;
   }
+
   .nav {
-    gap: 0px;
+    gap: 2px;
   }
 }
 
@@ -307,9 +327,45 @@ a:hover {
 
 
 
+@media (max-width: 300px) {
+  .navLogos .logo {
+    height: 20px;
+  }
+
+  .phoneIcon {
+    width: 15px;
+    height: 20px;
+  }
+
+  .phoneIcon a {
+    font-size: 12px;
+  }
+
+  .phoneNum a {
+    font-size: 10px;
+  }
+
+  .nav {
+    gap: 2px;
+  }
+}
+
 @media (max-width: 260px) {
   .navLogos .logo {
-    height: 15px; 
+    height: 15px;
+  }
+
+  .phoneIcon {
+    width: 12px;
+    height: 18px;
+  }
+
+  .phoneIcon a {
+    font-size: 10px;
+  }
+
+  .phoneNum a {
+    font-size: 9px;
   }
 
   .nav {

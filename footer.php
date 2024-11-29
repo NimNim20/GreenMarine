@@ -32,22 +32,25 @@
                     <div class="footer-gap">
                         <h3><?php pll_e("Find os på") ?></h3>
                         <div class="row">
-                            <a href="#">
-                                <p>LinkedIn</p>
+                            <a href="#" class="d-flex align-items-center">
+                                <i class="bi bi-instagram me-2"></i>
+                                <p>Instagram</p> 
                             </a>
                         </div>
+
                         <div class="row">
                             <a href="#" class="d-flex align-items-center">
                                 <i class="bi bi-facebook me-2"></i>
                                 <p>Facebook</p> 
                             </a>
                         </div>
+
                         <div class="row">
-                            <a href="#">
-                                <p>Instagram</p>
+                            <a href="#" class="d-flex align-items-center">
+                                <i class="bi bi-linkedin me-2"></i>
+                                <p>LinkedIn</p> 
                             </a>
                         </div>
-                        
                     </div>
                 </div>
         </div>
