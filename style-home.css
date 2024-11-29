@@ -92,7 +92,7 @@ Description: A theme for Green Marine Divers
 .home_ydelser_text {
   font-family: Lora;
   max-width: 550px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
@@ -124,11 +124,6 @@ Description: A theme for Green Marine Divers
   .icon-item {
     padding-bottom: 25px;
  
-  }
-
-  .home_ydelser_text {
-    font-size: 16px;
-    max-width: 450px;
   }
 
 } 
