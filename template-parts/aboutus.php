@@ -20,7 +20,7 @@
           <div class="page-content2">
             <div class="col-12 col-md-6">
               <div class="about-text">
-                <h1><?php echo esc_html($Heading); ?></h1>
+                <h1 class="about-heading"><?php echo esc_html($Heading); ?></h1>
                 <p><?php echo esc_html($Description); ?></p>
                 <p><?php echo esc_html($Description2); ?></p>
                 <p><?php echo esc_html($Description3); ?></p>

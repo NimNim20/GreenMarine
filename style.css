@@ -18,6 +18,16 @@ body {
   align-items: center;
 }
 
+.phoneNum a {
+  text-decoration: none;
+  color: white;
+}
+
+.phoneIcon {
+  width: 20px;
+  height: 30px;
+}
+
 .lang a {
   text-decoration: none;
   color: #0073aa;
@@ -186,14 +196,14 @@ a:hover {
 
 @media (max-width: 768px) {
   .navLogos .logo {
-    height: 50px; 
+    height: 40px; 
   }
 }
 
 @media (max-width: 350px)
 {
   .navLogos .logo {
-    height: 30px;
+    height: 25px;
   }
   .nav {
     gap: 0px;
@@ -202,7 +212,7 @@ a:hover {
 
 @media (max-width: 260px) {
   .navLogos .logo {
-    height: 20px; 
+    height: 15px; 
   }
 
   .nav {
@@ -1018,6 +1028,10 @@ label {
 
 
 /* Om os page start */
+.about-heading {
+  margin-top: 5%;
+}
+
 .about-text h1 {
   font-size: 55px;
   font-family: Oswald;
@@ -1025,6 +1039,7 @@ label {
 
 .about-text p {
   font-family: Lora;
+  margin: 5%;
 }
 
 .about-images {
@@ -1036,15 +1051,10 @@ label {
   margin: 10% 0;
 }
 
-@media (min-width: 768px) {
-  .about-text {
-    margin: 10%; 
-  }
-} 
 .about-images {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .about-img1 img,
@@ -1061,21 +1071,22 @@ label {
   .about-text {
     margin: 10%; 
   }
-
-  .about-images {
-    align-items: flex-start;
+  .about-text {
+    margin: 10%; 
   }
 
   .img-text {
     font-size: 16px; 
   }
-}
-
-@media (max-width: 768px) {
   .about-text h1 {
     text-align: center;
   }
-}
+
+  .about-text p {
+    margin: 0;
+  }
+} 
+
 
 
 
