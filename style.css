@@ -18,6 +18,11 @@ body {
   align-items: center;
 }
 
+.phoneIcon {
+  width: 20px;
+  height: 20px;
+}
+
 .lang a {
   text-decoration: none;
   color: #0073aa;
