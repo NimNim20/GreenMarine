@@ -121,7 +121,7 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 }
 
 .bundtekst {
-  font-size: 1.1rem;
+  font-size: 0.5rem;
   font-family: Lora;
 }
 
@@ -154,6 +154,10 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
     display: none;
   }
 
+  .bundtekst {
+    font-size: 1.1rem;
+    font-family: Lora;
+  }
 }
 /*Removing bootstrap's custom styling*/
 .row {
@@ -213,29 +217,50 @@ a:hover {
 
 @media (max-width: 768px) {
   .navLogos .logo {
-    height: 40px; 
+    height: 40px;
   }
+
   .phoneIcon {
     width: 26px;
     height: 40px;
-}
+  }
 
   .phoneIcon a {
     font-size: 18px;
   }
-
-
 }
 
-@media (max-width: 350px)
-{
+@media (max-width: 600px) {
   .navLogos .logo {
-    height: 25px;
+    height: 35px;
   }
 
   .phoneIcon {
-    width: 15px;
-    height: 21px;
+    width: 22px;
+    height: 35px;
+  }
+
+  .phoneIcon a {
+    font-size: 17px;
+  }
+
+  .phoneNum a {
+    font-size: 14px;
+  }
+
+  .nav {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navLogos .logo {
+    height: 30px;
+  }
+
+  .phoneIcon {
+    width: 20px;
+    height: 30px;
   }
 
   .phoneIcon a {
@@ -243,16 +268,104 @@ a:hover {
   }
 
   .phoneNum a {
+    font-size: 12px;
+  }
+
+  .nav {
+    gap: 4px;
+  }
+}
+
+@media (max-width: 361px) {
+  .navLogos .logo {
+    height: 25px;
+  }
+
+  .phoneIcon {
+    width: 18px;
+    height: 25px;
+  }
+
+  .phoneIcon a {
+    font-size: 14px;
+  }
+
+  .phoneNum a {
+    font-size: 11px;
+  }
+
+  .nav {
+    gap: 3px;
+  }
+}
+
+
+@media (max-width: 335px) {
+  .navLogos .logo {
+    height: 22px;
+  }
+
+  .phoneIcon {
+    width: 16px;
+    height: 22px;
+  }
+
+  .phoneIcon a {
+    font-size: 13px;
+  }
+
+  .phoneNum a {
     font-size: 10px;
   }
+
   .nav {
-    gap: 0px;
+    gap: 2px;
+  }
+}
+
+
+
+
+
+@media (max-width: 300px) {
+  .navLogos .logo {
+    height: 20px;
+  }
+
+  .phoneIcon {
+    width: 15px;
+    height: 20px;
+  }
+
+  .phoneIcon a {
+    font-size: 12px;
+  }
+
+  .phoneNum a {
+    font-size: 10px;
+  }
+
+  .nav {
+    gap: 2px;
   }
 }
 
 @media (max-width: 260px) {
   .navLogos .logo {
-    height: 15px; 
+    height: 15px;
+  }
+
+  .phoneIcon {
+    width: 12px;
+    height: 18px;
+  }
+
+  .phoneIcon a {
+    font-size: 10px;
+  }
+
+  .phoneNum a {
+    font-size: 9px;
   }
 
   .nav {
@@ -871,7 +984,6 @@ label {
     display: flex;
     align-items: center;
     background-color: #F5F5F5;
-    padding-top: 5%;
   }
 
   .content-text {
@@ -1078,7 +1190,7 @@ label {
 
 .about-text p {
   font-family: Lora;
-  margin: 5%;
+  margin: 5% 2%;
 }
 
 .about-images {
@@ -1106,7 +1218,19 @@ label {
   font-size: 14px; 
 }
 
+.about-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 @media (min-width: 768px) {
+  .about-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
   .about-heading {
     margin: 0 0 3% 0;
   }
@@ -1126,7 +1250,7 @@ label {
   }
 
   .about-text p {
-    margin: 0;
+    margin-bottom: 2% !important;
   }
 } 
 
