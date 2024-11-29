@@ -57,7 +57,7 @@
 
             <div class="phoneNum">
                 <?php if ($logo3): ?>
-                <img src="<?php echo esc_url($logo3['url']); ?>" alt="<?php echo esc_attr($logo3['alt']); ?>" class="logo">
+                <img src="<?php echo esc_url($logo3['url']); ?>" alt="<?php echo esc_attr($logo3['alt']); ?>" class="phoneIcon">
                 <?php endif; ?>
                 <a href="tel:+298770060">+298 770060</a>
             </div>
