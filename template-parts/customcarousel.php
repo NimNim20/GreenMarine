@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12 karusel">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
               <ol class="carousel-indicators">
                 <?php
                 $loop = new WP_Query(array(
