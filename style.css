@@ -1027,7 +1027,7 @@ label {
 }
 
 .about-img1 {
-  margin-bottom: 10%;
+  margin: 10% 0;
 }
 
 @media (min-width: 768px) {
