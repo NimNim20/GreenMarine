@@ -247,7 +247,6 @@ a:hover {
   left: 0;
   width: 100%;
   z-index: 10;
-  height: 4rem; /* 64px in rem */
 }
 
 /* Adjustments for Larger Screens */
@@ -353,26 +352,9 @@ a:hover {
 .nav {
   position: relative;
   display: flex;
-  flex-direction: row; /* Items in a single row */
-  gap: 0; /* Remove extra gap for mobile */
+  gap: 20px; 
   align-items: center;
-  justify-content: space-evenly; /* Distribute items evenly across the container */
-  padding: 0.5rem; /* Add padding for spacing */
-}
-
-/* Tablet and Larger Screens */
-@media (min-width: 600px) {
-  .nav {
-    gap: 1.25rem; /* Add gap for better spacing */
-    justify-content: center; /* Center items with consistent gap */
-    padding: 1rem; /* Adjust padding */
-  }
-}
-
-@media (min-width: 1024px) {
-  .nav {
-    gap: 1.5rem; /* Increase gap for more spacing */
-  }
+  justify-content: center;
 }
 
 
