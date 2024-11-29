@@ -818,6 +818,7 @@ label {
     display: flex;
     align-items: center;
     background-color: #F5F5F5;
+    padding-top: 5%;
   }
 
   .content-text {
