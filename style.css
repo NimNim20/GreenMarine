@@ -24,7 +24,7 @@ body {
 .phoneNum a {
   text-decoration: none;
   color: white;
-  font-size: 0.875rem; 
+  font-size: 0.65rem; 
 }
 
 .phoneIcon {
@@ -254,7 +254,11 @@ a:hover {
   height: 25px; 
 }
 
-
+@media (min-width: 768px) {
+  .navLogos .logo {
+    height: 50px; 
+  }
+}
 
 
 
