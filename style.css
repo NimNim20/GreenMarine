@@ -18,7 +18,6 @@ body {
   flex-direction: row; 
   gap: 0.625rem; 
   align-items: flex-start; 
-  padding: 0.5rem; 
 }
 
 .phoneNum a {
@@ -251,7 +250,7 @@ a:hover {
 }
 
 .navLogos .logo {
-  height: 15px; 
+  height: 23px; 
 }
 
 @media (min-width: 768px) {
