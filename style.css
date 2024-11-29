@@ -90,6 +90,7 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 .titeltext {
   font-size: 2rem;
   font-family: Oswald;
+  padding-top: 2%;
 }
 
 .bundtekst {
