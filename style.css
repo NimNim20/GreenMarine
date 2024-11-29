@@ -353,10 +353,29 @@ a:hover {
 .nav {
   position: relative;
   display: flex;
-  gap: 20px; 
+  flex-direction: row; /* Items in a single row */
+  gap: 0; /* Remove extra gap for mobile */
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly; /* Distribute items evenly across the container */
+  padding: 0.5rem; /* Add padding for spacing */
 }
+
+/* Tablet and Larger Screens */
+@media (min-width: 600px) {
+  .nav {
+    gap: 1.25rem; /* Add gap for better spacing */
+    justify-content: center; /* Center items with consistent gap */
+    padding: 1rem; /* Adjust padding */
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    gap: 1.5rem; /* Increase gap for more spacing */
+  }
+}
+
+
 .navLinks {
   right: 20px;
   display: flex;
