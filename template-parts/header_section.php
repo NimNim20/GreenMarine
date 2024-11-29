@@ -26,7 +26,7 @@
     <?php if ($logo2): ?>
         <img src="<?php echo esc_url($logo2['url']); ?>" alt="<?php echo esc_attr($logo2['alt']); ?>" class="logo">
     <?php endif; ?>
-</div>
+    </div>
             <div class="phoneNum">
                 <?php if ($logo3): ?>
                 <img src="<?php echo esc_url($logo3['url']); ?>" alt="<?php echo esc_attr($logo3['alt']); ?>" class="phoneIcon">
