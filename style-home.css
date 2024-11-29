@@ -95,6 +95,41 @@ Description: A theme for Green Marine Divers
   font-size: 14px;
 }
 
+@media (min-width: 1024px) {
+  .home_ydelser_title_text_inder_box{
+    width: 450px;
+    margin-top: 60px;
+  }
+
+  .home_ydelser_boby .container-fluid .row:nth-child(even) {
+    flex-direction: row-reverse;
+    /* padding-left: 10%; */
+    margin-left: 5%;
+  }
+
+  .home_ydelser_icon_wrapper {
+
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1100px;
+    padding-bottom: 40px;
+    
+  }
+
+  .home_ydelser {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-item {
+    padding-bottom: 25px;
+ 
+  }
+
+  .home_ydelser_text {
+    font-size: 18px;
+    max-width: 600px;
+  }
+}
 
 
 @media (min-width: 768px) {
