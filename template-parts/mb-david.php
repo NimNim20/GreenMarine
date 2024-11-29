@@ -38,7 +38,7 @@
         <div class="col-12 col-md-6">
           <header class="content-text text2">
             <h2><?php echo esc_html($servicesHeading); ?></h2>
-          </header>
+
           <section>
             <h3><?php echo esc_html($serviceDiving); ?></h3>
             <p><?php echo esc_html($divingDescription); ?></p>
@@ -49,6 +49,7 @@
           </section>
           <section>
             <h3><?php echo esc_html($contactText); ?></h3>
+            </header>
             <div class="trelleborg-btn-container">
               <a href="<?php echo site_url('/contact')?>" class="trelleborg-btn"><?php pll_e("Kontakt") ?></a>
             </div>
