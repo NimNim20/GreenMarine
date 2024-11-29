@@ -13,29 +13,30 @@ body {
   margin: 0;
 }
 
+/* Mobile-First (Default Styles) */
 .lang {
   display: flex;
-  flex-direction: row; 
-  gap: 0.625rem; 
-  align-items: flex-start; 
+  flex-direction: column; /* Stack items vertically for small screens */
+  gap: 0.625rem; /* 10px in rem */
+  align-items: flex-start; /* Align items to the left */
+  padding: 0.5rem; /* Add padding for touch-friendly spacing */
 }
-
 
 .phoneNum a {
   text-decoration: none;
   color: white;
-  font-size: 0.65rem; 
+  font-size: 0.875rem; /* 14px in rem */
 }
 
 .phoneIcon {
-  width: 1.25rem;
-  height: 1.875rem; 
+  width: 1.25rem; /* 20px in rem */
+  height: 1.875rem; /* 30px in rem */
 }
 
 .lang a {
   text-decoration: none;
   color: #0073aa;
-  font-size: 0.875rem; 
+  font-size: 0.875rem; /* 14px in rem */
 }
 
 .lang a:hover {
@@ -73,7 +74,6 @@ body {
     font-size: 1.125rem;
   }
 }
-
 li.lang-item:nth-child(1) > a:nth-child(1) > img:nth-child(1)
 {
   width: 34px !important;
