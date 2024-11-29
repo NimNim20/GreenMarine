@@ -223,9 +223,35 @@ a:hover {
   .phoneIcon a {
     font-size: 18px;
   }
+}
 
+
+@media (max-width: 520px)
+{
+  .navLogos .logo {
+    height: 30px; 
+  }
+
+  .phoneIcon {
+    width: 20px;
+    height: 30px;
+  }
+
+  .phoneIcon a {
+    font-size: 16px;
+  }
+
+  .phoneNum a {
+    font-size: 12px;
+  }
 
 }
+
+
+
+
+
+
 
 @media (max-width: 350px)
 {
@@ -871,7 +897,6 @@ label {
     display: flex;
     align-items: center;
     background-color: #F5F5F5;
-    padding-top: 5%;
   }
 
   .content-text {
@@ -1108,7 +1133,7 @@ label {
 
 @media (min-width: 768px) {
   .about-heading {
-    margin: 0;
+    margin: 0 0 3% 0;
   }
 
   .about-text {
