@@ -24,9 +24,9 @@
             </div>
 
             <div class="col-12 col-md-6">
-              <div class="content_img">
+              <figure class="content_img">
                 <img class="img-fluid" src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>" loading="lazy"> 
-              </div>
+              </figure>
             </div>
           </div>
         </div>
@@ -35,12 +35,14 @@
           <div class="page-content2">
             <div class="col-12 col-md-6">
               <div class="content-text text2">
+              <article id="services">
                 <h2><?php echo esc_html($servicesHeading); ?></h2>
                 <h3><?php echo esc_html($serviceDiving); ?></h3>
                 <p><?php echo esc_html($divingDescription); ?></p>
                 <h3><?php echo esc_html($fishfarmHeading); ?></h3>
                 <p><?php echo esc_html($fishfarmDescription); ?></p>
                 <h3><?php echo esc_html($contactText); ?></h3>
+              </article>
 
                 <div class="trelleborg-btn-container">
                   <a href="<?php echo site_url('/contact')?>" class="trelleborg-btn"><?php pll_e("Kontakt") ?></a>
@@ -49,9 +51,9 @@
             </div>
 
             <div class="col-12 col-md-6">
-              <div class="content_img img2">
+              <figure class="content_img img2">
                 <img class="img-fluid" src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
-              </div>
+              </figure>
             </div>
           </div>
         </div>
