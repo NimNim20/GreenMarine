@@ -8,7 +8,7 @@
             $pontech_url = site_url('/pontech/');
             $trelleborg_url = site_url('/trelleborg/');
         } else if ($current_language == 'en') {
-            $green_marine_url = site_url('/en/green-marine/');
+            $green_marine_url = site_url('/en/green-marine-english/');
             $mb_david_url = site_url('/en/mb-david-english/');
             $pontech_url = site_url('/en/pontech-2/');
             $trelleborg_url = site_url('/en/trelleborg-2/');
