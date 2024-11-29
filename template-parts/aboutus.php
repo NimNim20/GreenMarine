@@ -1,9 +1,5 @@
 <?php get_header (); ?>
 
-    <section id="navButtons">
-      <?php get_template_part("template-parts/navbuttons"); ?>
-    </section>
-
     <?php
     $Heading = get_field("heading");
     $Description = get_field("description");
