@@ -17,6 +17,7 @@
     <?php 
     $logo1 = get_field('logo1');
     $logo2 = get_field('logo2');
+    $logo3 = get_field('logo3');
 
     if ($logo1): ?>
        <a href="<?php echo site_url('/')?>"><img src="<?php echo esc_url($logo1['url']); ?>" alt="<?php echo esc_attr($logo1['alt']); ?>" class="logo"></a>
@@ -55,7 +56,9 @@
             </div>
 
             <div class="phoneNum">
-                <img src="img/phone.png" alt="">
+                <?php if ($logo3): ?>
+                <img src="<?php echo esc_url($logo3['url']); ?>" alt="<?php echo esc_attr($logo3['alt']); ?>" class="logo">
+                <?php endif; ?>
                 <a href="tel:+298770060">+298 770060</a>
             </div>
 
