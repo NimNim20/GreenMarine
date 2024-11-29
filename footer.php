@@ -38,7 +38,7 @@
                         </div>
                         <div class="row">
                             <a href="#" class="d-flex align-items-center">
-                                <i class="bi bi-facebook me-2"></i> Facebook
+                                <p class="bi bi-facebook me-2">Facebook</p> 
                             </a>
                         </div>
                         <div class="row">
