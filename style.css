@@ -1025,6 +1025,7 @@ label {
 
 .about-text p {
   font-family: Lora;
+  margin: 5%;
 }
 
 .about-images {
@@ -1044,7 +1045,7 @@ label {
 .about-images {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .about-img1 img,
@@ -1060,10 +1061,6 @@ label {
 @media (min-width: 768px) {
   .about-text {
     margin: 10%; 
-  }
-
-  .about-images {
-    align-items: flex-start;
   }
 
   .img-text {
