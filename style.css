@@ -196,8 +196,18 @@ a:hover {
 
 @media (max-width: 768px) {
   .navLogos .logo {
-    height: 40px; 
+    height: 30px; 
   }
+  .phoneIcon {
+    width: 15px;
+    height: 20px;
+}
+
+  .phoneIcon a {
+    font-size: 18px;
+  }
+
+
 }
 
 @media (max-width: 350px)
