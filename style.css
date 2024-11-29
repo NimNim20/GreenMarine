@@ -1051,11 +1051,6 @@ label {
   margin: 10% 0;
 }
 
-@media (min-width: 768px) {
-  .about-text {
-    margin: 10%; 
-  }
-} 
 .about-images {
   display: flex;
   flex-direction: column;
@@ -1076,13 +1071,13 @@ label {
   .about-text {
     margin: 10%; 
   }
+  .about-text {
+    margin: 10%; 
+  }
 
   .img-text {
     font-size: 16px; 
   }
-}
-
-@media (max-width: 768px) {
   .about-text h1 {
     text-align: center;
   }
@@ -1090,7 +1085,8 @@ label {
   .about-text p {
     margin: 0;
   }
-}
+} 
+
 
 
 
