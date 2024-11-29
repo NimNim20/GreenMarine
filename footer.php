@@ -35,7 +35,10 @@
                             <a href="#"><img src="img_icons/linkin_white.png" alt=""><p>LinkedIn</p></a>
                         </div>
                         <div class="row">
-                            <a href="#"><p class="bi bi-facebook">Facebook</p></a>
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                                <p>Facebook</p>
+                            </a>
                         </div>
                         <div class="row">
                             <a href="#"><img src="img_icons/instagram.png" alt=""><p>Instagram</p></a>
