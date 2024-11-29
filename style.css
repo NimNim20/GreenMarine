@@ -67,14 +67,14 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 {
   li.lang-item:nth-child(1) > a:nth-child(1) > img:nth-child(1)
   {
-    width: 24px !important;
-    height: 15px !important;
+    width: 22px !important;
+    height: 13px !important;
   }
   
   li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   {
-    width: 24px !important;
-    height: 15px !important;
+    width: 22px !important;
+    height: 13px !important;
   }
 }
 
