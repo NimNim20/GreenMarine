@@ -150,8 +150,6 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
 }
 
 @media (min-width: 768px) {
-  
-
   .carousel-indicators {
     bottom: 26% !important;
   }
@@ -161,6 +159,8 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
     font-family: Lora;
   }
 }
+
+
 /*Removing bootstrap's custom styling*/
 .row {
   --bs-gutter-x: 0 !important;
