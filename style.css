@@ -1039,7 +1039,7 @@ label {
 
 /* Om os page start */
 .about-heading {
-  margin-top: 5%;
+  margin-top: 5% 5%;
 }
 
 .about-text h1 {
@@ -1078,6 +1078,10 @@ label {
 }
 
 @media (min-width: 768px) {
+  .about-heading {
+    margin: 0;
+  }
+
   .about-text {
     margin: 10%; 
   }
