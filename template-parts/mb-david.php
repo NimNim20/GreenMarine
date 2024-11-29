@@ -35,7 +35,7 @@
           <div class="page-content2">
             <div class="col-12 col-md-6">
               <div class="content-text text2">
-              <article id="services">
+              <article id="servicesDescription">
                 <h2><?php echo esc_html($servicesHeading); ?></h2>
                 <h3><?php echo esc_html($serviceDiving); ?></h3>
                 <p><?php echo esc_html($divingDescription); ?></p>
