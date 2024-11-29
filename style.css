@@ -102,6 +102,9 @@ li.lang-item:nth-child(2) > a:nth-child(1) > img:nth-child(1)
   background-color: #1A2541; 
 }
 
+.karusel {
+  margin-top: 5%;
+}
 
 .carousel-control-next,
 .carousel-control-prev {
@@ -742,7 +745,7 @@ label {
     color: white;
     display: flex;
     flex-direction: row;
-    margin-top: 15%;
+    margin-top: 5%;
   }
   
   .footer p {
