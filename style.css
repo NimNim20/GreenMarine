@@ -20,6 +20,11 @@ body {
   align-items: flex-start; 
 }
 
+.phoneNum {
+  display: flex;
+  align-items: center;
+}
+
 .phoneNum a {
   text-decoration: none;
   color: white;
