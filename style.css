@@ -196,7 +196,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .navLogos .logo {
-    height: 45px; 
+    height: 40px; 
   }
   .phoneIcon {
     width: 26px;
@@ -214,6 +214,15 @@ a:hover {
 {
   .navLogos .logo {
     height: 25px;
+  }
+
+  .phoneIcon {
+    width: 20px;
+    height: 30px;
+  }
+
+  .phoneIcon a {
+    font-size: 16px;
   }
   .nav {
     gap: 0px;
