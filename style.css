@@ -1069,6 +1069,7 @@ label {
   display: flex;
   justify-content: center;
   margin-bottom: 7%;
+  padding: 2% 3%;
 }
 
 @media (min-width: 768px) {
