@@ -1158,7 +1158,7 @@ label {
 
 .about-text p {
   font-family: Lora;
-  margin: 5%;
+  margin: 5% 2%;
 }
 
 .about-images {
@@ -1189,12 +1189,14 @@ label {
 .about-content {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
   .about-content {
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
 
   .about-heading {
@@ -1216,7 +1218,7 @@ label {
   }
 
   .about-text p {
-    margin: 0;
+    margin-bottom: 2% !important;
   }
 } 
 
