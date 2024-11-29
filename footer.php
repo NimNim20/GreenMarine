@@ -31,9 +31,10 @@
                 <div class="col-6 col-md-3">
                     <div class="footer-gap">
                         <h3><?php pll_e("Find os på") ?></h3>
-                        <p>LinkedIn</p>
-                        <p>Facebook</p>
-                        <p>Instagram</p>
+                        <a href="#"><img src="img_icons/linkin_white.png" alt="linkenin icon"><p>LinkedIn</p></a>
+                        <a href="#"><img src="img_icons/facebook.png" alt="facebook icon"><p>Facebook</p></a>
+                        <a href="#"><img src="img_icons/instagram.png" alt="instagram icon"><p>Instagram</p></a>
+                        
                     </div>
                 </div>
         </div>
