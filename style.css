@@ -817,6 +817,7 @@ label {
   .page-content2 {
     display: flex;
     align-items: center;
+    background-color: #F5F5F5;
   }
 
   .content-text {
