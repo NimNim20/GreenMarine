@@ -198,12 +198,35 @@ a:hover {
   .navLogos .logo {
     height: 40px; 
   }
+  .phoneIcon {
+    width: 26px;
+    height: 40px;
+}
+
+  .phoneIcon a {
+    font-size: 18px;
+  }
+
+
 }
 
 @media (max-width: 350px)
 {
   .navLogos .logo {
     height: 25px;
+  }
+
+  .phoneIcon {
+    width: 20px;
+    height: 30px;
+  }
+
+  .phoneIcon a {
+    font-size: 16px;
+  }
+
+  .phoneNum a {
+    font-size: 12px;
   }
   .nav {
     gap: 0px;
