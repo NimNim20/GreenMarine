@@ -12,25 +12,30 @@ body {
   background-color: #ffffff;
   margin: 0;
 }
+
 .lang {
   display: flex;
-  gap: 10px;
-  align-items: center;
+  flex-direction: column; 
+  gap: 0.625rem; 
+  align-items: flex-start; 
+  padding: 0.5rem; 
 }
 
 .phoneNum a {
   text-decoration: none;
   color: white;
+  font-size: 0.875rem; 
 }
 
 .phoneIcon {
-  width: 20px;
-  height: 30px;
+  width: 1.25rem;
+  height: 1.875rem; 
 }
 
 .lang a {
   text-decoration: none;
   color: #0073aa;
+  font-size: 0.875rem; 
 }
 
 .lang a:hover {
@@ -467,16 +472,16 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Default (Mobile-First) Styles */
+/* burgerMenu styling */
 .burgerMenu {
-  display: block; /* Start with the burger menu visible */
+  display: block;
   position: relative;
 }
 
 .burgerButton {
   background: none;
   border: none;
-  font-size: 1.5rem; /* Use rem for font size */
+  font-size: 1.5rem;
   color: white;
   cursor: pointer;
   display: block;
@@ -498,26 +503,26 @@ a:hover {
 .burgerMenu .dropdown a {
   color: white;
   text-decoration: none;
-  font-size: 1rem; /* 16px in rem */
-  margin: 0.625rem 0; /* 10px in rem */
+  font-size: 1rem;
+  margin: 0.625rem 0;
   font-weight: bold;
   transition: background-color 0.3s ease;
-  padding: 0.5rem; /* Add padding for better touch targets */
+  padding: 0.5rem;
 }
 
 .burgerMenu .dropdown a:hover {
-  background-color: #444; /* Add hover effect */
-  border-radius: 0.25rem; /* Subtle rounding for hover */
+  background-color: #444;
+  border-radius: 0.25rem;
 }
 
 .burgerMenu .dropdown.active {
-  display: flex; /* Show dropdown when active */
+  display: flex;
 }
 
-/* Larger Screens (Hide Burger Menu, Show Traditional Navigation) */
+
 @media (min-width: 768px) {
   .burgerMenu {
-    display: none; /* Hide burger menu */
+    display: none;
   }
 }
 
