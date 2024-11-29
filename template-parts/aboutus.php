@@ -34,8 +34,9 @@
               <div class="content_img about-images">
                 <div class= "about-img1">
                   <img src="<?php echo esc_url($aboutImg['url']); ?>" alt="<?php echo esc_attr($aboutImg['alt']); ?>" loading="lazy">
+                  <p class="img-text"><?php echo esc_html($imgText1); ?></p>
                 </div>
-                <p class="img-text"><?php echo esc_html($imgText1); ?></p>
+               
                 
                 <img src="<?php echo esc_url($aboutImg2['url']); ?>" alt="<?php echo esc_attr($aboutImg2['alt']); ?>" loading="lazy"> 
                 <p class="img-text"><?php echo esc_html($imgText2); ?></p> 
