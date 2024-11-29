@@ -13,8 +13,10 @@
         <!-- Left Side: Text Content -->
         <div class="col-12 col-md-6 d-flex align-items-center">
             <div class="content-text trelleborg-content">
+                <article id="trelleborgArticle">
                 <h2><?php echo esc_html($titel); ?></h2>
                 <p><?php echo esc_html($flavortext); ?></p>
+                </article>
 
                 <!-- Trelleborg Button -->
                 <div class="trelleborg-btn-container">
@@ -66,9 +68,11 @@
 
         <!-- Catalog Images -->
         <div class="catalog-images">
+            <section id="catalogImages">
             <img src="<?php echo esc_url($catalogimg['url']); ?>" alt="<?php echo esc_attr($catalogimg['alt']); ?>" loading="lazy"> 
             <img src="<?php echo esc_url($catalogimg2['url']); ?>" alt="<?php echo esc_attr($catalogimg2['alt']); ?>" loading="lazy"> 
             <img src="<?php echo esc_url($catalogimg3['url']); ?>" alt="<?php echo esc_attr($catalogimg3['alt']); ?>" loading="lazy"> 
+            </section>
         </div>
     </section>
 
