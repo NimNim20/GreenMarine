@@ -467,45 +467,59 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Burger Menu Styles */
+/* Default (Mobile-First) Styles */
 .burgerMenu {
-  display: none; 
+  display: block; /* Start with the burger menu visible */
   position: relative;
 }
 
 .burgerButton {
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 1.5rem; /* Use rem for font size */
   color: white;
   cursor: pointer;
   display: block;
 }
 
 .burgerMenu .dropdown {
-  display: none; 
+  display: none; /* Dropdown hidden by default */
   position: absolute;
-  top: 40px;
-  right: 20px;
+  top: 2.5rem; /* Align below the button (e.g., 40px converted to rem) */
+  right: 1.25rem; /* 20px in rem */
   background-color: #333;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.625rem; /* 10px in rem */
+  border-radius: 0.3125rem; /* 5px in rem */
   flex-direction: column;
+  width: 10rem; /* Set a width for dropdown menu */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .burgerMenu .dropdown a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
-  margin: 10px 0;
+  font-size: 1rem; /* 16px in rem */
+  margin: 0.625rem 0; /* 10px in rem */
   font-weight: bold;
   transition: background-color 0.3s ease;
+  padding: 0.5rem; /* Add padding for better touch targets */
+}
+
+.burgerMenu .dropdown a:hover {
+  background-color: #444; /* Add hover effect */
+  border-radius: 0.25rem; /* Subtle rounding for hover */
 }
 
 .burgerMenu .dropdown.active {
-  display: flex; 
+  display: flex; /* Show dropdown when active */
 }
 
+/* Larger Screens (Hide Burger Menu, Show Traditional Navigation) */
+@media (min-width: 768px) {
+  .burgerMenu {
+    display: none; /* Hide burger menu */
+  }
+}
 
 /* End of header styling */
 
