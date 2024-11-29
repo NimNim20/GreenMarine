@@ -299,10 +299,6 @@ a:hover {
   display: block;
 }
 
-.nav {
-  display: flex;
-  gap: 20px; 
-}
 
 .kontaktHeader, .aboutUs {
   font-size: 16px;
@@ -336,10 +332,14 @@ a:hover {
 }
 
 
+
 .nav {
   position: relative;
+  display: flex;
+  gap: 20px; 
+  align-items: center;
+  justify-content: center;
 }
-
 .navLinks {
   right: 20px;
   display: flex;
