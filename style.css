@@ -899,6 +899,10 @@ label {
   margin-bottom: 25%;
 }
 
+.SoMe-text{
+  margin: 0;
+}
+
 /* Footer Media Query for iPhone 14 Pro Max */
 @media (min-width: 768px) {
   .footer {
