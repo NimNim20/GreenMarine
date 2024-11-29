@@ -18,6 +18,11 @@ body {
   align-items: center;
 }
 
+.phoneNum a {
+  text-decoration: none;
+  color: white;
+}
+
 .phoneIcon {
   width: 20px;
   height: 30px;
