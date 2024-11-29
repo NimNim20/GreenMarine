@@ -38,8 +38,7 @@
                         </div>
                         <div class="row">
                             <a href="#">
-                                <i class="bi bi-facebook"></i>
-                                <p>Facebook</p>
+                                <p class="bi bi-facebook">Facebook</p>
                             </a>
                         </div>
                         <div class="row">

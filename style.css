@@ -864,6 +864,7 @@ label {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    margin-top: 3%;
   }
 
   .page-content2 {
