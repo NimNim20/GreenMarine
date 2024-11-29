@@ -1028,6 +1028,10 @@ label {
 
 
 /* Om os page start */
+.about-heading {
+  margin-top: 5%;
+}
+
 .about-text h1 {
   font-size: 55px;
   font-family: Oswald;
