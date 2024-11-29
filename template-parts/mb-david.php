@@ -25,9 +25,9 @@
 
         <!-- Image Section -->
         <div class="col-12 col-md-6">
-          <figure class="content_img">
+          <div class="content_img">
             <img class="img-fluid" src="<?php echo esc_url($davidImg['url']); ?>" alt="<?php echo esc_attr($davidImg['alt']); ?>" loading="lazy"> 
-          </figure>
+          </div>
         </div>
       </article>
     </div>
@@ -58,9 +58,9 @@
 
         <!-- Image Section -->
         <div class="col-12 col-md-6">
-          <figure class="content_img img2">
+          <div class="content_img img2">
             <img class="img-fluid" src="<?php echo esc_url($davidImg2['url']); ?>" alt="<?php echo esc_attr($davidImg2['alt']); ?>" loading="lazy"> 
-          </figure>
+          </div>
         </div>
       </article>
     </div>
