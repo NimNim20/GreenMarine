@@ -27,14 +27,16 @@
         <img src="<?php echo esc_url($logo2['url']); ?>" alt="<?php echo esc_attr($logo2['alt']); ?>" class="logo">
     <?php endif; ?>
 </div>
+
+    <!-- Links Section (top right) -->
+    <div class="nav">
             <div class="phoneNum">
                 <?php if ($logo3): ?>
                 <img src="<?php echo esc_url($logo3['url']); ?>" alt="<?php echo esc_attr($logo3['alt']); ?>" class="phoneIcon">
                 <?php endif; ?>
                 <a href="tel:+298770060">+298 770060</a>
             </div>
-    <!-- Links Section (top right) -->
-    
+
             <!-- Desktop Navigation -->
             <div class="navLinks">
             <?php
@@ -51,16 +53,14 @@
                         <a href="<?php echo $contact_url; ?>"><?php pll_e("Kontakt"); ?></a>
                         <a href="<?php echo $about_url; ?>"><?php pll_e("Om os"); ?></a>
             </div>
-
-            <div class="nav">
-        <div class="lang"> 
-            <?php 
-                pll_the_languages(array(
-                'show_flags' => 1,
-                'show_names' => 0
-            )); 
-            ?>
-        </div>
+                <div class="lang"> 
+                <?php 
+                    pll_the_languages(array(
+                    'show_flags' => 1,
+                    'show_names' => 0
+                )); 
+                ?>
+                </div>
 
 
             <!-- Burger Menu for Mobile -->
