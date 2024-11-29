@@ -1086,6 +1086,10 @@ label {
   .about-text h1 {
     text-align: center;
   }
+
+  .about-text p {
+    margin: 0;
+  }
 }
 
 
