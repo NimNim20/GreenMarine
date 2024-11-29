@@ -55,7 +55,7 @@
             </div>
 
             <div class="phoneNum">
-                <img src="/images/phone.png" alt="">
+                <img src="img/phone.png" alt="">
                 <a href="tel:+298770060">+298 770060</a>
             </div>
 
