@@ -16,7 +16,6 @@ body {
 /* Mobile-First (Default Styles) */
 .lang {
   display: flex;
-  flex-direction: column; /* Stack items vertically for small screens */
   gap: 0.625rem; /* 10px in rem */
   align-items: flex-start; /* Align items to the left */
   padding: 0.5rem; /* Add padding for touch-friendly spacing */
