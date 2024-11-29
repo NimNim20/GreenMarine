@@ -881,6 +881,8 @@ label {
 .content_img {
   margin-bottom: 5%;
   pointer-events: none;
+  display: flex;
+  justify-content: center;
 }
 
 .content-img img {
