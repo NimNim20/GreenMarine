@@ -33,21 +33,21 @@
                         <h3><?php pll_e("Find os på") ?></h3>
                         <div class="row">
                             <a href="#" class="d-flex align-items-center">
-                                <i class="bi bi-instagram"></i>
+                                <i class="SoMe-icons bi bi-instagram me-2"></i>
                                 <p>Instagram</p> 
                             </a>
                         </div>
 
                         <div class="row">
                             <a href="#" class="d-flex align-items-center">
-                                <i class="bi bi-facebook"></i>
+                                <i class="SoMe-icons bi bi-facebook me-2"></i>
                                 <p>Facebook</p> 
                             </a>
                         </div>
 
                         <div class="row">
                             <a href="#" class="d-flex align-items-center">
-                                <i class="bi bi-linkedin"></i>
+                                <i class="SoMe-icons bi bi-linkedin me-2"></i>
                                 <p>LinkedIn</p> 
                             </a>
                         </div>
