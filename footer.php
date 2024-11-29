@@ -33,7 +33,7 @@
                         <h3><?php pll_e("Find os på") ?></h3>
                         <div class="row">
                             <a href="#" class="d-flex align-items-center">
-                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-instagram me-2"></i>
                                 <p>Instagram</p> 
                             </a>
                         </div>
