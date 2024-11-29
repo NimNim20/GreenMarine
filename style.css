@@ -1105,6 +1105,11 @@ label {
   font-size: 14px; 
 }
 
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .about-heading {
     margin: 0 0 3% 0;
