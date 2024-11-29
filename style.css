@@ -238,15 +238,32 @@ a:hover {
 .navbarBlue {
   background-color: #1A2541;
   display: flex;
-  justify-content: space-between; 
+  flex-direction: column; /* Stack content vertically on mobile */
+  justify-content: center; /* Center content vertically */
   align-items: center;
-  padding: 10px 20px;
-  position: absolute;
+  padding: 0.625rem 1.25rem; /* 10px 20px in rem */
+  position: fixed; /* Keep navbar visible at the top on scroll */
   top: 0;
   left: 0;
-  width: 100%; 
-  z-index: 10; 
-  height: 80px; 
+  width: 100%;
+  z-index: 10;
+  height: 4rem; /* 64px in rem */
+}
+
+/* Adjustments for Larger Screens */
+@media (min-width: 600px) {
+  .navbarBlue {
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-between; /* Distribute content evenly */
+    padding: 0.625rem 2rem; /* Adjust padding */
+    height: 5rem; /* 80px in rem */
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbarBlue {
+    padding: 0.75rem 3rem; /* Extra padding for larger screens */
+  }
 }
 
 .navLogos .logo {
@@ -257,7 +274,10 @@ a:hover {
   .navLogos .logo {
     height: 50px; 
   }
+  
 }
+
+
 
 
 
