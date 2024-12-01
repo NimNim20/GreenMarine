@@ -22,9 +22,13 @@ $loop = new WP_Query(array(
 
             <div class="icon-item">
                 <a href="#<?php echo $title; ?>" data-title="<?php echo $title; ?>">
-                    <img src="<?php echo $image["url"]; ?>" alt="" class="icon-image">
+                    <figure>
+                        <img src="<?php echo $image["url"]; ?>" alt="" class="icon-image">
+                    </figure>
                 </a>
-                <p class="icon-title"><?php echo $title; ?></p>
+                <header>
+                <h3 class="icon-title"><?php echo $title; ?></h3>
+                </header>
             </div>
 
             

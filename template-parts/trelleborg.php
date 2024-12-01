@@ -64,7 +64,7 @@
     </div>
 </div>
 
-  
+
 
         <!-- Catalog Images -->
         <div class="catalog-images">
@@ -76,7 +76,6 @@
                 </figure>
             </section>
         </div>
-    </section>
 
     <section id="scrolltotopbutton">
     <?php get_template_part ("template-parts/scrolltotop"); ?>

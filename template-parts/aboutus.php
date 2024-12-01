@@ -37,8 +37,10 @@
             <div class="col-12 col-md-6">
               <div class="content_img about-images">
                 <div class= "about-img1">
-                  <img src="<?php echo esc_url($aboutImg['url']); ?>" alt="<?php echo esc_attr($aboutImg['alt']); ?>" loading="lazy">
-                  <p class="img-text"><?php echo esc_html($imgText1); ?></p>
+                  <figure>
+                    <img src="<?php echo esc_url($aboutImg['url']); ?>" alt="<?php echo esc_attr($aboutImg['alt']); ?>" loading="lazy">
+                  </figure>
+                      <p class="img-text"><?php echo esc_html($imgText1); ?></p>
                 </div>
                
                 
