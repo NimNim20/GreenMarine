@@ -34,7 +34,7 @@
                       <img class="d-block w-100" src="<?php echo esc_url($CarouselImage['url']); ?>" alt="<?php echo esc_attr($CarouselImage['alt']); ?>">
                     <article>
                       <header>
-                      <h1 class="titeltext text-center fw-bold my-2"><?php echo esc_html($imgtitel); ?></h1>
+                      <h2 class="titeltext text-center fw-bold my-2"><?php echo esc_html($imgtitel); ?></h2>
                       </header>
                       <p class="bundtekst text-center mb-4"><?php echo esc_html($bundtekst); ?></p>
                     </article>
