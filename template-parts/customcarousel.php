@@ -32,9 +32,12 @@
                     ?>
                     <div class="carousel-item <?php echo ($index == 0) ? "active" : "" ?>">
                       <img class="d-block w-100" src="<?php echo esc_url($CarouselImage['url']); ?>" alt="<?php echo esc_attr($CarouselImage['alt']); ?>">
-                      <h1 class="titeltext text-center fw-bold my-2"><?php echo esc_html($imgtitel); ?></h5>
+                    <article>
+                      <header>
+                      <h1 class="titeltext text-center fw-bold my-2"><?php echo esc_html($imgtitel); ?></h1>
+                      </header>
                       <p class="bundtekst text-center mb-4"><?php echo esc_html($bundtekst); ?></p>
-
+                    </article>
                     </div>
                     <?php $index++; ?>
                   <?php endwhile; ?>

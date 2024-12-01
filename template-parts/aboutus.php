@@ -21,7 +21,9 @@
             <div class="col-12 col-md-6">
               <div class="about-text">
                 <article id="aboutArticle">
+                <header>
                 <h1 class="about-heading"><?php echo esc_html($Heading); ?></h1>
+                </header>
                 <p><?php echo esc_html($Description); ?></p>
                 <p><?php echo esc_html($Description2); ?></p>
                 <p><?php echo esc_html($Description3); ?></p>

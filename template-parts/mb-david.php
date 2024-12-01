@@ -19,7 +19,9 @@
             <div class="col-12 col-md-6">
               <div class="content-text">
                 <article id="headerContent">
+                <header>
                 <h1><?php echo esc_html($Heading); ?></h1>
+                </header>
                 <p><?php echo esc_html($Description); ?></p>
                 </article>
               </div>
@@ -41,9 +43,13 @@
                 <header> 
                 <h2><?php echo esc_html($servicesHeading); ?></h2>
                 </header>
+                <header>
                 <h3><?php echo esc_html($serviceDiving); ?></h3>
+                </header>
                 <p><?php echo esc_html($divingDescription); ?></p>
+                <header>
                 <h3><?php echo esc_html($fishfarmHeading); ?></h3>
+                </header>
                 <p><?php echo esc_html($fishfarmDescription); ?></p>
                 <h3><?php echo esc_html($contactText); ?></h3>
               </article>
