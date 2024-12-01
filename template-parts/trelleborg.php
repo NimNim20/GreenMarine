@@ -69,9 +69,11 @@
         <!-- Catalog Images -->
         <div class="catalog-images">
             <section id="catalogImages">
+                <figure id="catalogs">
             <img src="<?php echo esc_url($catalogimg['url']); ?>" alt="<?php echo esc_attr($catalogimg['alt']); ?>" loading="lazy"> 
             <img src="<?php echo esc_url($catalogimg2['url']); ?>" alt="<?php echo esc_attr($catalogimg2['alt']); ?>" loading="lazy"> 
             <img src="<?php echo esc_url($catalogimg3['url']); ?>" alt="<?php echo esc_attr($catalogimg3['alt']); ?>" loading="lazy"> 
+                </figure>
             </section>
         </div>
     </section>

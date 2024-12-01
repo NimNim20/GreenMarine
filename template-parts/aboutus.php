@@ -20,6 +20,7 @@
           <div class="about-content">
             <div class="col-12 col-md-6">
               <div class="about-text">
+                <article id="aboutArticle">
                 <h1 class="about-heading"><?php echo esc_html($Heading); ?></h1>
                 <p><?php echo esc_html($Description); ?></p>
                 <p><?php echo esc_html($Description2); ?></p>
@@ -27,6 +28,7 @@
                 <p><?php echo esc_html($Description4); ?></p>
                 <p><?php echo esc_html($Description5); ?></p>
                 <p><?php echo esc_html($Description6); ?></p>
+                </article>
               </div>
             </div>
 

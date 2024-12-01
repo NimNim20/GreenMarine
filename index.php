@@ -17,8 +17,10 @@
         <div class="col-12">
           <div class="frontpage-content">
             <div class="frontpage-text">
+              <article id="indexArticle">
               <h1><?php echo esc_html($Heading); ?></h1>
               <p><?php echo esc_html($Description); ?></p>
+              </article>
             </div>
           </div>
         </div>
