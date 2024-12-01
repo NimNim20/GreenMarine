@@ -38,7 +38,9 @@
             <div class="col-12 col-md-6">
               <div class="content-text text2">
               <article id="servicesDescription">
+                <header> 
                 <h2><?php echo esc_html($servicesHeading); ?></h2>
+                </header>
                 <h3><?php echo esc_html($serviceDiving); ?></h3>
                 <p><?php echo esc_html($divingDescription); ?></p>
                 <h3><?php echo esc_html($fishfarmHeading); ?></h3>
